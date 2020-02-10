@@ -1,0 +1,10 @@
+- model: taller_1.User
+  pk: 1
+  fields:
+    user_id: usuario_1
+    password: usuario_1
+- model: taller_1.User
+  pk: 2
+  fields:
+    user_id: usuario_2
+    password: usuario_2
