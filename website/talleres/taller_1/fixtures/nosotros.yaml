@@ -1,0 +1,27 @@
+- model: taller_1.User
+  pk: 10000
+  fields:
+    user_id: minigonche
+    password: minigonche
+    date_join: 2020-02-12T00:00:00-05:00
+    age: 28
+    sex: True
+    country: Colombia
+- model: taller_1.User
+  pk: 10001
+  fields:
+    user_id: gioninco
+    password: gioninco
+    date_join: 2020-02-12T00:00:00-05:00
+    age: 26
+    sex: True
+    country: Colombia
+- model: taller_1.User
+  pk: 10003
+  fields:
+    user_id: yara0204
+    password: yara0204
+    date_join: 2020-02-12T00:00:00-05:00
+    age: 25
+    sex: True
+    country: Colombia
