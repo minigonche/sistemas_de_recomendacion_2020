@@ -37,7 +37,7 @@ def iniciar_sesion(request):
 			return HttpResponse('Contrasenha equivocada')
 
 	except:
-		return HttpResponse('Usuario: {} no existe'.format(id_ususario))
+		return HttpResponse('Usuario: {} si que no existe'.format(id_ususario))
 
 
 def crear_usuario(request):

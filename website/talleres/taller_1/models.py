@@ -1,6 +1,8 @@
 from django.db import models
 
 
+
+
 # User
 class User(models.Model):
 
@@ -15,7 +17,7 @@ class User(models.Model):
 	# Sex
 	sex = models.NullBooleanField(null=True)
 	#country
-	country = models.CharField(max_length=25, null=True)
+	country = models.CharField(max_length=5, null=True)
 
 
 	def dar_sexo(self):
