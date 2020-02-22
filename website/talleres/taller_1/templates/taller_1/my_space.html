@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mi Espacio</title>
+
+  <!-- Bootstrap core CSS -->
+  {% load static %}
+  <link href="{% static 'taller_1/css/bootstrap.dark.min.css' %}" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top">
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#" >Recomendaciones Musicales</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Mi Espacio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recomendaciones</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+<!-- Resumen general del ususario -->
+<div class="container mt-3">
+  <div class="row">
+
+    <!-- Explicacion -->
+    <div class="col-5">
+        <div class="jumbotron">
+          <h4 class="display-4">Mi Espacio</h4>
+          <hr class="my-2">
+          <p>Aca encontrarás estadisticas e información general de tu perfil. Tambien puedes ver los artistas que te recomendamos: </p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#!" role="button">Mirar mis Recomendaciones</a>
+          </p>
+      </div>
+
+    </div>
+
+    <!-- Info del usuario -->
+    <div class="col-7">
+      <div class="jumbotron">
+        <h4>Estadisticas Generales</h4>
+        <hr class="my-3">
+        <p><strong>Número de Reproducciones: </strong> {{ num_reproducciones }}</p>
+        <p><strong>Número de Artistas Escuchados: </strong> {{num_artistas}} </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="container mt-1">
+  <div class="row">
+ <!-- Ultimas reproducciones -->
+
+
+    <div class="col-12">
+      <div class="card border-primary mb-3" style="max-width: 100%;">
+        <div class="card-header">Mis Artistas Favoritos</div>
+        <div class="card-body">
+            <div class="row">
+            {% for fav in favoritos %}
+              <div class="card border-success mb-3 mx-2" style="max-width: 20rem;">
+                <div class="card-header">Rating: {{fav.user_rating}}</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{fav.artist_name}}</h5>
+                  <img src="{{fav.link_foto}}" class="img-fluid" alt="Imagen de: {{fav.artist_name}}">
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container mt-1">
+  <div class="row">
+ <!-- Ultimas reproducciones -->
+
+
+    <div class="col-12">
+      <div class="card border-primary mb-3" style="max-width: 100%;">
+        <div class="card-header">Mis Artistas Menos Favoritos</div>
+        <div class="card-body">
+            <div class="row">
+            {% for fav in menos_favoritos %}
+              <div class="card border-danger mb-3 mx-2" style="max-width: 20rem;">
+                <div class="card-header">Rating: {{fav.user_rating}}</div>
+                <div class="card-body">
+                  <h5 class="card-title">{{fav.artist_name}}</h5>
+                  <img src="{{fav.link_foto}}" class="img-fluid" alt="Imagen de: {{fav.artist_name}}">
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>

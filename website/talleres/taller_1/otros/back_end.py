@@ -59,7 +59,24 @@ class Reproduccion():
 		resp['artist_name'] = self.artist_name
 		resp['date'] = self.dar_fecha()
 
+class Artista():
+	'''
+	Clase que modela un artista (con un rating asociado)
+	'''
 
+	def __init__(self, artist_name, user_rating = -1, global_rating = -1):
+
+		self.artist_name = artist_name
+		self.user_rating = user_rating
+		self.global_rating = global_rating
+		
+
+
+
+
+
+## ---------------------------------------
+# Metodos
 
 def dar_ultimas_reproducciones(id_usuario, top = 5):
 	'''
@@ -99,4 +116,115 @@ def dar_ultimas_reproducciones(id_usuario, top = 5):
 
 
 
+def dar_numero_de_artistas(id_usuario):
+	'''
+	Metodo que devuelve el numero de artistas que ha oido un usuario
 
+	Parametros
+	----------
+	id_usuario : string
+		El id del usuario
+
+	Devuelve
+	---------
+	int
+		El numero de artistas que ha oido el usuario. Si este no existe, debe devolver 0.
+	'''
+	# TODO: back-end
+
+	# Implementacion mock
+	return(random.choice([0,10,100,200,3000]))
+
+
+
+
+def dar_numero_de_reproducciones(id_usuario):
+	'''
+	Metodo que devuelve el numero de reproducciones que ha oido un usuario
+
+	Parametros
+	----------
+	id_usuario : string
+		El id del usuario
+
+	Devuelve
+	---------
+	int
+		El numero de reproducciones que ha oido el usuario. Si este no existe, debe devolver 0.
+	'''
+	# TODO: back-end
+
+	# Implementacion mock
+	return(random.choice([0,10,100,200,3000]))
+
+
+
+def dar_artistas_favoritos(id_usuario, top = 5):
+	'''
+	Metodo que devuelve los artistas favoritos de un usuario. Cada Artista debe ser inicializado con el 
+	user_rating del usuario reecibido como parametro.
+
+	Parametros
+	----------
+	id_usuario : string
+		El id del usuario
+	top : int > 0
+		La cantidad de artsitas a incluir.
+
+	Devuelve
+	---------
+	list of Artista
+		Lista con elementos de tipo: Artista, ordenados de mejor user_rating a peor user_rating.
+		Si el usuario no tiene reproducciones o si no existe, debe devolver una lista vacia.
+
+	'''
+
+	# TODO: back-end
+
+	# Implementacion mock
+
+	respuesta = []
+	for i in range(top):
+
+		artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','JBalvin', 'Blink-182','SUM 41','Green Day'])
+		user_rating = random.choice([1.2,2.3,3.5,4.1,5])
+
+		respuesta.append(Artista(artist_name, user_rating))
+
+	return(respuesta)
+
+
+
+def dar_artistas_menos_favoritos(id_usuario, top = 5):
+	'''
+	Metodo que devuelve los artistas menos favoritos de un usuario. Cada Artista debe ser inicializado con el 
+	user_rating del usuario reecibido como parametro.
+
+	Parametros
+	----------
+	id_usuario : string
+		El id del usuario
+	top : int > 0
+		La cantidad de artsitas a incluir.
+
+	Devuelve
+	---------
+	list of Artista
+		Lista con elementos de tipo: Artista, ordenados de peor user_rating a mejor user_rating.
+		Si el usuario no tiene reproducciones o si no existe, debe devolver una lista vacia.
+
+	'''
+
+	# TODO: back-end
+
+	# Implementacion mock
+
+	respuesta = []
+	for i in range(top):
+
+		artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','JBalvin', 'Blink-182','SUM 41','Green Day'])
+		user_rating = random.choice([1.2,2.3,3.5,4.1,5])
+
+		respuesta.append(Artista(artist_name, user_rating))
+
+	return(respuesta)

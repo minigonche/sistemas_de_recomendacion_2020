@@ -9,6 +9,8 @@ from django.core.exceptions import ObjectDoesNotExist
 
 # Otros
 import taller_1.otros.back_end as back_end
+import taller_1.otros.image_finder as image_finder
+
 
 import sys
 
@@ -28,7 +30,6 @@ def iniciar_sesion(request):
 	Metodo para crear una nueva sesion. 
 	Debe verificar el ususario y la contrasenha
 
-	TODO: Verificar usuario existente y contrasenha correcta
 	'''
 
 	# Extrae los datos
@@ -46,28 +47,15 @@ def iniciar_sesion(request):
 
 		# Revisa la contrasenha
 		if user.password == pwd:
-			
-			# Visualiza el usuario
-			# Caracteristicas del ususario
-			context = {}
-			context['user_id'] = id_usuario
-			context['fecha'] = user.dar_fecha()
-			context['edad'] = user.dar_edad()
-			context['pais'] = user.dar_pais()
-			context['sexo'] = user.dar_sexo()
 
-
-			# Las ultimas reproducciones
-			#context['reproducciones'] = [rep.to_dict() for rep in back_end.dar_ultimas_reproducciones(id_usuario, top = 5)]
-			context['reproducciones'] = back_end.dar_ultimas_reproducciones(id_usuario, top = 5)
-
-			return render(request, 'taller_1/user_view.html', context)
+			# Lleva a la pagina de bienvenida
+			return(bienvenida(request, id_usuario))
 
 		else:
 			return HttpResponse('Contrasenha equivocada')
 
 	except ObjectDoesNotExist:
-		return HttpResponse('No Existe')
+		usuario_no_existe()
 
 
 
@@ -81,7 +69,7 @@ def crear_usuario(request):
 	'''
 
 	# Extrae los datos
-	id_ususario = request.POST.get('id_ususario_nuevo')
+	id_usuario = request.POST.get('id_ususario_nuevo')
 	pwd = request.POST.get('pwd_ususario_nuevo')
 	
 	sexo = request.POST.get('sexo')
@@ -105,11 +93,11 @@ def crear_usuario(request):
 
 	# Mira si el usuario ya existe
 	try:
-		user = User.objects.get(user_id=id_ususario)
-		return HttpResponse('Usuario: {} ya existe'.format(id_ususario))
-	except:
+		user = User.objects.get(user_id=id_usuario)
+		return HttpResponse('Usuario: {} ya existe'.format(id_usuario))
+	except ObjectDoesNotExist:
 
-		user = User(user_id= id_ususario, 
+		user = User(user_id= id_usuario, 
 				    password= pwd,
 				    date_join= fecha_registro,
 				    age= edad,
@@ -118,6 +106,74 @@ def crear_usuario(request):
 
 		user.save()
 
-		return HttpResponse(str(user))
+		# Lleva a la pagina de bienvenida
+		return(bienvenida(request, id_usuario))
 
 
+
+
+def bienvenida(request, id_usuario):
+	'''
+	Metodo que devuelve la bienvenida del usuario
+
+	'''
+
+	try:
+		user = User.objects.get(user_id=id_usuario)
+
+		# Visualiza el usuario
+		# Caracteristicas del ususario
+		context = {}
+		context['user_id'] = id_usuario
+		context['fecha'] = user.dar_fecha()
+		context['edad'] = user.dar_edad()
+		context['pais'] = user.dar_pais()
+		context['sexo'] = user.dar_sexo()
+
+
+		# Las ultimas reproducciones
+		context['reproducciones'] = back_end.dar_ultimas_reproducciones(id_usuario, top = 5)
+
+		return render(request, 'taller_1/user_view.html', context)
+
+
+	except ObjectDoesNotExist:
+		usuario_no_existe()
+
+	
+def mi_espacio(request, id_usuario):
+	'''
+	Metodo que devuelve el espacio del usuario
+
+	'''
+
+	# Visualiza el usuario
+	context = {}
+
+	# ZOna de resumen
+
+	context['num_reproducciones'] = back_end.dar_numero_de_reproducciones(id_usuario)
+	context['num_artistas'] = back_end.dar_numero_de_artistas(id_usuario)
+
+
+	# Favoritos
+	context['favoritos'] = back_end.dar_artistas_favoritos(id_usuario, top = 5)
+
+	for fav in context['favoritos']:
+		fav.link_foto = image_finder.get_image(fav.artist_name)
+
+	# Favoritos
+	context['menos_favoritos'] = back_end.dar_artistas_menos_favoritos(id_usuario, top = 5)
+
+	for fav in context['menos_favoritos']:
+		fav.link_foto = image_finder.get_image(fav.artist_name)
+
+
+	return render(request, 'taller_1/my_space.html', context)
+
+
+def usuario_no_existe():
+	'''
+	TODO: Devilver pagina donde usuario no existe
+	'''
+	return HttpResponse('No Existe')
