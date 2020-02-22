@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bienvenida</title>
+
+  <!-- Bootstrap core CSS -->
+  {% load static %}
+  <link href="{% static 'taller_1/css/bootstrap.dark.min.css' %}" rel="stylesheet">
+
+
+
+</head>
+
+<body id="page-top">
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#" >Recomendaciones Musicales</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mi Espacio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recomendaciones</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</div>
+
+
+<!-- Resumen general del ususario -->
+<div class="container mt-3">
+  <div class="row">
+    <!-- Info del usuario -->
+    <div class="col-4">
+      <div class="jumbotron">
+        <h4>Detalles Cuenta</h4>
+        <hr class="my-3">
+        <p><strong>Id Usuario: </strong> {{ user_id}}</p>
+        <p><strong>Usuario Desde: </strong> {{ fecha }}</p>
+        <p><strong>Edad: </strong> {{edad}} </p>
+        <p><strong>Sexo: </strong> {{sexo}}</p>
+        <p><strong>Pais: </strong> {{pais}}</p>
+      </div>
+
+
+
+
+    </div>
+
+    <!-- BIenvenida -->
+    <div class="col-8">
+        <div class="jumbotron">
+          <h2 class="display-3">Bienvenido!</h2>
+          <p class="lead">Descubre tu nuevo artista favorito!</p>
+          <hr class="my-2">
+          <p>Dinos que estas escuchando y te diremos lo siguiente que deberias escuchar</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#!" role="button">Mirar mis Recomendaciones</a>
+          </p>
+      </div>
+
+    </div>
+
+   
+
+  </div>
+</div>
+
+<div class="container mt-1">
+  <div class="row">
+ <!-- Ultimas reproducciones -->
+    <div class="col-12">
+      <div class="card border-primary mb-3" style="max-width: 100%;">
+        <div class="card-header"></div>
+        <div class="card-body">
+          <h4 class="card-title">Últimas Reproducciones</h4>
+          <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Artista</th>
+              <th scope="col">Canción</th>
+              <th scope="col">Fecha</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{% for rep in reproducciones %}
+				 <tr>
+	              <th scope="row">{{rep.artist_name}}</th>
+	              <td>{{rep.song_name}}</td>
+	              <td>{{rep.dar_fecha}}</td>
+	            </tr>
+			{% endfor %}
+          </tbody>
+        </table>  
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>

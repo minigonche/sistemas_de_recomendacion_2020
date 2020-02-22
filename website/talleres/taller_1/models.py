@@ -66,3 +66,5 @@ class User(models.Model):
 		return('Usuario: {}, Pwd: {}, Fecha Registro: {}, Edad: {}, Sexo: {}, Pais: {}'.format(usuario, pwd, self.dar_fecha(), self.dar_edad(), self.dar_sexo(), self.dar_pais()))
 
 
+
+
