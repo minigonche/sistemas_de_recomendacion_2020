@@ -65,6 +65,64 @@ class User(models.Model):
 
 		return('Usuario: {}, Pwd: {}, Fecha Registro: {}, Edad: {}, Sexo: {}, Pais: {}'.format(usuario, pwd, self.dar_fecha(), self.dar_edad(), self.dar_sexo(), self.dar_pais()))
 
+#Reproduccion
+class Reproduccion(models.Model):
+
+	# User ID
+	user_id = models.CharField(max_length=20)
+	# Song name
+	song_name = models.CharField(max_length=20)
+	# Song id
+	song_id = models.CharField(max_length=20)
+	# Date of the reproduction
+	date = models.DateField(null=True)
+	# Name of the artist
+	artist_name = models.CharField(max_length=20)
+	# Artist id
+	artist_id = models.CharField(max_length=20)
+
+	def dar_fecha(self):
+		fecha = 'No tiene'
+		if self.date is not None:
+			fecha = self.date.strftime('%Y-%m-%d')
+
+		return (fecha)
+
+	def to_dict(self):
+		'''
+		Vuelve la clase un diccionario
+		'''
+
+		resp = {}
+		resp['user_id'] = self.user_id
+		resp['song_name'] = self.song_name
+		resp['song_id'] = self.song_id
+		resp['artist_name'] = self.artist_name
+		resp['artist_id'] = self.artist_id
+		resp['date'] = self.dar_fecha()
+
+class Artista(models.Model):
+	'''
+	Clase que modela un artista (con un rating asociado)
+	'''
+	# Artist name
+	artist_name = models.CharField(max_length=20)
+	# Artist id
+	artist_id = models.CharField(max_length=20)
+	# Rating of the user
+	user_rating = models.IntegerField(null=True)
+	# Global rating
+	global_rating = models.IntegerField(null=True)
+
+	def to_dict(self):
+		'''
+		Vuelve la clase un diccionario
+		'''
+
+		resp = {}
+		resp['artist_name'] = self.artist_name
+		resp['user_rating'] = self.user_rating
+		resp['global_rating'] = self.global_rating
 
 
 
