@@ -9,6 +9,7 @@ from django.core.exceptions import ObjectDoesNotExist
 
 # Otros
 import taller_1.otros.back_end as back_end
+import taller_1.otros.back_end_2 as back_end_2
 import taller_1.otros.image_finder as image_finder
 
 
@@ -148,7 +149,7 @@ def mi_espacio(request, id_usuario):
 	'''
 
 	# Visualiza el usuario
-	context = {}
+	context = {'user_id' : id_usuario}
 
 	# ZOna de resumen
 
@@ -177,3 +178,43 @@ def usuario_no_existe():
 	TODO: Devilver pagina donde usuario no existe
 	'''
 	return HttpResponse('No Existe')
+
+
+
+
+
+def recomendaciones(request, id_usuario):
+	'''
+	Metodo que devuelve el espacio del usuario
+
+	'''
+
+	# Visualiza el usuario
+	context = {'user_id' : id_usuario}
+
+	context['recomendaciones_usuario'] = back_end_2.dar_recomendaciones_por_usuario(id_usuario)
+
+	for d in context['recomendaciones_usuario']:
+		d['primero'] = False
+		d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
+
+	context['recomendaciones_usuario'][0]['primero'] =True
+	# TODO
+
+
+	return render(request, 'taller_1/recomendaciones.html', context)
+
+
+def calificar(request, id_usuario, id_item, calificaion):
+	'''
+	Metodo que devuelve el espacio del usuario
+
+	'''
+
+	# Visualiza el usuario
+	context = {}
+
+	# TODO
+	back_end_2.calificar_item(id_usuario, id_item, calificacion)
+
+	return HttpResponse('OK')
