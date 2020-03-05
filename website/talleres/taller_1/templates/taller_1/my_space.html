@@ -55,7 +55,7 @@
           <hr class="my-2">
           <p>Aca encontrarás estadisticas e información general de tu perfil. Tambien puedes ver los artistas que te recomendamos: </p>
           <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#!" role="button">Mirar mis Recomendaciones</a>
+            <a class="btn btn-primary btn-lg" href="/taller_1/recomendaciones/{{ user_id}}" role="button">Mirar mis Recomendaciones</a>
           </p>
       </div>
 
@@ -90,7 +90,7 @@
                 <div class="card-header">Rating: {{fav.user_rating}}</div>
                 <div class="card-body">
                   <h5 class="card-title">{{fav.artist_name}}</h5>
-                  <img src="{{fav.link_foto}}" class="img-fluid" alt="Imagen de: {{fav.artist_name}}">
+                  <img src="{% static  fav.link_foto %}" class="img-fluid" alt="Imagen de: {{fav.artist_name}}">
                 </div>
               </div>
             {% endfor %}
@@ -117,7 +117,7 @@
                 <div class="card-header">Rating: {{fav.user_rating}}</div>
                 <div class="card-body">
                   <h5 class="card-title">{{fav.artist_name}}</h5>
-                  <img src="{{fav.link_foto}}" class="img-fluid" alt="Imagen de: {{fav.artist_name}}">
+                  <img src="{% static  fav.link_foto %}" class="img-fluid" alt="Imagen de: {{fav.artist_name}}">
                 </div>
               </div>
             {% endfor %}

@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Mi Espacio</title>
+  <title>Recomendaciones</title>
 
   <!-- Bootstrap core CSS -->
   {% load static %}
@@ -24,6 +24,9 @@
 
 <body id="page-top">
 
+<form action="{% url 'taller_1:calificar' user_id%}" method="POST" enctype="multipart/form-data" id = 'form_iniciar_sesion'> 
+{% csrf_token %}
+
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="#" >Recomendaciones Musicales</a>
@@ -37,7 +40,7 @@
            <a class="nav-link" href="/taller_1/bienvenida/{{ user_id}}">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/taller_1/mi_espacio/{{ user_id}}">Mi Espacio<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/taller_1/mi_espacio/{{ user_id}}">Mi Espacio</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="/taller_1/recomendaciones/{{ user_id}}">Recomendaciones<span class="sr-only">(current)</span></a>
@@ -48,13 +51,24 @@
 </div>
 
 
-<!-- Explicacoin de las recomendaciones-->
+<!-- Explicacoin de las recomendaciones Por ususario-->
   <div class="container mt-1">
           <div class="jumbotron">
             <h5 class="display-4">Recomendaciones Por Usuarios</h5>
             <hr class="my-2">
             <p>Acá se pueden ver las recomendaciones según los usuarios con gustos similares que tienes:</p>
+
+            <div class="row mt-1">
+              <div class="col-4"> </div>
+              <div class="col-4 text-center"> 
+                <button type="submit" name="recomendaciones" class="btn btn-success" value="recomendaciones">Guardar Cambios</button>
+              </div>
+              <div class="col-4"> </div>
+            </div>
+
         </div>
+
+
   </div>
 
 <div class="container">
@@ -168,7 +182,20 @@
                   <div class="card-header">Nuestra Predicción: {{rec.prediccion}}</div>
                   <div class="card-body">
                     <h5 class="card-title">{{rec.artista.artist_name}}</h5>
-                    <img src="{{rec.artista.link_foto}}" class="img-fluid" alt="Imagen de: {{rec.artista.artist_name}}">
+                    <img src="{% static  rec.artista.link_foto%}" class="img-fluid" alt="Imagen de: {{rec.artista.artist_name}}">
+
+                    <div class="row mt-1">
+                    <label class="text-white"  for="artist_id:{{rec.artist_id}}">Calificar:</label>
+                    <select class="form-control" name="artist_id:{{rec.artista.artist_id}}" id="artist_id:{{rec.artista.artist_id}}">
+                      <option selected="selected" value = "-1">No Conozco</option>
+                      <option value = "1">1</option>
+                      <option value = "2">2</option>
+                      <option value = "3">3</option>
+                      <option value = "4">4</option>
+                      <option value = "5">5</option>
+                    </select>
+                  </div>
+
                   </div>
                 </div>
 
@@ -200,5 +227,184 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- Explicacoin de las recomendaciones Por Item-->
+  <div class="container mt-1">
+          <div class="jumbotron">
+            <h5 class="display-4">Recomendaciones Por Items</h5>
+            <hr class="my-2">
+            <p>Acá se pueden ver las recomendaciones según artistas que te han gustado en el pasado: </p>
+
+            <div class="row mt-1">
+              <div class="col-4"> </div>
+              <div class="col-4 text-center"> 
+                <button type="submit" name="recomendaciones" class="btn btn-success" value="recomendaciones">Guardar Cambios</button>
+              </div>
+              <div class="col-4"> </div>
+            </div>
+
+        </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+
+    <!-- Recomendacion por ussario -->
+    <div class="col-12">
+      <div class="jumbotron">
+                
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner">
+
+            {% for rec in recomendaciones_item %}
+
+            <div class="carousel-item {% if rec.primero %}active{% endif %}">
+
+            <div class="row">
+              <div class="col-8"> <h3>Artistas Favoritos</h3> </div>
+              <div class="col-4"> <h3>Recomendación</h3> </div>
+             </div>
+
+            <div class="row">
+
+              <!-- first column -->
+
+              <div class="col-3">
+
+                 <div class="row">
+
+                  <div class="card border-primary mb-3 mx-2" style="max-width: 100%;">
+                    <div class="card-header">Rating: {{rec.vecinos.0.user_rating}}</div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{rec.vecinos.0.artist_name}}</h5>
+                      <img src="{% static  rec.vecinos.0.link_foto%}" class="img-fluid" alt="Imagen de: {{rec.vecinos.0.artist_name}}">
+                    </div>
+                  </div>
+
+                </div>
+
+                 <div class="row">
+                  <div class="card border-primary mb-3 mx-2" style="max-width: 100%;">
+                    <div class="card-header">Rating: {{rec.vecinos.1.user_rating}}</div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{rec.vecinos.1.artist_name}}</h5>
+                      <img src="{% static  rec.vecinos.1.link_foto%}" class="img-fluid" alt="Imagen de: {{rec.vecinos.1.artist_name}}">
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+             <!-- second column -->
+
+              <div class="col-3">
+                 <div class="row">
+                  <div class="card border-primary mb-3 mx-2" style="max-width: 100%;">
+                    <div class="card-header">Rating: {{rec.vecinos.2.user_rating}}</div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{rec.vecinos.2.artist_name}}</h5>
+                      <img src="{% static  rec.vecinos.2.link_foto%}" class="img-fluid" alt="Imagen de: {{rec.vecinos.2.artist_name}}">
+                    </div>
+                  </div>
+                </div>
+
+                 <div class="row">
+                  <div class="card border-primary mb-3 mx-2" style="max-width: 100%;">
+                    <div class="card-header">Rating: {{rec.vecinos.3.user_rating}}</div>
+                    <div class="card-body">
+                      <h5 class="card-title">{{rec.vecinos.3.artist_name}}</h5>
+                      <img src="{% static  rec.vecinos.3.link_foto%}" class="img-fluid" alt="Imagen de: {{rec.vecinos.3.artist_name}}">
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <!-- third column -->
+
+              <div class="col-2">
+
+                <div class="text-center">
+                  <img src = "{% static 'taller_1/img/arrow.png' %}" class="img-fluid" alt="arrow">
+                </div>
+                <div class="text-center">
+                  <img src = "{% static 'taller_1/img/arrow.png' %}" class="img-fluid" alt="arrow">
+                </div>
+              </div>
+
+              <!-- Forth column -->
+
+              <div class="col-4">
+
+                 
+                <div class="card border-success mb-3 mx-2" style="max-width: 20rem;">
+                  <div class="card-header">Nuestra Predicción: {{rec.prediccion}}</div>
+                  <div class="card-body">
+                    <h5 class="card-title">{{rec.artista.artist_name}}</h5>
+                    <img src="{% static  rec.artista.link_foto %}" class="img-fluid" alt="Imagen de: {{rec.artista.artist_name}}">
+
+                    <div class="row mt-1">
+                    <label class="text-white"  for="artist_id:{{rec.artist_id}}">Calificar:</label>
+                    <select class="form-control" name="artist_id:{{rec.artista.artist_id}}" id="artist_id:{{rec.artista.artist_id}}">
+                      <option selected="selected" value = "-1">No Conozco</option>
+                      <option value = "1">1</option>
+                      <option value = "2">2</option>
+                      <option value = "3">3</option>
+                      <option value = "4">4</option>
+                      <option value = "5">5</option>
+                    </select>
+                  </div>
+
+                  </div>
+                </div>
+
+              </div>
+              
+            </div>
+
+            </div>
+
+            {% endfor %}
+          </div>
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</form>
 
 </body>

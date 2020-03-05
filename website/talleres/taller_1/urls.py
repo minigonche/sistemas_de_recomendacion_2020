@@ -11,6 +11,7 @@ urlpatterns = [
     path('bienvenida/<str:id_usuario>/', views.bienvenida, name='bienvenida'),
     path('recomendaciones/<str:id_usuario>/', views.recomendaciones, name='recomendaciones'),
     path('mi_espacio/<str:id_usuario>/', views.mi_espacio, name='mi_espacio'),
-    path('calificar/<str:id_usuario>/<str:id_item>/<int:calificacion>', views.calificar, name='calificar')
+    path('calificar/<str:id_usuario>/', views.calificar, name='calificar'),
+    path('cold_start/<str:id_usuario>/', views.cold_start, name='cold_start')
     
 ]

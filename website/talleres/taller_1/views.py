@@ -107,8 +107,8 @@ def crear_usuario(request):
 
 		user.save()
 
-		# Lleva a la pagina de bienvenida
-		return(bienvenida(request, id_usuario))
+	# Lleva a la pagina de bienvenida
+	return(cold_start(request, id_usuario))
 
 
 
@@ -192,29 +192,89 @@ def recomendaciones(request, id_usuario):
 	# Visualiza el usuario
 	context = {'user_id' : id_usuario}
 
+	# Por usuario
 	context['recomendaciones_usuario'] = back_end_2.dar_recomendaciones_por_usuario(id_usuario)
 
 	for d in context['recomendaciones_usuario']:
 		d['primero'] = False
 		d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
 
-	context['recomendaciones_usuario'][0]['primero'] =True
+	context['recomendaciones_usuario'][0]['primero'] = True
 	# TODO
 
+	# Por Item
+	context['recomendaciones_item'] = back_end_2.dar_recomendaciones_por_item(id_usuario)
+
+	for d in context['recomendaciones_item']:
+		d['primero'] = False
+		for art in d['vecinos']:
+			art.link_foto = image_finder.get_image(art.artist_name)
+			
+		d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
+
+	context['recomendaciones_item'][0]['primero'] = True
 
 	return render(request, 'taller_1/recomendaciones.html', context)
 
+def cold_start(request, id_usuario):
+	'''
+	Metodo para el cold start de un usuario
+	'''
 
-def calificar(request, id_usuario, id_item, calificaion):
+	context = {'user_id' : id_usuario}
+
+	# Extrae los que no ha calificado
+
+	todos = back_end_2.dar_artistas_aleatorios(id_usuario, num_artistas = 8)
+	# Favoritos
+	context['por_calificar_1'] = todos[0:4]
+
+	for fav in context['por_calificar_1']:
+		fav.link_foto = image_finder.get_image(fav.artist_name)
+
+	context['por_calificar_2'] = todos[4:8]
+
+	for fav in context['por_calificar_2']:
+		fav.link_foto = image_finder.get_image(fav.artist_name)
+
+	return render(request, 'taller_1/cold_start.html', context)
+
+
+
+
+def calificar(request, id_usuario):
 	'''
 	Metodo que devuelve el espacio del usuario
 
 	'''
 
 	# Visualiza el usuario
-	context = {}
+	context = {'user_id' : id_usuario}
+	resp = ''
+	for key, value in request.POST.items():
+		if key.startswith('artist_id:'):
+			artist_id = key[len('artist_id:')]
+			rating = int(value)
 
-	# TODO
-	back_end_2.calificar_item(id_usuario, id_item, calificacion)
+			if rating > 0:
+				back_end_2.calificar_item(id_usuario, artist_id, rating)
 
-	return HttpResponse('OK')
+	
+	if request.method == 'POST':
+	    if request.POST.get("mas"):
+	    	# Otra vez cold start
+	    	return(cold_start(request, id_usuario))
+	        
+
+	    elif request.POST.get("inicio"):  
+	    	# Va al inicio
+	        return(bienvenida(request, id_usuario))
+
+	    elif request.POST.get("recomendaciones"):  
+	    	# Va al inicio
+	        return(recomendaciones(request, id_usuario))
+
+	    else:
+	    	raise ValueError('Boton seleccionado no es reconocido')
+
+	
