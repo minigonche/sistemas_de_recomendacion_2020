@@ -71,7 +71,7 @@ class Artista():
 
 	def __init__(self, artist_name, user_rating = -1, global_rating = -1):
 
-		self.id = 1
+		self.artist_id = random.randint(0,100)
 		self.artist_name = artist_name
 		self.user_rating = user_rating
 		self.global_rating = global_rating
@@ -205,12 +205,13 @@ def dar_artistas_aleatorios(id_usuario, num_artistas = 10):
 
 
 	respuesta = []
-	for i in range(top):
+	for i in range(num_artistas):
 
 		artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','JBalvin', 'Blink-182','SUM 41','Green Day'])
 		user_rating = random.choice([1.2,2.3,3.5,4.1,5])
-
-		respuesta.append(Artista(artist_name, user_rating))
+		art = Artista(artist_name, user_rating)
+		art.artist_id = i
+		respuesta.append(art)
 
 	return(respuesta)
 

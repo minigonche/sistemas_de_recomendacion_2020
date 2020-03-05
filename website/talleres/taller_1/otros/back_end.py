@@ -66,6 +66,7 @@ class Artista():
 
 	def __init__(self, artist_name, user_rating = -1, global_rating = -1):
 
+		self.artist_id = random.randint(0,100)
 		self.artist_name = artist_name
 		self.user_rating = user_rating
 		self.global_rating = global_rating
