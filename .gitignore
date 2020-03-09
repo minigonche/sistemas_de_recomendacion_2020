@@ -1,4 +1,5 @@
 # Byte-compiled / optimized / DLL files
+website/talleres/taller_1/fixtures/ratings.json
 talleres/taller_1/data/
 __pycache__/
 *.py[cod]
