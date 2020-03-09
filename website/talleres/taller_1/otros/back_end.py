@@ -1,8 +1,11 @@
 # Script con los metodos de Back-End
-
+import random
+import numpy as np
+from taller_1.models import Reproduction, User_info
 from datetime import datetime
 
-import random
+
+
 
 # Clases que el front end esta utilizando:
 
@@ -99,20 +102,27 @@ def dar_ultimas_reproducciones(id_usuario, top = 5):
 	'''
 
 	# TODO: back-end
+	ultimas_reproducciones = list(Reproduction.objects.all().filter(user_id = id_usuario))
+	print("tamaño respuesta:", len(ultimas_reproducciones))
+	res = []
+	for i in ultimas_reproducciones:
+		res.append(Reproduccion(i.user_id,i.song_name,i.artist_name,i.date))
+
 
 	# Implementacion mock
 
-	respuesta = []
-	for i in range(top):
+	#respuesta = []
+	#for i in range(top):
 
-		user_id = 'usuario_prueba'
-		song_name = random.choice(['Heroe','Un Monton de Estrellas','Eye of the Tiger','Cuando tenga la Tierra'])
-		artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','J Balvin'])
-		date = datetime.now()
+	#	user_id = 'usuario_prueba'
+	#	song_name = random.choice(['Heroe','Un Monton de Estrellas','Eye of the Tiger','Cuando tenga la Tierra'])
+	#	artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','J Balvin'])
+	#	date = datetime.now()
 
-		respuesta.append(Reproduccion(user_id, song_name, artist_name, date))
+	#	respuesta.append(Reproduccion(user_id, song_name, artist_name, date))
 
-	return(respuesta)		
+	return(res)
+
 
 
 
@@ -133,7 +143,7 @@ def dar_numero_de_artistas(id_usuario):
 	# TODO: back-end
 
 	# Implementacion mock
-	return(random.choice([0,10,100,200,3000]))
+	return(User_info.objects.all().get(user_id=id_usuario).numero_artistas)
 
 
 
@@ -155,7 +165,7 @@ def dar_numero_de_reproducciones(id_usuario):
 	# TODO: back-end
 
 	# Implementacion mock
-	return(random.choice([0,10,100,200,3000]))
+	return(User_info.objects.all().get(user_id=id_usuario).numero_reproducciones)
 
 
 

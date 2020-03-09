@@ -65,8 +65,18 @@ class User(models.Model):
 
 		return('Usuario: {}, Pwd: {}, Fecha Registro: {}, Edad: {}, Sexo: {}, Pais: {}'.format(usuario, pwd, self.dar_fecha(), self.dar_edad(), self.dar_sexo(), self.dar_pais()))
 
+
+class User_info(models.Model):
+
+	# User ID
+	user_id = models.CharField(max_length=20)
+	# Password
+	numero_artistas = models.IntegerField()
+	# Date the user joined
+	numero_reproducciones = models.IntegerField()
+	# Age
 #Reproduccion
-class Reproduccion(models.Model):
+class Reproduction(models.Model):
 
 	# User ID
 	user_id = models.CharField(max_length=20)
@@ -75,7 +85,7 @@ class Reproduccion(models.Model):
 	# Song id
 	song_id = models.CharField(max_length=20)
 	# Date of the reproduction
-	date = models.DateField(null=True)
+	date = models.DateTimeField(null=True)
 	# Name of the artist
 	artist_name = models.CharField(max_length=20)
 	# Artist id
@@ -100,8 +110,9 @@ class Reproduccion(models.Model):
 		resp['artist_name'] = self.artist_name
 		resp['artist_id'] = self.artist_id
 		resp['date'] = self.dar_fecha()
+		return resp
 
-class Artista(models.Model):
+class Artist(models.Model):
 	'''
 	Clase que modela un artista (con un rating asociado)
 	'''
@@ -123,6 +134,7 @@ class Artista(models.Model):
 		resp['artist_name'] = self.artist_name
 		resp['user_rating'] = self.user_rating
 		resp['global_rating'] = self.global_rating
+		return resp
 
 
 
