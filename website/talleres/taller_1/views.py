@@ -139,7 +139,9 @@ def bienvenida(request, id_usuario):
 
 
 	except ObjectDoesNotExist:
-		usuario_no_existe()
+		return(usuario_no_existe())
+
+
 
 	
 def mi_espacio(request, id_usuario):

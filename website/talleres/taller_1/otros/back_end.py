@@ -1,7 +1,7 @@
 # Script con los metodos de Back-End
 import random
 import numpy as np
-from taller_1.models import Reproduction, User_info
+from taller_1.models import Reproduction, User_info, Ratings
 from datetime import datetime
 
 
@@ -189,19 +189,16 @@ def dar_artistas_favoritos(id_usuario, top = 5):
 
 	'''
 
-	# TODO: back-end
-
-	# Implementacion mock
-
-	respuesta = []
-	for i in range(top):
-
-		artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','JBalvin', 'Blink-182','SUM 41','Green Day'])
-		user_rating = random.choice([1.2,2.3,3.5,4.1,5])
-
-		respuesta.append(Artista(artist_name, user_rating))
-
-	return(respuesta)
+	# TODO: back-end [:30]
+	usuario_ratings = Ratings.objects.filter(user_id=id_usuario).order_by('-rating_lineal')
+	res = []
+	if len(usuario_ratings)<5:
+		for i in usuario_ratings:
+			res.append(Artista(i.artist_name, i.rating_lineal))
+	else:
+		for i in usuario_ratings[:5]:
+			res.append(Artista(i.artist_name, i.rating_lineal))
+	return(res)
 
 
 
@@ -227,14 +224,12 @@ def dar_artistas_menos_favoritos(id_usuario, top = 5):
 
 	# TODO: back-end
 
-	# Implementacion mock
-
-	respuesta = []
-	for i in range(top):
-
-		artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','JBalvin', 'Blink-182','SUM 41','Green Day'])
-		user_rating = random.choice([1.2,2.3,3.5,4.1,5])
-
-		respuesta.append(Artista(artist_name, user_rating))
-
-	return(respuesta)
+	usuario_ratings = Ratings.objects.filter(user_id=id_usuario).order_by('rating_lineal')
+	res = []
+	if len(usuario_ratings) < 5:
+		for i in usuario_ratings:
+			res.append(Artista(i.artist_name, i.rating_lineal))
+	else:
+		for i in usuario_ratings[:5]:
+			res.append(Artista(i.artist_name, i.rating_lineal))
+	return (res)

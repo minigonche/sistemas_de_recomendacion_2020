@@ -70,11 +70,13 @@ class User_info(models.Model):
 
 	# User ID
 	user_id = models.CharField(max_length=20)
-	# Password
+	# numero de artistas escuchados por el usuario
 	numero_artistas = models.IntegerField()
-	# Date the user joined
+	# numero de reproducciones escuchados por el usuario
 	numero_reproducciones = models.IntegerField()
-	# Age
+	# artistas mas escuchados
+
+
 #Reproduccion
 class Reproduction(models.Model):
 
@@ -112,13 +114,26 @@ class Reproduction(models.Model):
 		resp['date'] = self.dar_fecha()
 		return resp
 
+class Ratings(models.Model):
+	'''
+	Clase que modela un artista (con un rating asociado)
+	'''
+	# Artist name
+	artist_name = models.CharField(max_length=20)
+	# Artist idAge
+	artist_id = models.CharField(max_length=20)
+	# Rating of the user
+	user_id = models.CharField(max_length=20)
+	# Global rating
+	rating_lineal = models.IntegerField(null=True)
+
 class Artist(models.Model):
 	'''
 	Clase que modela un artista (con un rating asociado)
 	'''
 	# Artist name
 	artist_name = models.CharField(max_length=20)
-	# Artist id
+	# Artist idAge
 	artist_id = models.CharField(max_length=20)
 	# Rating of the user
 	user_rating = models.IntegerField(null=True)
