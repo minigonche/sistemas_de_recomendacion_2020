@@ -47,7 +47,7 @@ def dar_recomendaciones_por_usuario(id_usuario, num_recomendaciones = 5):
 	def asignar_rating(id_user:int, id_artist:int, model):
 		res = -1
 		try:
-			res = model.predict(id_user, id_artist).est
+			res = round(model.predict(id_user, id_artist).est, 2)
 		except:
 			res = -1
 		return res
@@ -74,11 +74,19 @@ def dar_recomendaciones_por_usuario(id_usuario, num_recomendaciones = 5):
 	artistas_no_escuchado = artistas[np.invert(artistas["artist_name"].isin(artistas_escuchados["artist_name"].unique()))]
 	artistas_no_escuchado["rating_predicho"] = artistas_no_escuchado["new_artist_id"].apply(lambda x : asignar_rating(usuario, x, Model_UU))
 	artistas_recomendar = artistas_no_escuchado.sort_values(by="rating_predicho", ascending = False).head(num_recomendaciones)
+
+	# vecinos
+	vecinos = []
+	for i in Model_UU.get_neighbors(usuario, 4):
+		user_id_value = Homologacion_user.objects.get(new_user_id=i).user_id
+		vecinos.append(User.objects.get(user_id = user_id_value))
+
+
 	respuesta = []
 	for index, row in artistas_recomendar.iterrows():
 		art = Artist.objects.get(artist_name = row.artist_name)
 		#art = Artist(artist_name = row.artist_name, artist_id = str(row.new_artist_id))
-		respuesta.append({"artista" : art, "vecinos" : [], "prediccion" : row.rating_predicho})
+		respuesta.append({"artista" : art, "vecinos" : vecinos, "prediccion" : row.rating_predicho})
 
 	#for i in range(num_recomendaciones):
 	#	artist_name = random.choice(['Justin Bieber','Selena Gomez','La Tigresa del Oriente','JBalvin', 'Blink-182','SUM 41','Green Day'])
@@ -120,6 +128,50 @@ def dar_recomendaciones_por_item(id_usuario, num_recomendaciones = 5):
 	# Implementacion mock 
 	'''
 
+	def asignar_rating(id_user:int, id_artist:int, model):
+		res = -1
+		try:
+			res = round(model.predict(id_user, id_artist).est, 2)
+		except:
+			res = -1
+		return res
+
+	# se carga el modelo
+	f = gzip.open('/home/yacirramirez/Documents/MaestriaSistemas/SistemasDeRecomendacion/sistemas_de_recomendacion_2020/website/talleres/taller_1/otros/3.Model_User_User.pklz', 'rb')
+	Model_UU = pickle.load(f)
+	#result = Model_UU.predict(8, 2843)
+	f.close()
+	#result
+	usuario = Homologacion_user.objects.get(user_id=id_usuario).new_user_id
+
+	#artistas que el usuario ha escuchado
+	artistas_escuchados = []
+	for item in Ratings.objects.filter(user_id=id_usuario):
+		artistas_escuchados.append([item.user_id,item.artist_name, item.artist_id])
+	artistas_escuchados = pd.DataFrame(artistas_escuchados, columns=["user_id", "artist_name", "artist_id"])
+
+	# artistas que el usuario no ha escuchado
+	artistas = []
+	for item in Homologacion_artist.objects.all():
+		artistas.append([item.artist_name, item.new_artist_id])
+	artistas = pd.DataFrame(artistas, columns = ["artist_name", "new_artist_id"])
+	artistas_no_escuchado = artistas[np.invert(artistas["artist_name"].isin(artistas_escuchados["artist_name"].unique()))]
+	artistas_no_escuchado["rating_predicho"] = artistas_no_escuchado["new_artist_id"].apply(lambda x : asignar_rating(usuario, x, Model_UU))
+	artistas_recomendar = artistas_no_escuchado.sort_values(by="rating_predicho", ascending = False).head(num_recomendaciones)
+
+	# vecinos
+	vecinos = []
+	for i in Model_UU.get_neighbors(usuario, 4):
+		user_id_value = Homologacion_user.objects.get(new_user_id=i).user_id
+		vecinos.append(User.objects.get(user_id = user_id_value))
+
+
+	respuesta = []
+	for index, row in artistas_recomendar.iterrows():
+		art = Artist.objects.get(artist_name = row.artist_name)
+		#art = Artist(artist_name = row.artist_name, artist_id = str(row.new_artist_id))
+		respuesta.append({"artista" : art, "vecinos" : vecinos, "prediccion" : row.rating_predicho})
+
 	respuesta = []
 
 	for i in range(num_recomendaciones):
@@ -159,21 +211,14 @@ def dar_artistas_aleatorios(id_usuario, num_artistas = 10):
 	# TODO: back-end
 	# Implementacion mock 
 	'''
-	usuario = Homologacion_user.objects.get(user_id=id_usuario).new_user_id
-
-	# artistas que el usuario ha escuchado
-	artistas_escuchados = []
-	for item in Ratings.objects.filter(user_id=id_usuario):
-		artistas_escuchados.append([item.user_id, item.artist_name, item.artist_id])
-	artistas_escuchados = pd.DataFrame(artistas_escuchados, columns=["user_id", "artist_name", "artist_id"])
 
 	# artistas que el usuario no ha escuchado
 	artistas = []
 	for item in Artist.objects.all():
 		artistas.append([item.artist_name, item.artist_id, item.global_rating])
 	artistas = pd.DataFrame(artistas, columns=["artist_name", "artist_id", "global_rating"])
-	artistas_no_escuchado = artistas[np.invert(artistas["artist_name"].isin(artistas_escuchados["artist_name"].unique()))]
-	artistas_no_escuchado = artistas_no_escuchado.head(num_artistas)
+	artistas = artistas[artistas["global_rating"]>=3]
+	artistas_no_escuchado = artistas.sample(num_artistas)
 	respuesta = []
 	for index, row in artistas_no_escuchado.iterrows():
 		art = Artist.objects.get(artist_id=row.artist_id)
@@ -205,6 +250,12 @@ def calificar_item(id_usuario, id_item, calificacion):
 	# TODO: back-end
 	# Implementacion mock 
 	'''
-
-
+	art_name = Artist.objects.get(artist_id = id_item).artist_name
+	#art_id = Artist.objects.get(artist_name=id_item).artist_id
+	rating = Ratings(artist_name = artist_name,
+					 artist_id=id_item,
+					 user_id=id_usuario,
+					 rating_lineal=calificacion
+					 )
+	rating.save()
 	pass
