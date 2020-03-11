@@ -138,7 +138,7 @@ class Artist(models.Model):
 	# Rating of the user
 	user_rating = models.IntegerField(null=True)
 	# Global rating
-	global_rating = models.IntegerField(null=True)
+	global_rating = models.FloatField(null=True)
 
 	def to_dict(self):
 		'''
@@ -150,6 +150,18 @@ class Artist(models.Model):
 		resp['user_rating'] = self.user_rating
 		resp['global_rating'] = self.global_rating
 		return resp
+
+class Homologacion_user(models.Model):
+	# User ID
+	user_id = models.CharField(max_length=20)
+	# Password
+	new_user_id = models.IntegerField(null=True)
+
+class Homologacion_artist(models.Model):
+	# User ID
+	artist_name = models.CharField(max_length=20)
+	# Password
+	new_artist_id = models.IntegerField(null=True)
 
 
 

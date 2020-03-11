@@ -1,0 +1,7938 @@
+[
+    {
+        "fields": {
+            "new_user_id": 0,
+            "user_id": "user_000718"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 0
+    },
+    {
+        "fields": {
+            "new_user_id": 1,
+            "user_id": "user_000281"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "new_user_id": 2,
+            "user_id": "user_000792"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "new_user_id": 3,
+            "user_id": "user_000629"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "new_user_id": 4,
+            "user_id": "user_000431"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "new_user_id": 5,
+            "user_id": "user_000927"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "new_user_id": 6,
+            "user_id": "user_000251"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "new_user_id": 7,
+            "user_id": "user_000033"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "new_user_id": 8,
+            "user_id": "user_000509"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "new_user_id": 9,
+            "user_id": "user_000747"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "new_user_id": 10,
+            "user_id": "user_000659"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17
+    },
+    {
+        "fields": {
+            "new_user_id": 11,
+            "user_id": "user_000004"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 22
+    },
+    {
+        "fields": {
+            "new_user_id": 12,
+            "user_id": "user_000012"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 23
+    },
+    {
+        "fields": {
+            "new_user_id": 13,
+            "user_id": "user_000024"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 24
+    },
+    {
+        "fields": {
+            "new_user_id": 14,
+            "user_id": "user_000030"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 25
+    },
+    {
+        "fields": {
+            "new_user_id": 15,
+            "user_id": "user_000031"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 26
+    },
+    {
+        "fields": {
+            "new_user_id": 16,
+            "user_id": "user_000034"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 27
+    },
+    {
+        "fields": {
+            "new_user_id": 17,
+            "user_id": "user_000036"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 28
+    },
+    {
+        "fields": {
+            "new_user_id": 18,
+            "user_id": "user_000040"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 29
+    },
+    {
+        "fields": {
+            "new_user_id": 19,
+            "user_id": "user_000043"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 30
+    },
+    {
+        "fields": {
+            "new_user_id": 20,
+            "user_id": "user_000050"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 31
+    },
+    {
+        "fields": {
+            "new_user_id": 21,
+            "user_id": "user_000060"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 32
+    },
+    {
+        "fields": {
+            "new_user_id": 22,
+            "user_id": "user_000062"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 33
+    },
+    {
+        "fields": {
+            "new_user_id": 23,
+            "user_id": "user_000067"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 34
+    },
+    {
+        "fields": {
+            "new_user_id": 24,
+            "user_id": "user_000081"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 35
+    },
+    {
+        "fields": {
+            "new_user_id": 25,
+            "user_id": "user_000086"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 36
+    },
+    {
+        "fields": {
+            "new_user_id": 26,
+            "user_id": "user_000090"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 37
+    },
+    {
+        "fields": {
+            "new_user_id": 27,
+            "user_id": "user_000091"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 38
+    },
+    {
+        "fields": {
+            "new_user_id": 28,
+            "user_id": "user_000093"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 39
+    },
+    {
+        "fields": {
+            "new_user_id": 29,
+            "user_id": "user_000095"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 40
+    },
+    {
+        "fields": {
+            "new_user_id": 30,
+            "user_id": "user_000112"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 41
+    },
+    {
+        "fields": {
+            "new_user_id": 31,
+            "user_id": "user_000116"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 42
+    },
+    {
+        "fields": {
+            "new_user_id": 32,
+            "user_id": "user_000120"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 43
+    },
+    {
+        "fields": {
+            "new_user_id": 33,
+            "user_id": "user_000131"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 44
+    },
+    {
+        "fields": {
+            "new_user_id": 34,
+            "user_id": "user_000132"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 45
+    },
+    {
+        "fields": {
+            "new_user_id": 35,
+            "user_id": "user_000133"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 46
+    },
+    {
+        "fields": {
+            "new_user_id": 36,
+            "user_id": "user_000134"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 47
+    },
+    {
+        "fields": {
+            "new_user_id": 37,
+            "user_id": "user_000135"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 48
+    },
+    {
+        "fields": {
+            "new_user_id": 38,
+            "user_id": "user_000136"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 49
+    },
+    {
+        "fields": {
+            "new_user_id": 39,
+            "user_id": "user_000143"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 50
+    },
+    {
+        "fields": {
+            "new_user_id": 40,
+            "user_id": "user_000147"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 51
+    },
+    {
+        "fields": {
+            "new_user_id": 41,
+            "user_id": "user_000149"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 52
+    },
+    {
+        "fields": {
+            "new_user_id": 42,
+            "user_id": "user_000151"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 53
+    },
+    {
+        "fields": {
+            "new_user_id": 43,
+            "user_id": "user_000155"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 54
+    },
+    {
+        "fields": {
+            "new_user_id": 44,
+            "user_id": "user_000159"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 55
+    },
+    {
+        "fields": {
+            "new_user_id": 45,
+            "user_id": "user_000164"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 56
+    },
+    {
+        "fields": {
+            "new_user_id": 46,
+            "user_id": "user_000169"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 57
+    },
+    {
+        "fields": {
+            "new_user_id": 47,
+            "user_id": "user_000170"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 58
+    },
+    {
+        "fields": {
+            "new_user_id": 48,
+            "user_id": "user_000172"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 59
+    },
+    {
+        "fields": {
+            "new_user_id": 49,
+            "user_id": "user_000177"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 60
+    },
+    {
+        "fields": {
+            "new_user_id": 50,
+            "user_id": "user_000178"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 61
+    },
+    {
+        "fields": {
+            "new_user_id": 51,
+            "user_id": "user_000181"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 62
+    },
+    {
+        "fields": {
+            "new_user_id": 52,
+            "user_id": "user_000185"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 63
+    },
+    {
+        "fields": {
+            "new_user_id": 53,
+            "user_id": "user_000186"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 64
+    },
+    {
+        "fields": {
+            "new_user_id": 54,
+            "user_id": "user_000193"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 65
+    },
+    {
+        "fields": {
+            "new_user_id": 55,
+            "user_id": "user_000194"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 66
+    },
+    {
+        "fields": {
+            "new_user_id": 56,
+            "user_id": "user_000199"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 67
+    },
+    {
+        "fields": {
+            "new_user_id": 57,
+            "user_id": "user_000203"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 68
+    },
+    {
+        "fields": {
+            "new_user_id": 58,
+            "user_id": "user_000209"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 69
+    },
+    {
+        "fields": {
+            "new_user_id": 59,
+            "user_id": "user_000210"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 70
+    },
+    {
+        "fields": {
+            "new_user_id": 60,
+            "user_id": "user_000215"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 71
+    },
+    {
+        "fields": {
+            "new_user_id": 61,
+            "user_id": "user_000224"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 72
+    },
+    {
+        "fields": {
+            "new_user_id": 62,
+            "user_id": "user_000237"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 73
+    },
+    {
+        "fields": {
+            "new_user_id": 63,
+            "user_id": "user_000244"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 74
+    },
+    {
+        "fields": {
+            "new_user_id": 64,
+            "user_id": "user_000249"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 75
+    },
+    {
+        "fields": {
+            "new_user_id": 65,
+            "user_id": "user_000253"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 77
+    },
+    {
+        "fields": {
+            "new_user_id": 66,
+            "user_id": "user_000262"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 78
+    },
+    {
+        "fields": {
+            "new_user_id": 67,
+            "user_id": "user_000266"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 79
+    },
+    {
+        "fields": {
+            "new_user_id": 68,
+            "user_id": "user_000268"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 80
+    },
+    {
+        "fields": {
+            "new_user_id": 69,
+            "user_id": "user_000274"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 81
+    },
+    {
+        "fields": {
+            "new_user_id": 70,
+            "user_id": "user_000278"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 82
+    },
+    {
+        "fields": {
+            "new_user_id": 71,
+            "user_id": "user_000279"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 83
+    },
+    {
+        "fields": {
+            "new_user_id": 72,
+            "user_id": "user_000280"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 84
+    },
+    {
+        "fields": {
+            "new_user_id": 73,
+            "user_id": "user_000290"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 85
+    },
+    {
+        "fields": {
+            "new_user_id": 74,
+            "user_id": "user_000304"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 86
+    },
+    {
+        "fields": {
+            "new_user_id": 75,
+            "user_id": "user_000313"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 87
+    },
+    {
+        "fields": {
+            "new_user_id": 76,
+            "user_id": "user_000316"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 88
+    },
+    {
+        "fields": {
+            "new_user_id": 77,
+            "user_id": "user_000319"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 89
+    },
+    {
+        "fields": {
+            "new_user_id": 78,
+            "user_id": "user_000320"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 90
+    },
+    {
+        "fields": {
+            "new_user_id": 79,
+            "user_id": "user_000323"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 91
+    },
+    {
+        "fields": {
+            "new_user_id": 80,
+            "user_id": "user_000326"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 92
+    },
+    {
+        "fields": {
+            "new_user_id": 81,
+            "user_id": "user_000337"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 93
+    },
+    {
+        "fields": {
+            "new_user_id": 82,
+            "user_id": "user_000343"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 94
+    },
+    {
+        "fields": {
+            "new_user_id": 83,
+            "user_id": "user_000345"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 95
+    },
+    {
+        "fields": {
+            "new_user_id": 84,
+            "user_id": "user_000348"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 96
+    },
+    {
+        "fields": {
+            "new_user_id": 85,
+            "user_id": "user_000357"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 97
+    },
+    {
+        "fields": {
+            "new_user_id": 86,
+            "user_id": "user_000358"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 98
+    },
+    {
+        "fields": {
+            "new_user_id": 87,
+            "user_id": "user_000361"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 99
+    },
+    {
+        "fields": {
+            "new_user_id": 88,
+            "user_id": "user_000362"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 100
+    },
+    {
+        "fields": {
+            "new_user_id": 89,
+            "user_id": "user_000366"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 101
+    },
+    {
+        "fields": {
+            "new_user_id": 90,
+            "user_id": "user_000371"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 102
+    },
+    {
+        "fields": {
+            "new_user_id": 91,
+            "user_id": "user_000374"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 103
+    },
+    {
+        "fields": {
+            "new_user_id": 92,
+            "user_id": "user_000376"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 104
+    },
+    {
+        "fields": {
+            "new_user_id": 93,
+            "user_id": "user_000384"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 105
+    },
+    {
+        "fields": {
+            "new_user_id": 94,
+            "user_id": "user_000387"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 106
+    },
+    {
+        "fields": {
+            "new_user_id": 95,
+            "user_id": "user_000391"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 107
+    },
+    {
+        "fields": {
+            "new_user_id": 96,
+            "user_id": "user_000396"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 108
+    },
+    {
+        "fields": {
+            "new_user_id": 97,
+            "user_id": "user_000397"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 109
+    },
+    {
+        "fields": {
+            "new_user_id": 98,
+            "user_id": "user_000398"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 110
+    },
+    {
+        "fields": {
+            "new_user_id": 99,
+            "user_id": "user_000404"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 111
+    },
+    {
+        "fields": {
+            "new_user_id": 100,
+            "user_id": "user_000405"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 112
+    },
+    {
+        "fields": {
+            "new_user_id": 101,
+            "user_id": "user_000409"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 113
+    },
+    {
+        "fields": {
+            "new_user_id": 102,
+            "user_id": "user_000412"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 114
+    },
+    {
+        "fields": {
+            "new_user_id": 103,
+            "user_id": "user_000415"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 115
+    },
+    {
+        "fields": {
+            "new_user_id": 104,
+            "user_id": "user_000420"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 116
+    },
+    {
+        "fields": {
+            "new_user_id": 105,
+            "user_id": "user_000422"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 117
+    },
+    {
+        "fields": {
+            "new_user_id": 106,
+            "user_id": "user_000438"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 118
+    },
+    {
+        "fields": {
+            "new_user_id": 107,
+            "user_id": "user_000439"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 119
+    },
+    {
+        "fields": {
+            "new_user_id": 108,
+            "user_id": "user_000451"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 120
+    },
+    {
+        "fields": {
+            "new_user_id": 109,
+            "user_id": "user_000467"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 121
+    },
+    {
+        "fields": {
+            "new_user_id": 110,
+            "user_id": "user_000475"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 122
+    },
+    {
+        "fields": {
+            "new_user_id": 111,
+            "user_id": "user_000484"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 123
+    },
+    {
+        "fields": {
+            "new_user_id": 112,
+            "user_id": "user_000486"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 124
+    },
+    {
+        "fields": {
+            "new_user_id": 113,
+            "user_id": "user_000489"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 125
+    },
+    {
+        "fields": {
+            "new_user_id": 114,
+            "user_id": "user_000493"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 126
+    },
+    {
+        "fields": {
+            "new_user_id": 115,
+            "user_id": "user_000499"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 127
+    },
+    {
+        "fields": {
+            "new_user_id": 116,
+            "user_id": "user_000503"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 128
+    },
+    {
+        "fields": {
+            "new_user_id": 117,
+            "user_id": "user_000506"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 129
+    },
+    {
+        "fields": {
+            "new_user_id": 118,
+            "user_id": "user_000515"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 131
+    },
+    {
+        "fields": {
+            "new_user_id": 119,
+            "user_id": "user_000529"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 132
+    },
+    {
+        "fields": {
+            "new_user_id": 120,
+            "user_id": "user_000534"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 133
+    },
+    {
+        "fields": {
+            "new_user_id": 121,
+            "user_id": "user_000535"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 134
+    },
+    {
+        "fields": {
+            "new_user_id": 122,
+            "user_id": "user_000542"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 135
+    },
+    {
+        "fields": {
+            "new_user_id": 123,
+            "user_id": "user_000557"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 136
+    },
+    {
+        "fields": {
+            "new_user_id": 124,
+            "user_id": "user_000558"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 137
+    },
+    {
+        "fields": {
+            "new_user_id": 125,
+            "user_id": "user_000564"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 138
+    },
+    {
+        "fields": {
+            "new_user_id": 126,
+            "user_id": "user_000569"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 139
+    },
+    {
+        "fields": {
+            "new_user_id": 127,
+            "user_id": "user_000571"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 140
+    },
+    {
+        "fields": {
+            "new_user_id": 128,
+            "user_id": "user_000572"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 141
+    },
+    {
+        "fields": {
+            "new_user_id": 129,
+            "user_id": "user_000577"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 142
+    },
+    {
+        "fields": {
+            "new_user_id": 130,
+            "user_id": "user_000579"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 143
+    },
+    {
+        "fields": {
+            "new_user_id": 131,
+            "user_id": "user_000588"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 144
+    },
+    {
+        "fields": {
+            "new_user_id": 132,
+            "user_id": "user_000590"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 145
+    },
+    {
+        "fields": {
+            "new_user_id": 133,
+            "user_id": "user_000592"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 146
+    },
+    {
+        "fields": {
+            "new_user_id": 134,
+            "user_id": "user_000599"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 147
+    },
+    {
+        "fields": {
+            "new_user_id": 135,
+            "user_id": "user_000600"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 148
+    },
+    {
+        "fields": {
+            "new_user_id": 136,
+            "user_id": "user_000603"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 149
+    },
+    {
+        "fields": {
+            "new_user_id": 137,
+            "user_id": "user_000617"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 150
+    },
+    {
+        "fields": {
+            "new_user_id": 138,
+            "user_id": "user_000626"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 151
+    },
+    {
+        "fields": {
+            "new_user_id": 139,
+            "user_id": "user_000627"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 152
+    },
+    {
+        "fields": {
+            "new_user_id": 140,
+            "user_id": "user_000628"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 153
+    },
+    {
+        "fields": {
+            "new_user_id": 141,
+            "user_id": "user_000630"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 154
+    },
+    {
+        "fields": {
+            "new_user_id": 142,
+            "user_id": "user_000632"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 155
+    },
+    {
+        "fields": {
+            "new_user_id": 143,
+            "user_id": "user_000641"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 156
+    },
+    {
+        "fields": {
+            "new_user_id": 144,
+            "user_id": "user_000644"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 157
+    },
+    {
+        "fields": {
+            "new_user_id": 145,
+            "user_id": "user_000648"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 158
+    },
+    {
+        "fields": {
+            "new_user_id": 146,
+            "user_id": "user_000655"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 159
+    },
+    {
+        "fields": {
+            "new_user_id": 147,
+            "user_id": "user_000660"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 161
+    },
+    {
+        "fields": {
+            "new_user_id": 148,
+            "user_id": "user_000665"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 162
+    },
+    {
+        "fields": {
+            "new_user_id": 149,
+            "user_id": "user_000670"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 163
+    },
+    {
+        "fields": {
+            "new_user_id": 150,
+            "user_id": "user_000673"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 164
+    },
+    {
+        "fields": {
+            "new_user_id": 151,
+            "user_id": "user_000675"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 165
+    },
+    {
+        "fields": {
+            "new_user_id": 152,
+            "user_id": "user_000681"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 166
+    },
+    {
+        "fields": {
+            "new_user_id": 153,
+            "user_id": "user_000684"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 167
+    },
+    {
+        "fields": {
+            "new_user_id": 154,
+            "user_id": "user_000685"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 168
+    },
+    {
+        "fields": {
+            "new_user_id": 155,
+            "user_id": "user_000689"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 169
+    },
+    {
+        "fields": {
+            "new_user_id": 156,
+            "user_id": "user_000691"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 170
+    },
+    {
+        "fields": {
+            "new_user_id": 157,
+            "user_id": "user_000694"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 171
+    },
+    {
+        "fields": {
+            "new_user_id": 158,
+            "user_id": "user_000695"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 172
+    },
+    {
+        "fields": {
+            "new_user_id": 159,
+            "user_id": "user_000697"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 173
+    },
+    {
+        "fields": {
+            "new_user_id": 160,
+            "user_id": "user_000701"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 174
+    },
+    {
+        "fields": {
+            "new_user_id": 161,
+            "user_id": "user_000703"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 175
+    },
+    {
+        "fields": {
+            "new_user_id": 162,
+            "user_id": "user_000704"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 176
+    },
+    {
+        "fields": {
+            "new_user_id": 163,
+            "user_id": "user_000708"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 177
+    },
+    {
+        "fields": {
+            "new_user_id": 164,
+            "user_id": "user_000709"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 178
+    },
+    {
+        "fields": {
+            "new_user_id": 165,
+            "user_id": "user_000722"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 179
+    },
+    {
+        "fields": {
+            "new_user_id": 166,
+            "user_id": "user_000730"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 180
+    },
+    {
+        "fields": {
+            "new_user_id": 167,
+            "user_id": "user_000733"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 181
+    },
+    {
+        "fields": {
+            "new_user_id": 168,
+            "user_id": "user_000735"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 182
+    },
+    {
+        "fields": {
+            "new_user_id": 169,
+            "user_id": "user_000739"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 183
+    },
+    {
+        "fields": {
+            "new_user_id": 170,
+            "user_id": "user_000743"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 184
+    },
+    {
+        "fields": {
+            "new_user_id": 171,
+            "user_id": "user_000744"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 185
+    },
+    {
+        "fields": {
+            "new_user_id": 172,
+            "user_id": "user_000750"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 186
+    },
+    {
+        "fields": {
+            "new_user_id": 173,
+            "user_id": "user_000752"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 187
+    },
+    {
+        "fields": {
+            "new_user_id": 174,
+            "user_id": "user_000755"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 188
+    },
+    {
+        "fields": {
+            "new_user_id": 175,
+            "user_id": "user_000766"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 189
+    },
+    {
+        "fields": {
+            "new_user_id": 176,
+            "user_id": "user_000767"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 190
+    },
+    {
+        "fields": {
+            "new_user_id": 177,
+            "user_id": "user_000772"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 191
+    },
+    {
+        "fields": {
+            "new_user_id": 178,
+            "user_id": "user_000774"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 192
+    },
+    {
+        "fields": {
+            "new_user_id": 179,
+            "user_id": "user_000779"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 193
+    },
+    {
+        "fields": {
+            "new_user_id": 180,
+            "user_id": "user_000783"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 194
+    },
+    {
+        "fields": {
+            "new_user_id": 181,
+            "user_id": "user_000788"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 195
+    },
+    {
+        "fields": {
+            "new_user_id": 182,
+            "user_id": "user_000789"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 196
+    },
+    {
+        "fields": {
+            "new_user_id": 183,
+            "user_id": "user_000790"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 197
+    },
+    {
+        "fields": {
+            "new_user_id": 184,
+            "user_id": "user_000793"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 199
+    },
+    {
+        "fields": {
+            "new_user_id": 185,
+            "user_id": "user_000794"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 200
+    },
+    {
+        "fields": {
+            "new_user_id": 186,
+            "user_id": "user_000800"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 201
+    },
+    {
+        "fields": {
+            "new_user_id": 187,
+            "user_id": "user_000804"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 202
+    },
+    {
+        "fields": {
+            "new_user_id": 188,
+            "user_id": "user_000807"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 203
+    },
+    {
+        "fields": {
+            "new_user_id": 189,
+            "user_id": "user_000819"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 204
+    },
+    {
+        "fields": {
+            "new_user_id": 190,
+            "user_id": "user_000822"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 205
+    },
+    {
+        "fields": {
+            "new_user_id": 191,
+            "user_id": "user_000828"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 206
+    },
+    {
+        "fields": {
+            "new_user_id": 192,
+            "user_id": "user_000830"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 207
+    },
+    {
+        "fields": {
+            "new_user_id": 193,
+            "user_id": "user_000832"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 208
+    },
+    {
+        "fields": {
+            "new_user_id": 194,
+            "user_id": "user_000835"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 209
+    },
+    {
+        "fields": {
+            "new_user_id": 195,
+            "user_id": "user_000837"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 210
+    },
+    {
+        "fields": {
+            "new_user_id": 196,
+            "user_id": "user_000840"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 211
+    },
+    {
+        "fields": {
+            "new_user_id": 197,
+            "user_id": "user_000841"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 212
+    },
+    {
+        "fields": {
+            "new_user_id": 198,
+            "user_id": "user_000844"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 213
+    },
+    {
+        "fields": {
+            "new_user_id": 199,
+            "user_id": "user_000848"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 214
+    },
+    {
+        "fields": {
+            "new_user_id": 200,
+            "user_id": "user_000851"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 215
+    },
+    {
+        "fields": {
+            "new_user_id": 201,
+            "user_id": "user_000857"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 216
+    },
+    {
+        "fields": {
+            "new_user_id": 202,
+            "user_id": "user_000862"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 217
+    },
+    {
+        "fields": {
+            "new_user_id": 203,
+            "user_id": "user_000867"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 218
+    },
+    {
+        "fields": {
+            "new_user_id": 204,
+            "user_id": "user_000870"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 219
+    },
+    {
+        "fields": {
+            "new_user_id": 205,
+            "user_id": "user_000875"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 220
+    },
+    {
+        "fields": {
+            "new_user_id": 206,
+            "user_id": "user_000876"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 221
+    },
+    {
+        "fields": {
+            "new_user_id": 207,
+            "user_id": "user_000877"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 222
+    },
+    {
+        "fields": {
+            "new_user_id": 208,
+            "user_id": "user_000882"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 223
+    },
+    {
+        "fields": {
+            "new_user_id": 209,
+            "user_id": "user_000890"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 224
+    },
+    {
+        "fields": {
+            "new_user_id": 210,
+            "user_id": "user_000893"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 225
+    },
+    {
+        "fields": {
+            "new_user_id": 211,
+            "user_id": "user_000896"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 226
+    },
+    {
+        "fields": {
+            "new_user_id": 212,
+            "user_id": "user_000898"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 227
+    },
+    {
+        "fields": {
+            "new_user_id": 213,
+            "user_id": "user_000900"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 228
+    },
+    {
+        "fields": {
+            "new_user_id": 214,
+            "user_id": "user_000915"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 229
+    },
+    {
+        "fields": {
+            "new_user_id": 215,
+            "user_id": "user_000918"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 230
+    },
+    {
+        "fields": {
+            "new_user_id": 216,
+            "user_id": "user_000922"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 231
+    },
+    {
+        "fields": {
+            "new_user_id": 217,
+            "user_id": "user_000929"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 232
+    },
+    {
+        "fields": {
+            "new_user_id": 218,
+            "user_id": "user_000931"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 233
+    },
+    {
+        "fields": {
+            "new_user_id": 219,
+            "user_id": "user_000933"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 234
+    },
+    {
+        "fields": {
+            "new_user_id": 220,
+            "user_id": "user_000935"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 235
+    },
+    {
+        "fields": {
+            "new_user_id": 221,
+            "user_id": "user_000949"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 236
+    },
+    {
+        "fields": {
+            "new_user_id": 222,
+            "user_id": "user_000950"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 237
+    },
+    {
+        "fields": {
+            "new_user_id": 223,
+            "user_id": "user_000951"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 238
+    },
+    {
+        "fields": {
+            "new_user_id": 224,
+            "user_id": "user_000957"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 239
+    },
+    {
+        "fields": {
+            "new_user_id": 225,
+            "user_id": "user_000958"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 240
+    },
+    {
+        "fields": {
+            "new_user_id": 226,
+            "user_id": "user_000960"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 241
+    },
+    {
+        "fields": {
+            "new_user_id": 227,
+            "user_id": "user_000962"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 242
+    },
+    {
+        "fields": {
+            "new_user_id": 228,
+            "user_id": "user_000963"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 243
+    },
+    {
+        "fields": {
+            "new_user_id": 229,
+            "user_id": "user_000966"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 244
+    },
+    {
+        "fields": {
+            "new_user_id": 230,
+            "user_id": "user_000974"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 245
+    },
+    {
+        "fields": {
+            "new_user_id": 231,
+            "user_id": "user_000975"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 246
+    },
+    {
+        "fields": {
+            "new_user_id": 232,
+            "user_id": "user_000980"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 247
+    },
+    {
+        "fields": {
+            "new_user_id": 233,
+            "user_id": "user_000983"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 248
+    },
+    {
+        "fields": {
+            "new_user_id": 234,
+            "user_id": "user_000993"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 249
+    },
+    {
+        "fields": {
+            "new_user_id": 235,
+            "user_id": "user_000995"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 250
+    },
+    {
+        "fields": {
+            "new_user_id": 236,
+            "user_id": "user_000211"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 252
+    },
+    {
+        "fields": {
+            "new_user_id": 237,
+            "user_id": "user_000768"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 254
+    },
+    {
+        "fields": {
+            "new_user_id": 238,
+            "user_id": "user_000595"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 259
+    },
+    {
+        "fields": {
+            "new_user_id": 239,
+            "user_id": "user_000148"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 262
+    },
+    {
+        "fields": {
+            "new_user_id": 240,
+            "user_id": "user_000612"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 265
+    },
+    {
+        "fields": {
+            "new_user_id": 241,
+            "user_id": "user_000002"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 266
+    },
+    {
+        "fields": {
+            "new_user_id": 242,
+            "user_id": "user_000068"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 267
+    },
+    {
+        "fields": {
+            "new_user_id": 243,
+            "user_id": "user_000388"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 269
+    },
+    {
+        "fields": {
+            "new_user_id": 244,
+            "user_id": "user_000429"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 270
+    },
+    {
+        "fields": {
+            "new_user_id": 245,
+            "user_id": "user_000500"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 271
+    },
+    {
+        "fields": {
+            "new_user_id": 246,
+            "user_id": "user_000702"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 273
+    },
+    {
+        "fields": {
+            "new_user_id": 247,
+            "user_id": "user_000222"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 275
+    },
+    {
+        "fields": {
+            "new_user_id": 248,
+            "user_id": "user_000227"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 276
+    },
+    {
+        "fields": {
+            "new_user_id": 249,
+            "user_id": "user_000306"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 277
+    },
+    {
+        "fields": {
+            "new_user_id": 250,
+            "user_id": "user_000816"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 278
+    },
+    {
+        "fields": {
+            "new_user_id": 251,
+            "user_id": "user_000942"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 279
+    },
+    {
+        "fields": {
+            "new_user_id": 252,
+            "user_id": "user_000728"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 281
+    },
+    {
+        "fields": {
+            "new_user_id": 253,
+            "user_id": "user_000006"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 282
+    },
+    {
+        "fields": {
+            "new_user_id": 254,
+            "user_id": "user_000052"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 283
+    },
+    {
+        "fields": {
+            "new_user_id": 255,
+            "user_id": "user_000056"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 284
+    },
+    {
+        "fields": {
+            "new_user_id": 256,
+            "user_id": "user_000110"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 285
+    },
+    {
+        "fields": {
+            "new_user_id": 257,
+            "user_id": "user_000921"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 288
+    },
+    {
+        "fields": {
+            "new_user_id": 258,
+            "user_id": "user_000972"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 289
+    },
+    {
+        "fields": {
+            "new_user_id": 259,
+            "user_id": "user_000180"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 292
+    },
+    {
+        "fields": {
+            "new_user_id": 260,
+            "user_id": "user_000690"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 294
+    },
+    {
+        "fields": {
+            "new_user_id": 261,
+            "user_id": "user_000692"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 295
+    },
+    {
+        "fields": {
+            "new_user_id": 262,
+            "user_id": "user_000127"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 296
+    },
+    {
+        "fields": {
+            "new_user_id": 263,
+            "user_id": "user_000208"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 297
+    },
+    {
+        "fields": {
+            "new_user_id": 264,
+            "user_id": "user_000022"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 300
+    },
+    {
+        "fields": {
+            "new_user_id": 265,
+            "user_id": "user_000226"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 302
+    },
+    {
+        "fields": {
+            "new_user_id": 266,
+            "user_id": "user_000504"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 305
+    },
+    {
+        "fields": {
+            "new_user_id": 267,
+            "user_id": "user_000751"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 310
+    },
+    {
+        "fields": {
+            "new_user_id": 268,
+            "user_id": "user_000401"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 313
+    },
+    {
+        "fields": {
+            "new_user_id": 269,
+            "user_id": "user_000737"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 315
+    },
+    {
+        "fields": {
+            "new_user_id": 270,
+            "user_id": "user_000145"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 317
+    },
+    {
+        "fields": {
+            "new_user_id": 271,
+            "user_id": "user_000494"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 318
+    },
+    {
+        "fields": {
+            "new_user_id": 272,
+            "user_id": "user_000554"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 319
+    },
+    {
+        "fields": {
+            "new_user_id": 273,
+            "user_id": "user_000609"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 320
+    },
+    {
+        "fields": {
+            "new_user_id": 274,
+            "user_id": "user_000111"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 323
+    },
+    {
+        "fields": {
+            "new_user_id": 275,
+            "user_id": "user_000123"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 324
+    },
+    {
+        "fields": {
+            "new_user_id": 276,
+            "user_id": "user_000468"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 327
+    },
+    {
+        "fields": {
+            "new_user_id": 277,
+            "user_id": "user_000483"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 328
+    },
+    {
+        "fields": {
+            "new_user_id": 278,
+            "user_id": "user_000502"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 329
+    },
+    {
+        "fields": {
+            "new_user_id": 279,
+            "user_id": "user_000934"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 337
+    },
+    {
+        "fields": {
+            "new_user_id": 280,
+            "user_id": "user_000973"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 340
+    },
+    {
+        "fields": {
+            "new_user_id": 281,
+            "user_id": "user_000216"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 344
+    },
+    {
+        "fields": {
+            "new_user_id": 282,
+            "user_id": "user_000183"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 345
+    },
+    {
+        "fields": {
+            "new_user_id": 283,
+            "user_id": "user_000706"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 346
+    },
+    {
+        "fields": {
+            "new_user_id": 284,
+            "user_id": "user_000940"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 348
+    },
+    {
+        "fields": {
+            "new_user_id": 285,
+            "user_id": "user_000005"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 349
+    },
+    {
+        "fields": {
+            "new_user_id": 286,
+            "user_id": "user_000115"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 350
+    },
+    {
+        "fields": {
+            "new_user_id": 287,
+            "user_id": "user_000173"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 351
+    },
+    {
+        "fields": {
+            "new_user_id": 288,
+            "user_id": "user_000335"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 352
+    },
+    {
+        "fields": {
+            "new_user_id": 289,
+            "user_id": "user_000776"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 354
+    },
+    {
+        "fields": {
+            "new_user_id": 290,
+            "user_id": "user_000891"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 355
+    },
+    {
+        "fields": {
+            "new_user_id": 291,
+            "user_id": "user_000725"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 356
+    },
+    {
+        "fields": {
+            "new_user_id": 292,
+            "user_id": "user_000687"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 359
+    },
+    {
+        "fields": {
+            "new_user_id": 293,
+            "user_id": "user_000174"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 360
+    },
+    {
+        "fields": {
+            "new_user_id": 294,
+            "user_id": "user_000869"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 362
+    },
+    {
+        "fields": {
+            "new_user_id": 295,
+            "user_id": "user_000165"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 364
+    },
+    {
+        "fields": {
+            "new_user_id": 296,
+            "user_id": "user_000427"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 365
+    },
+    {
+        "fields": {
+            "new_user_id": 297,
+            "user_id": "user_000656"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 371
+    },
+    {
+        "fields": {
+            "new_user_id": 298,
+            "user_id": "user_000309"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 373
+    },
+    {
+        "fields": {
+            "new_user_id": 299,
+            "user_id": "user_000161"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 375
+    },
+    {
+        "fields": {
+            "new_user_id": 300,
+            "user_id": "user_000680"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 376
+    },
+    {
+        "fields": {
+            "new_user_id": 301,
+            "user_id": "user_000585"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 377
+    },
+    {
+        "fields": {
+            "new_user_id": 302,
+            "user_id": "user_000152"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 379
+    },
+    {
+        "fields": {
+            "new_user_id": 303,
+            "user_id": "user_000182"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 381
+    },
+    {
+        "fields": {
+            "new_user_id": 304,
+            "user_id": "user_000424"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 383
+    },
+    {
+        "fields": {
+            "new_user_id": 305,
+            "user_id": "user_000102"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 386
+    },
+    {
+        "fields": {
+            "new_user_id": 306,
+            "user_id": "user_000108"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 387
+    },
+    {
+        "fields": {
+            "new_user_id": 307,
+            "user_id": "user_000213"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 389
+    },
+    {
+        "fields": {
+            "new_user_id": 308,
+            "user_id": "user_000219"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 390
+    },
+    {
+        "fields": {
+            "new_user_id": 309,
+            "user_id": "user_000284"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 392
+    },
+    {
+        "fields": {
+            "new_user_id": 310,
+            "user_id": "user_000340"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 394
+    },
+    {
+        "fields": {
+            "new_user_id": 311,
+            "user_id": "user_000378"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 397
+    },
+    {
+        "fields": {
+            "new_user_id": 312,
+            "user_id": "user_000394"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 398
+    },
+    {
+        "fields": {
+            "new_user_id": 313,
+            "user_id": "user_000477"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 400
+    },
+    {
+        "fields": {
+            "new_user_id": 314,
+            "user_id": "user_000480"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 401
+    },
+    {
+        "fields": {
+            "new_user_id": 315,
+            "user_id": "user_000642"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 402
+    },
+    {
+        "fields": {
+            "new_user_id": 316,
+            "user_id": "user_000826"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 408
+    },
+    {
+        "fields": {
+            "new_user_id": 317,
+            "user_id": "user_000961"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 411
+    },
+    {
+        "fields": {
+            "new_user_id": 318,
+            "user_id": "user_000872"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 413
+    },
+    {
+        "fields": {
+            "new_user_id": 319,
+            "user_id": "user_000715"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 415
+    },
+    {
+        "fields": {
+            "new_user_id": 320,
+            "user_id": "user_000531"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 417
+    },
+    {
+        "fields": {
+            "new_user_id": 321,
+            "user_id": "user_001000"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 420
+    },
+    {
+        "fields": {
+            "new_user_id": 322,
+            "user_id": "user_000298"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 421
+    },
+    {
+        "fields": {
+            "new_user_id": 323,
+            "user_id": "user_000761"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 422
+    },
+    {
+        "fields": {
+            "new_user_id": 324,
+            "user_id": "user_000425"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 424
+    },
+    {
+        "fields": {
+            "new_user_id": 325,
+            "user_id": "user_000801"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 428
+    },
+    {
+        "fields": {
+            "new_user_id": 326,
+            "user_id": "user_000619"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 434
+    },
+    {
+        "fields": {
+            "new_user_id": 327,
+            "user_id": "user_000546"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 435
+    },
+    {
+        "fields": {
+            "new_user_id": 328,
+            "user_id": "user_000570"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 440
+    },
+    {
+        "fields": {
+            "new_user_id": 329,
+            "user_id": "user_000487"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 444
+    },
+    {
+        "fields": {
+            "new_user_id": 330,
+            "user_id": "user_000053"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 445
+    },
+    {
+        "fields": {
+            "new_user_id": 331,
+            "user_id": "user_000097"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 450
+    },
+    {
+        "fields": {
+            "new_user_id": 332,
+            "user_id": "user_000011"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 452
+    },
+    {
+        "fields": {
+            "new_user_id": 333,
+            "user_id": "user_000046"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 453
+    },
+    {
+        "fields": {
+            "new_user_id": 334,
+            "user_id": "user_000054"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 456
+    },
+    {
+        "fields": {
+            "new_user_id": 335,
+            "user_id": "user_000063"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 457
+    },
+    {
+        "fields": {
+            "new_user_id": 336,
+            "user_id": "user_000073"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 458
+    },
+    {
+        "fields": {
+            "new_user_id": 337,
+            "user_id": "user_000128"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 461
+    },
+    {
+        "fields": {
+            "new_user_id": 338,
+            "user_id": "user_000322"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 464
+    },
+    {
+        "fields": {
+            "new_user_id": 339,
+            "user_id": "user_000516"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 466
+    },
+    {
+        "fields": {
+            "new_user_id": 340,
+            "user_id": "user_000537"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 467
+    },
+    {
+        "fields": {
+            "new_user_id": 341,
+            "user_id": "user_000538"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 468
+    },
+    {
+        "fields": {
+            "new_user_id": 342,
+            "user_id": "user_000568"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 469
+    },
+    {
+        "fields": {
+            "new_user_id": 343,
+            "user_id": "user_000575"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 470
+    },
+    {
+        "fields": {
+            "new_user_id": 344,
+            "user_id": "user_000604"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 473
+    },
+    {
+        "fields": {
+            "new_user_id": 345,
+            "user_id": "user_000647"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 475
+    },
+    {
+        "fields": {
+            "new_user_id": 346,
+            "user_id": "user_000650"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 476
+    },
+    {
+        "fields": {
+            "new_user_id": 347,
+            "user_id": "user_000651"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 477
+    },
+    {
+        "fields": {
+            "new_user_id": 348,
+            "user_id": "user_000661"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 478
+    },
+    {
+        "fields": {
+            "new_user_id": 349,
+            "user_id": "user_000809"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 483
+    },
+    {
+        "fields": {
+            "new_user_id": 350,
+            "user_id": "user_000831"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 484
+    },
+    {
+        "fields": {
+            "new_user_id": 351,
+            "user_id": "user_000912"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 485
+    },
+    {
+        "fields": {
+            "new_user_id": 352,
+            "user_id": "user_000919"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 486
+    },
+    {
+        "fields": {
+            "new_user_id": 353,
+            "user_id": "user_000990"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 488
+    },
+    {
+        "fields": {
+            "new_user_id": 354,
+            "user_id": "user_000994"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 489
+    },
+    {
+        "fields": {
+            "new_user_id": 355,
+            "user_id": "user_000780"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 491
+    },
+    {
+        "fields": {
+            "new_user_id": 356,
+            "user_id": "user_000229"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 492
+    },
+    {
+        "fields": {
+            "new_user_id": 357,
+            "user_id": "user_000544"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 495
+    },
+    {
+        "fields": {
+            "new_user_id": 358,
+            "user_id": "user_000379"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 497
+    },
+    {
+        "fields": {
+            "new_user_id": 359,
+            "user_id": "user_000432"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 499
+    },
+    {
+        "fields": {
+            "new_user_id": 360,
+            "user_id": "user_000671"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 501
+    },
+    {
+        "fields": {
+            "new_user_id": 361,
+            "user_id": "user_000716"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 503
+    },
+    {
+        "fields": {
+            "new_user_id": 362,
+            "user_id": "user_000007"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 504
+    },
+    {
+        "fields": {
+            "new_user_id": 363,
+            "user_id": "user_000999"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 505
+    },
+    {
+        "fields": {
+            "new_user_id": 364,
+            "user_id": "user_000791"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 506
+    },
+    {
+        "fields": {
+            "new_user_id": 365,
+            "user_id": "user_000437"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 507
+    },
+    {
+        "fields": {
+            "new_user_id": 366,
+            "user_id": "user_000267"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 508
+    },
+    {
+        "fields": {
+            "new_user_id": 367,
+            "user_id": "user_000317"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 511
+    },
+    {
+        "fields": {
+            "new_user_id": 368,
+            "user_id": "user_000636"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 517
+    },
+    {
+        "fields": {
+            "new_user_id": 369,
+            "user_id": "user_000861"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 518
+    },
+    {
+        "fields": {
+            "new_user_id": 370,
+            "user_id": "user_000003"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 522
+    },
+    {
+        "fields": {
+            "new_user_id": 371,
+            "user_id": "user_000959"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 524
+    },
+    {
+        "fields": {
+            "new_user_id": 372,
+            "user_id": "user_000986"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 526
+    },
+    {
+        "fields": {
+            "new_user_id": 373,
+            "user_id": "user_000954"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 527
+    },
+    {
+        "fields": {
+            "new_user_id": 374,
+            "user_id": "user_000711"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 540
+    },
+    {
+        "fields": {
+            "new_user_id": 375,
+            "user_id": "user_000757"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 542
+    },
+    {
+        "fields": {
+            "new_user_id": 376,
+            "user_id": "user_000469"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 546
+    },
+    {
+        "fields": {
+            "new_user_id": 377,
+            "user_id": "user_000459"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 547
+    },
+    {
+        "fields": {
+            "new_user_id": 378,
+            "user_id": "user_000016"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 550
+    },
+    {
+        "fields": {
+            "new_user_id": 379,
+            "user_id": "user_000125"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 551
+    },
+    {
+        "fields": {
+            "new_user_id": 380,
+            "user_id": "user_000259"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 552
+    },
+    {
+        "fields": {
+            "new_user_id": 381,
+            "user_id": "user_000385"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 554
+    },
+    {
+        "fields": {
+            "new_user_id": 382,
+            "user_id": "user_000471"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 557
+    },
+    {
+        "fields": {
+            "new_user_id": 383,
+            "user_id": "user_000137"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 562
+    },
+    {
+        "fields": {
+            "new_user_id": 384,
+            "user_id": "user_000038"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 565
+    },
+    {
+        "fields": {
+            "new_user_id": 385,
+            "user_id": "user_000329"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 567
+    },
+    {
+        "fields": {
+            "new_user_id": 386,
+            "user_id": "user_000214"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 569
+    },
+    {
+        "fields": {
+            "new_user_id": 387,
+            "user_id": "user_000017"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 574
+    },
+    {
+        "fields": {
+            "new_user_id": 388,
+            "user_id": "user_000041"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 575
+    },
+    {
+        "fields": {
+            "new_user_id": 389,
+            "user_id": "user_000061"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 577
+    },
+    {
+        "fields": {
+            "new_user_id": 390,
+            "user_id": "user_000084"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 578
+    },
+    {
+        "fields": {
+            "new_user_id": 391,
+            "user_id": "user_000096"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 579
+    },
+    {
+        "fields": {
+            "new_user_id": 392,
+            "user_id": "user_000205"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 584
+    },
+    {
+        "fields": {
+            "new_user_id": 393,
+            "user_id": "user_000228"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 585
+    },
+    {
+        "fields": {
+            "new_user_id": 394,
+            "user_id": "user_000231"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 586
+    },
+    {
+        "fields": {
+            "new_user_id": 395,
+            "user_id": "user_000233"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 587
+    },
+    {
+        "fields": {
+            "new_user_id": 396,
+            "user_id": "user_000269"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 590
+    },
+    {
+        "fields": {
+            "new_user_id": 397,
+            "user_id": "user_000273"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 591
+    },
+    {
+        "fields": {
+            "new_user_id": 398,
+            "user_id": "user_000289"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 592
+    },
+    {
+        "fields": {
+            "new_user_id": 399,
+            "user_id": "user_000300"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 594
+    },
+    {
+        "fields": {
+            "new_user_id": 400,
+            "user_id": "user_000302"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 595
+    },
+    {
+        "fields": {
+            "new_user_id": 401,
+            "user_id": "user_000330"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 597
+    },
+    {
+        "fields": {
+            "new_user_id": 402,
+            "user_id": "user_000338"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 598
+    },
+    {
+        "fields": {
+            "new_user_id": 403,
+            "user_id": "user_000342"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 599
+    },
+    {
+        "fields": {
+            "new_user_id": 404,
+            "user_id": "user_000375"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 602
+    },
+    {
+        "fields": {
+            "new_user_id": 405,
+            "user_id": "user_000389"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 603
+    },
+    {
+        "fields": {
+            "new_user_id": 406,
+            "user_id": "user_000450"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 607
+    },
+    {
+        "fields": {
+            "new_user_id": 407,
+            "user_id": "user_000479"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 608
+    },
+    {
+        "fields": {
+            "new_user_id": 408,
+            "user_id": "user_000501"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 609
+    },
+    {
+        "fields": {
+            "new_user_id": 409,
+            "user_id": "user_000520"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 610
+    },
+    {
+        "fields": {
+            "new_user_id": 410,
+            "user_id": "user_000521"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 611
+    },
+    {
+        "fields": {
+            "new_user_id": 411,
+            "user_id": "user_000549"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 614
+    },
+    {
+        "fields": {
+            "new_user_id": 412,
+            "user_id": "user_000552"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 615
+    },
+    {
+        "fields": {
+            "new_user_id": 413,
+            "user_id": "user_000574"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 617
+    },
+    {
+        "fields": {
+            "new_user_id": 414,
+            "user_id": "user_000586"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 619
+    },
+    {
+        "fields": {
+            "new_user_id": 415,
+            "user_id": "user_000591"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 620
+    },
+    {
+        "fields": {
+            "new_user_id": 416,
+            "user_id": "user_000610"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 621
+    },
+    {
+        "fields": {
+            "new_user_id": 417,
+            "user_id": "user_000615"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 622
+    },
+    {
+        "fields": {
+            "new_user_id": 418,
+            "user_id": "user_000621"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 623
+    },
+    {
+        "fields": {
+            "new_user_id": 419,
+            "user_id": "user_000649"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 624
+    },
+    {
+        "fields": {
+            "new_user_id": 420,
+            "user_id": "user_000668"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 626
+    },
+    {
+        "fields": {
+            "new_user_id": 421,
+            "user_id": "user_000731"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 628
+    },
+    {
+        "fields": {
+            "new_user_id": 422,
+            "user_id": "user_000746"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 629
+    },
+    {
+        "fields": {
+            "new_user_id": 423,
+            "user_id": "user_000762"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 631
+    },
+    {
+        "fields": {
+            "new_user_id": 424,
+            "user_id": "user_000765"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 632
+    },
+    {
+        "fields": {
+            "new_user_id": 425,
+            "user_id": "user_000771"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 633
+    },
+    {
+        "fields": {
+            "new_user_id": 426,
+            "user_id": "user_000781"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 634
+    },
+    {
+        "fields": {
+            "new_user_id": 427,
+            "user_id": "user_000782"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 635
+    },
+    {
+        "fields": {
+            "new_user_id": 428,
+            "user_id": "user_000787"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 636
+    },
+    {
+        "fields": {
+            "new_user_id": 429,
+            "user_id": "user_000842"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 640
+    },
+    {
+        "fields": {
+            "new_user_id": 430,
+            "user_id": "user_000871"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 641
+    },
+    {
+        "fields": {
+            "new_user_id": 431,
+            "user_id": "user_000878"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 642
+    },
+    {
+        "fields": {
+            "new_user_id": 432,
+            "user_id": "user_000894"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 643
+    },
+    {
+        "fields": {
+            "new_user_id": 433,
+            "user_id": "user_000901"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 644
+    },
+    {
+        "fields": {
+            "new_user_id": 434,
+            "user_id": "user_000902"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 645
+    },
+    {
+        "fields": {
+            "new_user_id": 435,
+            "user_id": "user_000916"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 646
+    },
+    {
+        "fields": {
+            "new_user_id": 436,
+            "user_id": "user_000925"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 647
+    },
+    {
+        "fields": {
+            "new_user_id": 437,
+            "user_id": "user_000946"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 650
+    },
+    {
+        "fields": {
+            "new_user_id": 438,
+            "user_id": "user_000977"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 655
+    },
+    {
+        "fields": {
+            "new_user_id": 439,
+            "user_id": "user_000984"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 656
+    },
+    {
+        "fields": {
+            "new_user_id": 440,
+            "user_id": "user_000107"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 662
+    },
+    {
+        "fields": {
+            "new_user_id": 441,
+            "user_id": "user_000839"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 663
+    },
+    {
+        "fields": {
+            "new_user_id": 442,
+            "user_id": "user_000072"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 673
+    },
+    {
+        "fields": {
+            "new_user_id": 443,
+            "user_id": "user_000089"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 674
+    },
+    {
+        "fields": {
+            "new_user_id": 444,
+            "user_id": "user_000293"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 680
+    },
+    {
+        "fields": {
+            "new_user_id": 445,
+            "user_id": "user_000373"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 685
+    },
+    {
+        "fields": {
+            "new_user_id": 446,
+            "user_id": "user_000443"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 689
+    },
+    {
+        "fields": {
+            "new_user_id": 447,
+            "user_id": "user_000524"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 692
+    },
+    {
+        "fields": {
+            "new_user_id": 448,
+            "user_id": "user_000565"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 695
+    },
+    {
+        "fields": {
+            "new_user_id": 449,
+            "user_id": "user_000814"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 705
+    },
+    {
+        "fields": {
+            "new_user_id": 450,
+            "user_id": "user_000823"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 706
+    },
+    {
+        "fields": {
+            "new_user_id": 451,
+            "user_id": "user_000910"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 712
+    },
+    {
+        "fields": {
+            "new_user_id": 452,
+            "user_id": "user_000987"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 715
+    },
+    {
+        "fields": {
+            "new_user_id": 453,
+            "user_id": "user_000025"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 716
+    },
+    {
+        "fields": {
+            "new_user_id": 454,
+            "user_id": "user_000039"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 720
+    },
+    {
+        "fields": {
+            "new_user_id": 455,
+            "user_id": "user_000113"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 725
+    },
+    {
+        "fields": {
+            "new_user_id": 456,
+            "user_id": "user_000242"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 732
+    },
+    {
+        "fields": {
+            "new_user_id": 457,
+            "user_id": "user_000270"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 734
+    },
+    {
+        "fields": {
+            "new_user_id": 458,
+            "user_id": "user_000324"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 737
+    },
+    {
+        "fields": {
+            "new_user_id": 459,
+            "user_id": "user_000372"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 739
+    },
+    {
+        "fields": {
+            "new_user_id": 460,
+            "user_id": "user_000400"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 741
+    },
+    {
+        "fields": {
+            "new_user_id": 461,
+            "user_id": "user_000462"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 742
+    },
+    {
+        "fields": {
+            "new_user_id": 462,
+            "user_id": "user_000517"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 744
+    },
+    {
+        "fields": {
+            "new_user_id": 463,
+            "user_id": "user_000526"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 745
+    },
+    {
+        "fields": {
+            "new_user_id": 464,
+            "user_id": "user_000714"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 753
+    },
+    {
+        "fields": {
+            "new_user_id": 465,
+            "user_id": "user_000729"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 754
+    },
+    {
+        "fields": {
+            "new_user_id": 466,
+            "user_id": "user_000805"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 756
+    },
+    {
+        "fields": {
+            "new_user_id": 467,
+            "user_id": "user_000810"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 757
+    },
+    {
+        "fields": {
+            "new_user_id": 468,
+            "user_id": "user_000824"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 759
+    },
+    {
+        "fields": {
+            "new_user_id": 469,
+            "user_id": "user_000906"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 766
+    },
+    {
+        "fields": {
+            "new_user_id": 470,
+            "user_id": "user_000970"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 770
+    },
+    {
+        "fields": {
+            "new_user_id": 471,
+            "user_id": "user_000971"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 771
+    },
+    {
+        "fields": {
+            "new_user_id": 472,
+            "user_id": "user_000976"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 772
+    },
+    {
+        "fields": {
+            "new_user_id": 473,
+            "user_id": "user_000760"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 773
+    },
+    {
+        "fields": {
+            "new_user_id": 474,
+            "user_id": "user_000047"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 775
+    },
+    {
+        "fields": {
+            "new_user_id": 475,
+            "user_id": "user_000360"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 778
+    },
+    {
+        "fields": {
+            "new_user_id": 476,
+            "user_id": "user_000356"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 780
+    },
+    {
+        "fields": {
+            "new_user_id": 477,
+            "user_id": "user_000303"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 785
+    },
+    {
+        "fields": {
+            "new_user_id": 478,
+            "user_id": "user_000813"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 787
+    },
+    {
+        "fields": {
+            "new_user_id": 479,
+            "user_id": "user_000082"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 792
+    },
+    {
+        "fields": {
+            "new_user_id": 480,
+            "user_id": "user_000114"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 793
+    },
+    {
+        "fields": {
+            "new_user_id": 481,
+            "user_id": "user_000238"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 795
+    },
+    {
+        "fields": {
+            "new_user_id": 482,
+            "user_id": "user_000434"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 799
+    },
+    {
+        "fields": {
+            "new_user_id": 483,
+            "user_id": "user_000643"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 803
+    },
+    {
+        "fields": {
+            "new_user_id": 484,
+            "user_id": "user_000645"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 804
+    },
+    {
+        "fields": {
+            "new_user_id": 485,
+            "user_id": "user_000821"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 810
+    },
+    {
+        "fields": {
+            "new_user_id": 486,
+            "user_id": "user_000892"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 815
+    },
+    {
+        "fields": {
+            "new_user_id": 487,
+            "user_id": "user_000758"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 818
+    },
+    {
+        "fields": {
+            "new_user_id": 488,
+            "user_id": "user_000616"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 826
+    },
+    {
+        "fields": {
+            "new_user_id": 489,
+            "user_id": "user_000188"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 829
+    },
+    {
+        "fields": {
+            "new_user_id": 490,
+            "user_id": "user_000190"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 830
+    },
+    {
+        "fields": {
+            "new_user_id": 491,
+            "user_id": "user_000254"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 831
+    },
+    {
+        "fields": {
+            "new_user_id": 492,
+            "user_id": "user_000453"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 834
+    },
+    {
+        "fields": {
+            "new_user_id": 493,
+            "user_id": "user_000798"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 836
+    },
+    {
+        "fields": {
+            "new_user_id": 494,
+            "user_id": "user_000845"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 837
+    },
+    {
+        "fields": {
+            "new_user_id": 495,
+            "user_id": "user_000160"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 841
+    },
+    {
+        "fields": {
+            "new_user_id": 496,
+            "user_id": "user_000013"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 843
+    },
+    {
+        "fields": {
+            "new_user_id": 497,
+            "user_id": "user_000019"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 845
+    },
+    {
+        "fields": {
+            "new_user_id": 498,
+            "user_id": "user_000020"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 846
+    },
+    {
+        "fields": {
+            "new_user_id": 499,
+            "user_id": "user_000029"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 848
+    },
+    {
+        "fields": {
+            "new_user_id": 500,
+            "user_id": "user_000059"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 855
+    },
+    {
+        "fields": {
+            "new_user_id": 501,
+            "user_id": "user_000065"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 857
+    },
+    {
+        "fields": {
+            "new_user_id": 502,
+            "user_id": "user_000069"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 858
+    },
+    {
+        "fields": {
+            "new_user_id": 503,
+            "user_id": "user_000129"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 868
+    },
+    {
+        "fields": {
+            "new_user_id": 504,
+            "user_id": "user_000154"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 874
+    },
+    {
+        "fields": {
+            "new_user_id": 505,
+            "user_id": "user_000156"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 876
+    },
+    {
+        "fields": {
+            "new_user_id": 506,
+            "user_id": "user_000167"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 879
+    },
+    {
+        "fields": {
+            "new_user_id": 507,
+            "user_id": "user_000184"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 880
+    },
+    {
+        "fields": {
+            "new_user_id": 508,
+            "user_id": "user_000191"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 881
+    },
+    {
+        "fields": {
+            "new_user_id": 509,
+            "user_id": "user_000198"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 883
+    },
+    {
+        "fields": {
+            "new_user_id": 510,
+            "user_id": "user_000206"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 885
+    },
+    {
+        "fields": {
+            "new_user_id": 511,
+            "user_id": "user_000218"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 888
+    },
+    {
+        "fields": {
+            "new_user_id": 512,
+            "user_id": "user_000223"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 890
+    },
+    {
+        "fields": {
+            "new_user_id": 513,
+            "user_id": "user_000232"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 891
+    },
+    {
+        "fields": {
+            "new_user_id": 514,
+            "user_id": "user_000256"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 894
+    },
+    {
+        "fields": {
+            "new_user_id": 515,
+            "user_id": "user_000257"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 895
+    },
+    {
+        "fields": {
+            "new_user_id": 516,
+            "user_id": "user_000261"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 896
+    },
+    {
+        "fields": {
+            "new_user_id": 517,
+            "user_id": "user_000271"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 899
+    },
+    {
+        "fields": {
+            "new_user_id": 518,
+            "user_id": "user_000295"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 906
+    },
+    {
+        "fields": {
+            "new_user_id": 519,
+            "user_id": "user_000299"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 907
+    },
+    {
+        "fields": {
+            "new_user_id": 520,
+            "user_id": "user_000334"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 911
+    },
+    {
+        "fields": {
+            "new_user_id": 521,
+            "user_id": "user_000341"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 913
+    },
+    {
+        "fields": {
+            "new_user_id": 522,
+            "user_id": "user_000363"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 917
+    },
+    {
+        "fields": {
+            "new_user_id": 523,
+            "user_id": "user_000364"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 918
+    },
+    {
+        "fields": {
+            "new_user_id": 524,
+            "user_id": "user_000368"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 919
+    },
+    {
+        "fields": {
+            "new_user_id": 525,
+            "user_id": "user_000370"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 920
+    },
+    {
+        "fields": {
+            "new_user_id": 526,
+            "user_id": "user_000403"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 932
+    },
+    {
+        "fields": {
+            "new_user_id": 527,
+            "user_id": "user_000414"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 935
+    },
+    {
+        "fields": {
+            "new_user_id": 528,
+            "user_id": "user_000440"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 939
+    },
+    {
+        "fields": {
+            "new_user_id": 529,
+            "user_id": "user_000490"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 945
+    },
+    {
+        "fields": {
+            "new_user_id": 530,
+            "user_id": "user_000505"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 948
+    },
+    {
+        "fields": {
+            "new_user_id": 531,
+            "user_id": "user_000510"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 951
+    },
+    {
+        "fields": {
+            "new_user_id": 532,
+            "user_id": "user_000511"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 952
+    },
+    {
+        "fields": {
+            "new_user_id": 533,
+            "user_id": "user_000513"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 953
+    },
+    {
+        "fields": {
+            "new_user_id": 534,
+            "user_id": "user_000525"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 955
+    },
+    {
+        "fields": {
+            "new_user_id": 535,
+            "user_id": "user_000541"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 959
+    },
+    {
+        "fields": {
+            "new_user_id": 536,
+            "user_id": "user_000543"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 961
+    },
+    {
+        "fields": {
+            "new_user_id": 537,
+            "user_id": "user_000578"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 970
+    },
+    {
+        "fields": {
+            "new_user_id": 538,
+            "user_id": "user_000582"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 971
+    },
+    {
+        "fields": {
+            "new_user_id": 539,
+            "user_id": "user_000584"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 972
+    },
+    {
+        "fields": {
+            "new_user_id": 540,
+            "user_id": "user_000620"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 978
+    },
+    {
+        "fields": {
+            "new_user_id": 541,
+            "user_id": "user_000624"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 979
+    },
+    {
+        "fields": {
+            "new_user_id": 542,
+            "user_id": "user_000635"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 983
+    },
+    {
+        "fields": {
+            "new_user_id": 543,
+            "user_id": "user_000639"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 985
+    },
+    {
+        "fields": {
+            "new_user_id": 544,
+            "user_id": "user_000658"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 988
+    },
+    {
+        "fields": {
+            "new_user_id": 545,
+            "user_id": "user_000678"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 990
+    },
+    {
+        "fields": {
+            "new_user_id": 546,
+            "user_id": "user_000698"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 999
+    },
+    {
+        "fields": {
+            "new_user_id": 547,
+            "user_id": "user_000713"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1004
+    },
+    {
+        "fields": {
+            "new_user_id": 548,
+            "user_id": "user_000721"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1005
+    },
+    {
+        "fields": {
+            "new_user_id": 549,
+            "user_id": "user_000726"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1006
+    },
+    {
+        "fields": {
+            "new_user_id": 550,
+            "user_id": "user_000732"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1008
+    },
+    {
+        "fields": {
+            "new_user_id": 551,
+            "user_id": "user_000749"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1010
+    },
+    {
+        "fields": {
+            "new_user_id": 552,
+            "user_id": "user_000756"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1011
+    },
+    {
+        "fields": {
+            "new_user_id": 553,
+            "user_id": "user_000763"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1013
+    },
+    {
+        "fields": {
+            "new_user_id": 554,
+            "user_id": "user_000764"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1014
+    },
+    {
+        "fields": {
+            "new_user_id": 555,
+            "user_id": "user_000770"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1017
+    },
+    {
+        "fields": {
+            "new_user_id": 556,
+            "user_id": "user_000820"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1023
+    },
+    {
+        "fields": {
+            "new_user_id": 557,
+            "user_id": "user_000829"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1028
+    },
+    {
+        "fields": {
+            "new_user_id": 558,
+            "user_id": "user_000838"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1031
+    },
+    {
+        "fields": {
+            "new_user_id": 559,
+            "user_id": "user_000849"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1035
+    },
+    {
+        "fields": {
+            "new_user_id": 560,
+            "user_id": "user_000852"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1037
+    },
+    {
+        "fields": {
+            "new_user_id": 561,
+            "user_id": "user_000874"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1042
+    },
+    {
+        "fields": {
+            "new_user_id": 562,
+            "user_id": "user_000897"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1045
+    },
+    {
+        "fields": {
+            "new_user_id": 563,
+            "user_id": "user_000909"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1046
+    },
+    {
+        "fields": {
+            "new_user_id": 564,
+            "user_id": "user_000923"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1050
+    },
+    {
+        "fields": {
+            "new_user_id": 565,
+            "user_id": "user_000926"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1051
+    },
+    {
+        "fields": {
+            "new_user_id": 566,
+            "user_id": "user_000941"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1053
+    },
+    {
+        "fields": {
+            "new_user_id": 567,
+            "user_id": "user_000948"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1055
+    },
+    {
+        "fields": {
+            "new_user_id": 568,
+            "user_id": "user_000968"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1062
+    },
+    {
+        "fields": {
+            "new_user_id": 569,
+            "user_id": "user_000989"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1067
+    },
+    {
+        "fields": {
+            "new_user_id": 570,
+            "user_id": "user_000998"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1069
+    },
+    {
+        "fields": {
+            "new_user_id": 571,
+            "user_id": "user_000021"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1073
+    },
+    {
+        "fields": {
+            "new_user_id": 572,
+            "user_id": "user_000461"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1082
+    },
+    {
+        "fields": {
+            "new_user_id": 573,
+            "user_id": "user_000189"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1088
+    },
+    {
+        "fields": {
+            "new_user_id": 574,
+            "user_id": "user_000250"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1113
+    },
+    {
+        "fields": {
+            "new_user_id": 575,
+            "user_id": "user_000408"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1115
+    },
+    {
+        "fields": {
+            "new_user_id": 576,
+            "user_id": "user_000881"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1127
+    },
+    {
+        "fields": {
+            "new_user_id": 577,
+            "user_id": "user_000195"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1141
+    },
+    {
+        "fields": {
+            "new_user_id": 578,
+            "user_id": "user_000344"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1152
+    },
+    {
+        "fields": {
+            "new_user_id": 579,
+            "user_id": "user_000035"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1153
+    },
+    {
+        "fields": {
+            "new_user_id": 580,
+            "user_id": "user_000868"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1164
+    },
+    {
+        "fields": {
+            "new_user_id": 581,
+            "user_id": "user_000573"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1173
+    },
+    {
+        "fields": {
+            "new_user_id": 582,
+            "user_id": "user_000802"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1176
+    },
+    {
+        "fields": {
+            "new_user_id": 583,
+            "user_id": "user_000669"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1178
+    },
+    {
+        "fields": {
+            "new_user_id": 584,
+            "user_id": "user_000411"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1180
+    },
+    {
+        "fields": {
+            "new_user_id": 585,
+            "user_id": "user_000699"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1184
+    },
+    {
+        "fields": {
+            "new_user_id": 586,
+            "user_id": "user_000786"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1188
+    },
+    {
+        "fields": {
+            "new_user_id": 587,
+            "user_id": "user_000294"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1190
+    },
+    {
+        "fields": {
+            "new_user_id": 588,
+            "user_id": "user_000346"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1200
+    },
+    {
+        "fields": {
+            "new_user_id": 589,
+            "user_id": "user_000094"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1205
+    },
+    {
+        "fields": {
+            "new_user_id": 590,
+            "user_id": "user_000528"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1207
+    },
+    {
+        "fields": {
+            "new_user_id": 591,
+            "user_id": "user_000653"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1209
+    },
+    {
+        "fields": {
+            "new_user_id": 592,
+            "user_id": "user_000775"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1213
+    },
+    {
+        "fields": {
+            "new_user_id": 593,
+            "user_id": "user_000454"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1216
+    },
+    {
+        "fields": {
+            "new_user_id": 594,
+            "user_id": "user_000430"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1232
+    },
+    {
+        "fields": {
+            "new_user_id": 595,
+            "user_id": "user_000740"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1239
+    },
+    {
+        "fields": {
+            "new_user_id": 596,
+            "user_id": "user_000367"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1242
+    },
+    {
+        "fields": {
+            "new_user_id": 597,
+            "user_id": "user_000077"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1243
+    },
+    {
+        "fields": {
+            "new_user_id": 598,
+            "user_id": "user_000296"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1244
+    },
+    {
+        "fields": {
+            "new_user_id": 599,
+            "user_id": "user_000074"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1245
+    },
+    {
+        "fields": {
+            "new_user_id": 600,
+            "user_id": "user_000589"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1247
+    },
+    {
+        "fields": {
+            "new_user_id": 601,
+            "user_id": "user_000380"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1253
+    },
+    {
+        "fields": {
+            "new_user_id": 602,
+            "user_id": "user_000705"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1262
+    },
+    {
+        "fields": {
+            "new_user_id": 603,
+            "user_id": "user_000447"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1268
+    },
+    {
+        "fields": {
+            "new_user_id": 604,
+            "user_id": "user_000496"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1295
+    },
+    {
+        "fields": {
+            "new_user_id": 605,
+            "user_id": "user_000458"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1296
+    },
+    {
+        "fields": {
+            "new_user_id": 606,
+            "user_id": "user_000943"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1340
+    },
+    {
+        "fields": {
+            "new_user_id": 607,
+            "user_id": "user_000349"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1350
+    },
+    {
+        "fields": {
+            "new_user_id": 608,
+            "user_id": "user_000865"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1358
+    },
+    {
+        "fields": {
+            "new_user_id": 609,
+            "user_id": "user_000720"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1381
+    },
+    {
+        "fields": {
+            "new_user_id": 610,
+            "user_id": "user_000142"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1388
+    },
+    {
+        "fields": {
+            "new_user_id": 611,
+            "user_id": "user_000075"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1400
+    },
+    {
+        "fields": {
+            "new_user_id": 612,
+            "user_id": "user_000536"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1495
+    },
+    {
+        "fields": {
+            "new_user_id": 613,
+            "user_id": "user_000457"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1516
+    },
+    {
+        "fields": {
+            "new_user_id": 614,
+            "user_id": "user_000383"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1554
+    },
+    {
+        "fields": {
+            "new_user_id": 615,
+            "user_id": "user_000883"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1556
+    },
+    {
+        "fields": {
+            "new_user_id": 616,
+            "user_id": "user_000736"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1562
+    },
+    {
+        "fields": {
+            "new_user_id": 617,
+            "user_id": "user_000947"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1563
+    },
+    {
+        "fields": {
+            "new_user_id": 618,
+            "user_id": "user_000666"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1564
+    },
+    {
+        "fields": {
+            "new_user_id": 619,
+            "user_id": "user_000078"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1567
+    },
+    {
+        "fields": {
+            "new_user_id": 620,
+            "user_id": "user_000291"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1575
+    },
+    {
+        "fields": {
+            "new_user_id": 621,
+            "user_id": "user_000347"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1577
+    },
+    {
+        "fields": {
+            "new_user_id": 622,
+            "user_id": "user_000436"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1580
+    },
+    {
+        "fields": {
+            "new_user_id": 623,
+            "user_id": "user_000560"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1585
+    },
+    {
+        "fields": {
+            "new_user_id": 624,
+            "user_id": "user_000652"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1589
+    },
+    {
+        "fields": {
+            "new_user_id": 625,
+            "user_id": "user_000944"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1596
+    },
+    {
+        "fields": {
+            "new_user_id": 626,
+            "user_id": "user_000978"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1600
+    },
+    {
+        "fields": {
+            "new_user_id": 627,
+            "user_id": "user_000235"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1609
+    },
+    {
+        "fields": {
+            "new_user_id": 628,
+            "user_id": "user_000103"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1631
+    },
+    {
+        "fields": {
+            "new_user_id": 629,
+            "user_id": "user_000969"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1662
+    },
+    {
+        "fields": {
+            "new_user_id": 630,
+            "user_id": "user_000076"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1663
+    },
+    {
+        "fields": {
+            "new_user_id": 631,
+            "user_id": "user_000028"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1665
+    },
+    {
+        "fields": {
+            "new_user_id": 632,
+            "user_id": "user_000478"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1682
+    },
+    {
+        "fields": {
+            "new_user_id": 633,
+            "user_id": "user_000594"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1683
+    },
+    {
+        "fields": {
+            "new_user_id": 634,
+            "user_id": "user_000688"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1685
+    },
+    {
+        "fields": {
+            "new_user_id": 635,
+            "user_id": "user_000913"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1694
+    },
+    {
+        "fields": {
+            "new_user_id": 636,
+            "user_id": "user_000377"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1705
+    },
+    {
+        "fields": {
+            "new_user_id": 637,
+            "user_id": "user_000239"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1726
+    },
+    {
+        "fields": {
+            "new_user_id": 638,
+            "user_id": "user_000009"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1730
+    },
+    {
+        "fields": {
+            "new_user_id": 639,
+            "user_id": "user_000221"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1737
+    },
+    {
+        "fields": {
+            "new_user_id": 640,
+            "user_id": "user_000426"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1743
+    },
+    {
+        "fields": {
+            "new_user_id": 641,
+            "user_id": "user_000548"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1749
+    },
+    {
+        "fields": {
+            "new_user_id": 642,
+            "user_id": "user_000676"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1753
+    },
+    {
+        "fields": {
+            "new_user_id": 643,
+            "user_id": "user_000245"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1786
+    },
+    {
+        "fields": {
+            "new_user_id": 644,
+            "user_id": "user_000255"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1787
+    },
+    {
+        "fields": {
+            "new_user_id": 645,
+            "user_id": "user_000263"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1788
+    },
+    {
+        "fields": {
+            "new_user_id": 646,
+            "user_id": "user_000512"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1810
+    },
+    {
+        "fields": {
+            "new_user_id": 647,
+            "user_id": "user_000576"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1816
+    },
+    {
+        "fields": {
+            "new_user_id": 648,
+            "user_id": "user_000753"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1835
+    },
+    {
+        "fields": {
+            "new_user_id": 649,
+            "user_id": "user_000914"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1847
+    },
+    {
+        "fields": {
+            "new_user_id": 650,
+            "user_id": "user_000083"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1858
+    },
+    {
+        "fields": {
+            "new_user_id": 651,
+            "user_id": "user_000353"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1860
+    },
+    {
+        "fields": {
+            "new_user_id": 652,
+            "user_id": "user_000446"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1877
+    },
+    {
+        "fields": {
+            "new_user_id": 653,
+            "user_id": "user_000491"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1879
+    },
+    {
+        "fields": {
+            "new_user_id": 654,
+            "user_id": "user_000105"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1883
+    },
+    {
+        "fields": {
+            "new_user_id": 655,
+            "user_id": "user_000598"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1891
+    },
+    {
+        "fields": {
+            "new_user_id": 656,
+            "user_id": "user_000602"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1901
+    },
+    {
+        "fields": {
+            "new_user_id": 657,
+            "user_id": "user_000162"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1916
+    },
+    {
+        "fields": {
+            "new_user_id": 658,
+            "user_id": "user_000727"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1917
+    },
+    {
+        "fields": {
+            "new_user_id": 659,
+            "user_id": "user_000700"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1931
+    },
+    {
+        "fields": {
+            "new_user_id": 660,
+            "user_id": "user_000899"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 1938
+    },
+    {
+        "fields": {
+            "new_user_id": 661,
+            "user_id": "user_000359"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2005
+    },
+    {
+        "fields": {
+            "new_user_id": 662,
+            "user_id": "user_000382"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2007
+    },
+    {
+        "fields": {
+            "new_user_id": 663,
+            "user_id": "user_000187"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2022
+    },
+    {
+        "fields": {
+            "new_user_id": 664,
+            "user_id": "user_000045"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2029
+    },
+    {
+        "fields": {
+            "new_user_id": 665,
+            "user_id": "user_000064"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2031
+    },
+    {
+        "fields": {
+            "new_user_id": 666,
+            "user_id": "user_000121"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2038
+    },
+    {
+        "fields": {
+            "new_user_id": 667,
+            "user_id": "user_000246"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2053
+    },
+    {
+        "fields": {
+            "new_user_id": 668,
+            "user_id": "user_000276"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2056
+    },
+    {
+        "fields": {
+            "new_user_id": 669,
+            "user_id": "user_000407"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2067
+    },
+    {
+        "fields": {
+            "new_user_id": 670,
+            "user_id": "user_000474"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2077
+    },
+    {
+        "fields": {
+            "new_user_id": 671,
+            "user_id": "user_000555"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2082
+    },
+    {
+        "fields": {
+            "new_user_id": 672,
+            "user_id": "user_000745"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2105
+    },
+    {
+        "fields": {
+            "new_user_id": 673,
+            "user_id": "user_000769"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2110
+    },
+    {
+        "fields": {
+            "new_user_id": 674,
+            "user_id": "user_000850"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2119
+    },
+    {
+        "fields": {
+            "new_user_id": 675,
+            "user_id": "user_000939"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2129
+    },
+    {
+        "fields": {
+            "new_user_id": 676,
+            "user_id": "user_000220"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2142
+    },
+    {
+        "fields": {
+            "new_user_id": 677,
+            "user_id": "user_000109"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2151
+    },
+    {
+        "fields": {
+            "new_user_id": 678,
+            "user_id": "user_000230"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2167
+    },
+    {
+        "fields": {
+            "new_user_id": 679,
+            "user_id": "user_000463"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2177
+    },
+    {
+        "fields": {
+            "new_user_id": 680,
+            "user_id": "user_000834"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2189
+    },
+    {
+        "fields": {
+            "new_user_id": 681,
+            "user_id": "user_000339"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2200
+    },
+    {
+        "fields": {
+            "new_user_id": 682,
+            "user_id": "user_000981"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2207
+    },
+    {
+        "fields": {
+            "new_user_id": 683,
+            "user_id": "user_000204"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2224
+    },
+    {
+        "fields": {
+            "new_user_id": 684,
+            "user_id": "user_000236"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2236
+    },
+    {
+        "fields": {
+            "new_user_id": 685,
+            "user_id": "user_000402"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2237
+    },
+    {
+        "fields": {
+            "new_user_id": 686,
+            "user_id": "user_000606"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2244
+    },
+    {
+        "fields": {
+            "new_user_id": 687,
+            "user_id": "user_000593"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2262
+    },
+    {
+        "fields": {
+            "new_user_id": 688,
+            "user_id": "user_000991"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2273
+    },
+    {
+        "fields": {
+            "new_user_id": 689,
+            "user_id": "user_000351"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2317
+    },
+    {
+        "fields": {
+            "new_user_id": 690,
+            "user_id": "user_000023"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2333
+    },
+    {
+        "fields": {
+            "new_user_id": 691,
+            "user_id": "user_000308"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2357
+    },
+    {
+        "fields": {
+            "new_user_id": 692,
+            "user_id": "user_000518"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2367
+    },
+    {
+        "fields": {
+            "new_user_id": 693,
+            "user_id": "user_000638"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2373
+    },
+    {
+        "fields": {
+            "new_user_id": 694,
+            "user_id": "user_000079"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2410
+    },
+    {
+        "fields": {
+            "new_user_id": 695,
+            "user_id": "user_000258"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2418
+    },
+    {
+        "fields": {
+            "new_user_id": 696,
+            "user_id": "user_000312"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2419
+    },
+    {
+        "fields": {
+            "new_user_id": 697,
+            "user_id": "user_000803"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2441
+    },
+    {
+        "fields": {
+            "new_user_id": 698,
+            "user_id": "user_000533"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2463
+    },
+    {
+        "fields": {
+            "new_user_id": 699,
+            "user_id": "user_000712"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2469
+    },
+    {
+        "fields": {
+            "new_user_id": 700,
+            "user_id": "user_000055"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2496
+    },
+    {
+        "fields": {
+            "new_user_id": 701,
+            "user_id": "user_000441"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2523
+    },
+    {
+        "fields": {
+            "new_user_id": 702,
+            "user_id": "user_000100"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2544
+    },
+    {
+        "fields": {
+            "new_user_id": 703,
+            "user_id": "user_000087"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2601
+    },
+    {
+        "fields": {
+            "new_user_id": 704,
+            "user_id": "user_000908"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2610
+    },
+    {
+        "fields": {
+            "new_user_id": 705,
+            "user_id": "user_000587"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2614
+    },
+    {
+        "fields": {
+            "new_user_id": 706,
+            "user_id": "user_000119"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2632
+    },
+    {
+        "fields": {
+            "new_user_id": 707,
+            "user_id": "user_000130"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2633
+    },
+    {
+        "fields": {
+            "new_user_id": 708,
+            "user_id": "user_000200"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2637
+    },
+    {
+        "fields": {
+            "new_user_id": 709,
+            "user_id": "user_000305"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2640
+    },
+    {
+        "fields": {
+            "new_user_id": 710,
+            "user_id": "user_000325"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2642
+    },
+    {
+        "fields": {
+            "new_user_id": 711,
+            "user_id": "user_000784"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2728
+    },
+    {
+        "fields": {
+            "new_user_id": 712,
+            "user_id": "user_000539"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2736
+    },
+    {
+        "fields": {
+            "new_user_id": 713,
+            "user_id": "user_000836"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2782
+    },
+    {
+        "fields": {
+            "new_user_id": 714,
+            "user_id": "user_000153"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2789
+    },
+    {
+        "fields": {
+            "new_user_id": 715,
+            "user_id": "user_000911"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2800
+    },
+    {
+        "fields": {
+            "new_user_id": 716,
+            "user_id": "user_000556"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2802
+    },
+    {
+        "fields": {
+            "new_user_id": 717,
+            "user_id": "user_000817"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2812
+    },
+    {
+        "fields": {
+            "new_user_id": 718,
+            "user_id": "user_000260"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2835
+    },
+    {
+        "fields": {
+            "new_user_id": 719,
+            "user_id": "user_000297"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2836
+    },
+    {
+        "fields": {
+            "new_user_id": 720,
+            "user_id": "user_000355"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2841
+    },
+    {
+        "fields": {
+            "new_user_id": 721,
+            "user_id": "user_000567"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2860
+    },
+    {
+        "fields": {
+            "new_user_id": 722,
+            "user_id": "user_000858"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2876
+    },
+    {
+        "fields": {
+            "new_user_id": 723,
+            "user_id": "user_000707"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2888
+    },
+    {
+        "fields": {
+            "new_user_id": 724,
+            "user_id": "user_000037"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2901
+    },
+    {
+        "fields": {
+            "new_user_id": 725,
+            "user_id": "user_000873"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2906
+    },
+    {
+        "fields": {
+            "new_user_id": 726,
+            "user_id": "user_000808"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2941
+    },
+    {
+        "fields": {
+            "new_user_id": 727,
+            "user_id": "user_000827"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 2999
+    },
+    {
+        "fields": {
+            "new_user_id": 728,
+            "user_id": "user_000104"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3020
+    },
+    {
+        "fields": {
+            "new_user_id": 729,
+            "user_id": "user_000847"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3037
+    },
+    {
+        "fields": {
+            "new_user_id": 730,
+            "user_id": "user_000264"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3066
+    },
+    {
+        "fields": {
+            "new_user_id": 731,
+            "user_id": "user_000562"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3083
+    },
+    {
+        "fields": {
+            "new_user_id": 732,
+            "user_id": "user_000682"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3087
+    },
+    {
+        "fields": {
+            "new_user_id": 733,
+            "user_id": "user_000175"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3142
+    },
+    {
+        "fields": {
+            "new_user_id": 734,
+            "user_id": "user_000738"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3167
+    },
+    {
+        "fields": {
+            "new_user_id": 735,
+            "user_id": "user_000811"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3171
+    },
+    {
+        "fields": {
+            "new_user_id": 736,
+            "user_id": "user_000027"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3182
+    },
+    {
+        "fields": {
+            "new_user_id": 737,
+            "user_id": "user_000710"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3195
+    },
+    {
+        "fields": {
+            "new_user_id": 738,
+            "user_id": "user_000163"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3211
+    },
+    {
+        "fields": {
+            "new_user_id": 739,
+            "user_id": "user_000812"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3229
+    },
+    {
+        "fields": {
+            "new_user_id": 740,
+            "user_id": "user_000241"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3247
+    },
+    {
+        "fields": {
+            "new_user_id": 741,
+            "user_id": "user_000625"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3343
+    },
+    {
+        "fields": {
+            "new_user_id": 742,
+            "user_id": "user_000179"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3349
+    },
+    {
+        "fields": {
+            "new_user_id": 743,
+            "user_id": "user_000168"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3368
+    },
+    {
+        "fields": {
+            "new_user_id": 744,
+            "user_id": "user_000202"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3413
+    },
+    {
+        "fields": {
+            "new_user_id": 745,
+            "user_id": "user_000559"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3437
+    },
+    {
+        "fields": {
+            "new_user_id": 746,
+            "user_id": "user_000601"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3442
+    },
+    {
+        "fields": {
+            "new_user_id": 747,
+            "user_id": "user_000124"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3491
+    },
+    {
+        "fields": {
+            "new_user_id": 748,
+            "user_id": "user_000522"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3508
+    },
+    {
+        "fields": {
+            "new_user_id": 749,
+            "user_id": "user_000717"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3569
+    },
+    {
+        "fields": {
+            "new_user_id": 750,
+            "user_id": "user_000066"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3587
+    },
+    {
+        "fields": {
+            "new_user_id": 751,
+            "user_id": "user_000252"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3588
+    },
+    {
+        "fields": {
+            "new_user_id": 752,
+            "user_id": "user_000465"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3596
+    },
+    {
+        "fields": {
+            "new_user_id": 753,
+            "user_id": "user_000540"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3599
+    },
+    {
+        "fields": {
+            "new_user_id": 754,
+            "user_id": "user_000122"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3609
+    },
+    {
+        "fields": {
+            "new_user_id": 755,
+            "user_id": "user_000596"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3612
+    },
+    {
+        "fields": {
+            "new_user_id": 756,
+            "user_id": "user_000662"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3614
+    },
+    {
+        "fields": {
+            "new_user_id": 757,
+            "user_id": "user_000058"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3695
+    },
+    {
+        "fields": {
+            "new_user_id": 758,
+            "user_id": "user_000350"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3711
+    },
+    {
+        "fields": {
+            "new_user_id": 759,
+            "user_id": "user_000580"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3726
+    },
+    {
+        "fields": {
+            "new_user_id": 760,
+            "user_id": "user_000825"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3743
+    },
+    {
+        "fields": {
+            "new_user_id": 761,
+            "user_id": "user_000318"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3816
+    },
+    {
+        "fields": {
+            "new_user_id": 762,
+            "user_id": "user_000773"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3831
+    },
+    {
+        "fields": {
+            "new_user_id": 763,
+            "user_id": "user_000418"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3845
+    },
+    {
+        "fields": {
+            "new_user_id": 764,
+            "user_id": "user_000001"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3861
+    },
+    {
+        "fields": {
+            "new_user_id": 765,
+            "user_id": "user_000288"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3864
+    },
+    {
+        "fields": {
+            "new_user_id": 766,
+            "user_id": "user_000508"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3868
+    },
+    {
+        "fields": {
+            "new_user_id": 767,
+            "user_id": "user_000833"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3893
+    },
+    {
+        "fields": {
+            "new_user_id": 768,
+            "user_id": "user_000719"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3897
+    },
+    {
+        "fields": {
+            "new_user_id": 769,
+            "user_id": "user_000008"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3964
+    },
+    {
+        "fields": {
+            "new_user_id": 770,
+            "user_id": "user_000992"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3969
+    },
+    {
+        "fields": {
+            "new_user_id": 771,
+            "user_id": "user_000523"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 3998
+    },
+    {
+        "fields": {
+            "new_user_id": 772,
+            "user_id": "user_000010"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4017
+    },
+    {
+        "fields": {
+            "new_user_id": 773,
+            "user_id": "user_000138"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4033
+    },
+    {
+        "fields": {
+            "new_user_id": 774,
+            "user_id": "user_000314"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4062
+    },
+    {
+        "fields": {
+            "new_user_id": 775,
+            "user_id": "user_000393"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4074
+    },
+    {
+        "fields": {
+            "new_user_id": 776,
+            "user_id": "user_000399"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4077
+    },
+    {
+        "fields": {
+            "new_user_id": 777,
+            "user_id": "user_000419"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4081
+    },
+    {
+        "fields": {
+            "new_user_id": 778,
+            "user_id": "user_000488"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4091
+    },
+    {
+        "fields": {
+            "new_user_id": 779,
+            "user_id": "user_000607"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4112
+    },
+    {
+        "fields": {
+            "new_user_id": 780,
+            "user_id": "user_000677"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4124
+    },
+    {
+        "fields": {
+            "new_user_id": 781,
+            "user_id": "user_000679"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4125
+    },
+    {
+        "fields": {
+            "new_user_id": 782,
+            "user_id": "user_000092"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4270
+    },
+    {
+        "fields": {
+            "new_user_id": 783,
+            "user_id": "user_000192"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4276
+    },
+    {
+        "fields": {
+            "new_user_id": 784,
+            "user_id": "user_000860"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4332
+    },
+    {
+        "fields": {
+            "new_user_id": 785,
+            "user_id": "user_000880"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4333
+    },
+    {
+        "fields": {
+            "new_user_id": 786,
+            "user_id": "user_000888"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4334
+    },
+    {
+        "fields": {
+            "new_user_id": 787,
+            "user_id": "user_000956"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4339
+    },
+    {
+        "fields": {
+            "new_user_id": 788,
+            "user_id": "user_000550"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4375
+    },
+    {
+        "fields": {
+            "new_user_id": 789,
+            "user_id": "user_000917"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4385
+    },
+    {
+        "fields": {
+            "new_user_id": 790,
+            "user_id": "user_000171"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4395
+    },
+    {
+        "fields": {
+            "new_user_id": 791,
+            "user_id": "user_000937"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4420
+    },
+    {
+        "fields": {
+            "new_user_id": 792,
+            "user_id": "user_000032"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4432
+    },
+    {
+        "fields": {
+            "new_user_id": 793,
+            "user_id": "user_000044"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4436
+    },
+    {
+        "fields": {
+            "new_user_id": 794,
+            "user_id": "user_000126"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4456
+    },
+    {
+        "fields": {
+            "new_user_id": 795,
+            "user_id": "user_000139"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4459
+    },
+    {
+        "fields": {
+            "new_user_id": 796,
+            "user_id": "user_000144"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4461
+    },
+    {
+        "fields": {
+            "new_user_id": 797,
+            "user_id": "user_000146"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4463
+    },
+    {
+        "fields": {
+            "new_user_id": 798,
+            "user_id": "user_000176"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4469
+    },
+    {
+        "fields": {
+            "new_user_id": 799,
+            "user_id": "user_000285"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4493
+    },
+    {
+        "fields": {
+            "new_user_id": 800,
+            "user_id": "user_000390"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4513
+    },
+    {
+        "fields": {
+            "new_user_id": 801,
+            "user_id": "user_000435"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4527
+    },
+    {
+        "fields": {
+            "new_user_id": 802,
+            "user_id": "user_000442"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4529
+    },
+    {
+        "fields": {
+            "new_user_id": 803,
+            "user_id": "user_000449"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4530
+    },
+    {
+        "fields": {
+            "new_user_id": 804,
+            "user_id": "user_000460"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4532
+    },
+    {
+        "fields": {
+            "new_user_id": 805,
+            "user_id": "user_000507"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4540
+    },
+    {
+        "fields": {
+            "new_user_id": 806,
+            "user_id": "user_000551"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4551
+    },
+    {
+        "fields": {
+            "new_user_id": 807,
+            "user_id": "user_000637"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4572
+    },
+    {
+        "fields": {
+            "new_user_id": 808,
+            "user_id": "user_000654"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4578
+    },
+    {
+        "fields": {
+            "new_user_id": 809,
+            "user_id": "user_000674"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4581
+    },
+    {
+        "fields": {
+            "new_user_id": 810,
+            "user_id": "user_000683"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4583
+    },
+    {
+        "fields": {
+            "new_user_id": 811,
+            "user_id": "user_000723"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4596
+    },
+    {
+        "fields": {
+            "new_user_id": 812,
+            "user_id": "user_000741"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4600
+    },
+    {
+        "fields": {
+            "new_user_id": 813,
+            "user_id": "user_000799"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4612
+    },
+    {
+        "fields": {
+            "new_user_id": 814,
+            "user_id": "user_000905"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4636
+    },
+    {
+        "fields": {
+            "new_user_id": 815,
+            "user_id": "user_000907"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4637
+    },
+    {
+        "fields": {
+            "new_user_id": 816,
+            "user_id": "user_000920"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4640
+    },
+    {
+        "fields": {
+            "new_user_id": 817,
+            "user_id": "user_000952"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4648
+    },
+    {
+        "fields": {
+            "new_user_id": 818,
+            "user_id": "user_000964"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4653
+    },
+    {
+        "fields": {
+            "new_user_id": 819,
+            "user_id": "user_000985"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4658
+    },
+    {
+        "fields": {
+            "new_user_id": 820,
+            "user_id": "user_000381"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4688
+    },
+    {
+        "fields": {
+            "new_user_id": 821,
+            "user_id": "user_000553"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4694
+    },
+    {
+        "fields": {
+            "new_user_id": 822,
+            "user_id": "user_000623"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4701
+    },
+    {
+        "fields": {
+            "new_user_id": 823,
+            "user_id": "user_000818"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4705
+    },
+    {
+        "fields": {
+            "new_user_id": 824,
+            "user_id": "user_000889"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4706
+    },
+    {
+        "fields": {
+            "new_user_id": 825,
+            "user_id": "user_000464"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4718
+    },
+    {
+        "fields": {
+            "new_user_id": 826,
+            "user_id": "user_000015"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4794
+    },
+    {
+        "fields": {
+            "new_user_id": 827,
+            "user_id": "user_000057"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4807
+    },
+    {
+        "fields": {
+            "new_user_id": 828,
+            "user_id": "user_000247"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4845
+    },
+    {
+        "fields": {
+            "new_user_id": 829,
+            "user_id": "user_000275"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4852
+    },
+    {
+        "fields": {
+            "new_user_id": 830,
+            "user_id": "user_000277"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4853
+    },
+    {
+        "fields": {
+            "new_user_id": 831,
+            "user_id": "user_000292"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4857
+    },
+    {
+        "fields": {
+            "new_user_id": 832,
+            "user_id": "user_000369"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4874
+    },
+    {
+        "fields": {
+            "new_user_id": 833,
+            "user_id": "user_000445"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4885
+    },
+    {
+        "fields": {
+            "new_user_id": 834,
+            "user_id": "user_000527"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4903
+    },
+    {
+        "fields": {
+            "new_user_id": 835,
+            "user_id": "user_000853"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4969
+    },
+    {
+        "fields": {
+            "new_user_id": 836,
+            "user_id": "user_000886"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 4976
+    },
+    {
+        "fields": {
+            "new_user_id": 837,
+            "user_id": "user_000118"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5048
+    },
+    {
+        "fields": {
+            "new_user_id": 838,
+            "user_id": "user_000310"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5081
+    },
+    {
+        "fields": {
+            "new_user_id": 839,
+            "user_id": "user_000421"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5097
+    },
+    {
+        "fields": {
+            "new_user_id": 840,
+            "user_id": "user_000657"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5135
+    },
+    {
+        "fields": {
+            "new_user_id": 841,
+            "user_id": "user_000924"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5173
+    },
+    {
+        "fields": {
+            "new_user_id": 842,
+            "user_id": "user_000996"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5184
+    },
+    {
+        "fields": {
+            "new_user_id": 843,
+            "user_id": "user_000158"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5240
+    },
+    {
+        "fields": {
+            "new_user_id": 844,
+            "user_id": "user_000667"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5249
+    },
+    {
+        "fields": {
+            "new_user_id": 845,
+            "user_id": "user_000117"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5254
+    },
+    {
+        "fields": {
+            "new_user_id": 846,
+            "user_id": "user_000354"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5282
+    },
+    {
+        "fields": {
+            "new_user_id": 847,
+            "user_id": "user_000395"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5286
+    },
+    {
+        "fields": {
+            "new_user_id": 848,
+            "user_id": "user_000212"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5410
+    },
+    {
+        "fields": {
+            "new_user_id": 849,
+            "user_id": "user_000217"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5411
+    },
+    {
+        "fields": {
+            "new_user_id": 850,
+            "user_id": "user_000945"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5462
+    },
+    {
+        "fields": {
+            "new_user_id": 851,
+            "user_id": "user_000243"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5574
+    },
+    {
+        "fields": {
+            "new_user_id": 852,
+            "user_id": "user_000532"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5604
+    },
+    {
+        "fields": {
+            "new_user_id": 853,
+            "user_id": "user_000014"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5658
+    },
+    {
+        "fields": {
+            "new_user_id": 854,
+            "user_id": "user_000141"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5667
+    },
+    {
+        "fields": {
+            "new_user_id": 855,
+            "user_id": "user_000734"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5791
+    },
+    {
+        "fields": {
+            "new_user_id": 856,
+            "user_id": "user_000979"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5805
+    },
+    {
+        "fields": {
+            "new_user_id": 857,
+            "user_id": "user_000049"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5845
+    },
+    {
+        "fields": {
+            "new_user_id": 858,
+            "user_id": "user_000452"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5877
+    },
+    {
+        "fields": {
+            "new_user_id": 859,
+            "user_id": "user_000997"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5888
+    },
+    {
+        "fields": {
+            "new_user_id": 860,
+            "user_id": "user_000903"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 5912
+    },
+    {
+        "fields": {
+            "new_user_id": 861,
+            "user_id": "user_000613"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6001
+    },
+    {
+        "fields": {
+            "new_user_id": 862,
+            "user_id": "user_000967"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6046
+    },
+    {
+        "fields": {
+            "new_user_id": 863,
+            "user_id": "user_000530"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6137
+    },
+    {
+        "fields": {
+            "new_user_id": 864,
+            "user_id": "user_000051"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6161
+    },
+    {
+        "fields": {
+            "new_user_id": 865,
+            "user_id": "user_000386"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6216
+    },
+    {
+        "fields": {
+            "new_user_id": 866,
+            "user_id": "user_000476"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6233
+    },
+    {
+        "fields": {
+            "new_user_id": 867,
+            "user_id": "user_000846"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6316
+    },
+    {
+        "fields": {
+            "new_user_id": 868,
+            "user_id": "user_000930"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6328
+    },
+    {
+        "fields": {
+            "new_user_id": 869,
+            "user_id": "user_000282"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6472
+    },
+    {
+        "fields": {
+            "new_user_id": 870,
+            "user_id": "user_000026"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6483
+    },
+    {
+        "fields": {
+            "new_user_id": 871,
+            "user_id": "user_000225"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6493
+    },
+    {
+        "fields": {
+            "new_user_id": 872,
+            "user_id": "user_000392"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6571
+    },
+    {
+        "fields": {
+            "new_user_id": 873,
+            "user_id": "user_000611"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6648
+    },
+    {
+        "fields": {
+            "new_user_id": 874,
+            "user_id": "user_000797"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6662
+    },
+    {
+        "fields": {
+            "new_user_id": 875,
+            "user_id": "user_000456"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6771
+    },
+    {
+        "fields": {
+            "new_user_id": 876,
+            "user_id": "user_000315"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 6884
+    },
+    {
+        "fields": {
+            "new_user_id": 877,
+            "user_id": "user_000472"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7058
+    },
+    {
+        "fields": {
+            "new_user_id": 878,
+            "user_id": "user_000887"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7117
+    },
+    {
+        "fields": {
+            "new_user_id": 879,
+            "user_id": "user_000473"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7166
+    },
+    {
+        "fields": {
+            "new_user_id": 880,
+            "user_id": "user_000936"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7265
+    },
+    {
+        "fields": {
+            "new_user_id": 881,
+            "user_id": "user_000633"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7343
+    },
+    {
+        "fields": {
+            "new_user_id": 882,
+            "user_id": "user_000806"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7360
+    },
+    {
+        "fields": {
+            "new_user_id": 883,
+            "user_id": "user_000664"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7429
+    },
+    {
+        "fields": {
+            "new_user_id": 884,
+            "user_id": "user_000207"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7493
+    },
+    {
+        "fields": {
+            "new_user_id": 885,
+            "user_id": "user_000333"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7558
+    },
+    {
+        "fields": {
+            "new_user_id": 886,
+            "user_id": "user_000932"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7617
+    },
+    {
+        "fields": {
+            "new_user_id": 887,
+            "user_id": "user_000693"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7635
+    },
+    {
+        "fields": {
+            "new_user_id": 888,
+            "user_id": "user_000071"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7724
+    },
+    {
+        "fields": {
+            "new_user_id": 889,
+            "user_id": "user_000444"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7848
+    },
+    {
+        "fields": {
+            "new_user_id": 890,
+            "user_id": "user_000634"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7867
+    },
+    {
+        "fields": {
+            "new_user_id": 891,
+            "user_id": "user_000754"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7873
+    },
+    {
+        "fields": {
+            "new_user_id": 892,
+            "user_id": "user_000885"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7887
+    },
+    {
+        "fields": {
+            "new_user_id": 893,
+            "user_id": "user_000331"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 7937
+    },
+    {
+        "fields": {
+            "new_user_id": 894,
+            "user_id": "user_000088"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8022
+    },
+    {
+        "fields": {
+            "new_user_id": 895,
+            "user_id": "user_000423"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8076
+    },
+    {
+        "fields": {
+            "new_user_id": 896,
+            "user_id": "user_000482"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8106
+    },
+    {
+        "fields": {
+            "new_user_id": 897,
+            "user_id": "user_000724"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8145
+    },
+    {
+        "fields": {
+            "new_user_id": 898,
+            "user_id": "user_000197"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8162
+    },
+    {
+        "fields": {
+            "new_user_id": 899,
+            "user_id": "user_000070"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8397
+    },
+    {
+        "fields": {
+            "new_user_id": 900,
+            "user_id": "user_000196"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8407
+    },
+    {
+        "fields": {
+            "new_user_id": 901,
+            "user_id": "user_000614"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8431
+    },
+    {
+        "fields": {
+            "new_user_id": 902,
+            "user_id": "user_000854"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8454
+    },
+    {
+        "fields": {
+            "new_user_id": 903,
+            "user_id": "user_000583"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8537
+    },
+    {
+        "fields": {
+            "new_user_id": 904,
+            "user_id": "user_000646"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8544
+    },
+    {
+        "fields": {
+            "new_user_id": 905,
+            "user_id": "user_000863"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8769
+    },
+    {
+        "fields": {
+            "new_user_id": 906,
+            "user_id": "user_000879"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 8858
+    },
+    {
+        "fields": {
+            "new_user_id": 907,
+            "user_id": "user_000307"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9035
+    },
+    {
+        "fields": {
+            "new_user_id": 908,
+            "user_id": "user_000433"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9097
+    },
+    {
+        "fields": {
+            "new_user_id": 909,
+            "user_id": "user_000140"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9152
+    },
+    {
+        "fields": {
+            "new_user_id": 910,
+            "user_id": "user_000150"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9154
+    },
+    {
+        "fields": {
+            "new_user_id": 911,
+            "user_id": "user_000265"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9177
+    },
+    {
+        "fields": {
+            "new_user_id": 912,
+            "user_id": "user_000545"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9259
+    },
+    {
+        "fields": {
+            "new_user_id": 913,
+            "user_id": "user_000581"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9268
+    },
+    {
+        "fields": {
+            "new_user_id": 914,
+            "user_id": "user_000605"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9280
+    },
+    {
+        "fields": {
+            "new_user_id": 915,
+            "user_id": "user_000815"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9342
+    },
+    {
+        "fields": {
+            "new_user_id": 916,
+            "user_id": "user_000157"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9425
+    },
+    {
+        "fields": {
+            "new_user_id": 917,
+            "user_id": "user_000080"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9634
+    },
+    {
+        "fields": {
+            "new_user_id": 918,
+            "user_id": "user_000416"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9776
+    },
+    {
+        "fields": {
+            "new_user_id": 919,
+            "user_id": "user_000410"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9882
+    },
+    {
+        "fields": {
+            "new_user_id": 920,
+            "user_id": "user_000492"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 9929
+    },
+    {
+        "fields": {
+            "new_user_id": 921,
+            "user_id": "user_000042"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10311
+    },
+    {
+        "fields": {
+            "new_user_id": 922,
+            "user_id": "user_000321"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10383
+    },
+    {
+        "fields": {
+            "new_user_id": 923,
+            "user_id": "user_000631"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10467
+    },
+    {
+        "fields": {
+            "new_user_id": 924,
+            "user_id": "user_000938"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10555
+    },
+    {
+        "fields": {
+            "new_user_id": 925,
+            "user_id": "user_000953"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10562
+    },
+    {
+        "fields": {
+            "new_user_id": 926,
+            "user_id": "user_000864"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10581
+    },
+    {
+        "fields": {
+            "new_user_id": 927,
+            "user_id": "user_000106"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10635
+    },
+    {
+        "fields": {
+            "new_user_id": 928,
+            "user_id": "user_000796"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10743
+    },
+    {
+        "fields": {
+            "new_user_id": 929,
+            "user_id": "user_000497"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10759
+    },
+    {
+        "fields": {
+            "new_user_id": 930,
+            "user_id": "user_000608"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10764
+    },
+    {
+        "fields": {
+            "new_user_id": 931,
+            "user_id": "user_000514"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 10957
+    },
+    {
+        "fields": {
+            "new_user_id": 932,
+            "user_id": "user_000795"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 11840
+    },
+    {
+        "fields": {
+            "new_user_id": 933,
+            "user_id": "user_000327"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 11940
+    },
+    {
+        "fields": {
+            "new_user_id": 934,
+            "user_id": "user_000904"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12080
+    },
+    {
+        "fields": {
+            "new_user_id": 935,
+            "user_id": "user_000696"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12241
+    },
+    {
+        "fields": {
+            "new_user_id": 936,
+            "user_id": "user_000101"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12266
+    },
+    {
+        "fields": {
+            "new_user_id": 937,
+            "user_id": "user_000495"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12271
+    },
+    {
+        "fields": {
+            "new_user_id": 938,
+            "user_id": "user_000777"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12475
+    },
+    {
+        "fields": {
+            "new_user_id": 939,
+            "user_id": "user_000018"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12525
+    },
+    {
+        "fields": {
+            "new_user_id": 940,
+            "user_id": "user_000618"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12744
+    },
+    {
+        "fields": {
+            "new_user_id": 941,
+            "user_id": "user_000742"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 12967
+    },
+    {
+        "fields": {
+            "new_user_id": 942,
+            "user_id": "user_000955"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 13051
+    },
+    {
+        "fields": {
+            "new_user_id": 943,
+            "user_id": "user_000417"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 13409
+    },
+    {
+        "fields": {
+            "new_user_id": 944,
+            "user_id": "user_000778"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 14084
+    },
+    {
+        "fields": {
+            "new_user_id": 945,
+            "user_id": "user_000481"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 14604
+    },
+    {
+        "fields": {
+            "new_user_id": 946,
+            "user_id": "user_000201"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 14756
+    },
+    {
+        "fields": {
+            "new_user_id": 947,
+            "user_id": "user_000166"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 14968
+    },
+    {
+        "fields": {
+            "new_user_id": 948,
+            "user_id": "user_000448"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 15065
+    },
+    {
+        "fields": {
+            "new_user_id": 949,
+            "user_id": "user_000272"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 15949
+    },
+    {
+        "fields": {
+            "new_user_id": 950,
+            "user_id": "user_000048"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 16032
+    },
+    {
+        "fields": {
+            "new_user_id": 951,
+            "user_id": "user_000672"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 16597
+    },
+    {
+        "fields": {
+            "new_user_id": 952,
+            "user_id": "user_000519"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 16944
+    },
+    {
+        "fields": {
+            "new_user_id": 953,
+            "user_id": "user_000547"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17261
+    },
+    {
+        "fields": {
+            "new_user_id": 954,
+            "user_id": "user_000098"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17416
+    },
+    {
+        "fields": {
+            "new_user_id": 955,
+            "user_id": "user_000498"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17562
+    },
+    {
+        "fields": {
+            "new_user_id": 956,
+            "user_id": "user_000759"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17671
+    },
+    {
+        "fields": {
+            "new_user_id": 957,
+            "user_id": "user_000785"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17682
+    },
+    {
+        "fields": {
+            "new_user_id": 958,
+            "user_id": "user_000485"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 17883
+    },
+    {
+        "fields": {
+            "new_user_id": 959,
+            "user_id": "user_000406"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 18002
+    },
+    {
+        "fields": {
+            "new_user_id": 960,
+            "user_id": "user_000455"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 18140
+    },
+    {
+        "fields": {
+            "new_user_id": 961,
+            "user_id": "user_000622"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 18187
+    },
+    {
+        "fields": {
+            "new_user_id": 962,
+            "user_id": "user_000884"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 18771
+    },
+    {
+        "fields": {
+            "new_user_id": 963,
+            "user_id": "user_000563"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 18850
+    },
+    {
+        "fields": {
+            "new_user_id": 964,
+            "user_id": "user_000085"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 19175
+    },
+    {
+        "fields": {
+            "new_user_id": 965,
+            "user_id": "user_000843"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 20396
+    },
+    {
+        "fields": {
+            "new_user_id": 966,
+            "user_id": "user_000640"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 20578
+    },
+    {
+        "fields": {
+            "new_user_id": 967,
+            "user_id": "user_000234"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 21307
+    },
+    {
+        "fields": {
+            "new_user_id": 968,
+            "user_id": "user_000352"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 23142
+    },
+    {
+        "fields": {
+            "new_user_id": 969,
+            "user_id": "user_000311"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 28364
+    },
+    {
+        "fields": {
+            "new_user_id": 970,
+            "user_id": "user_000859"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 28496
+    },
+    {
+        "fields": {
+            "new_user_id": 971,
+            "user_id": "user_000928"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 30002
+    },
+    {
+        "fields": {
+            "new_user_id": 972,
+            "user_id": "user_000748"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 30231
+    },
+    {
+        "fields": {
+            "new_user_id": 973,
+            "user_id": "user_000413"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 33459
+    },
+    {
+        "fields": {
+            "new_user_id": 974,
+            "user_id": "user_000855"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 34709
+    },
+    {
+        "fields": {
+            "new_user_id": 975,
+            "user_id": "user_000965"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 35600
+    },
+    {
+        "fields": {
+            "new_user_id": 976,
+            "user_id": "user_000248"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 37295
+    },
+    {
+        "fields": {
+            "new_user_id": 977,
+            "user_id": "user_000301"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 38366
+    },
+    {
+        "fields": {
+            "new_user_id": 978,
+            "user_id": "user_000336"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 38374
+    },
+    {
+        "fields": {
+            "new_user_id": 979,
+            "user_id": "user_000099"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 41547
+    },
+    {
+        "fields": {
+            "new_user_id": 980,
+            "user_id": "user_000328"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 50977
+    },
+    {
+        "fields": {
+            "new_user_id": 981,
+            "user_id": "user_000982"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 52403
+    },
+    {
+        "fields": {
+            "new_user_id": 982,
+            "user_id": "user_000286"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 61798
+    },
+    {
+        "fields": {
+            "new_user_id": 983,
+            "user_id": "user_000597"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 88661
+    },
+    {
+        "fields": {
+            "new_user_id": 984,
+            "user_id": "user_000895"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 128336
+    },
+    {
+        "fields": {
+            "new_user_id": 985,
+            "user_id": "user_000866"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 158911
+    },
+    {
+        "fields": {
+            "new_user_id": 986,
+            "user_id": "user_000686"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 161813
+    },
+    {
+        "fields": {
+            "new_user_id": 987,
+            "user_id": "user_000856"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 385457
+    },
+    {
+        "fields": {
+            "new_user_id": 988,
+            "user_id": "user_000240"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 394467
+    },
+    {
+        "fields": {
+            "new_user_id": 989,
+            "user_id": "user_000566"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 449239
+    },
+    {
+        "fields": {
+            "new_user_id": 990,
+            "user_id": "user_000332"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 517128
+    },
+    {
+        "fields": {
+            "new_user_id": 991,
+            "user_id": "user_000561"
+        },
+        "model": "taller_1.Homologacion_user",
+        "pk": 586540
+    }
+]
