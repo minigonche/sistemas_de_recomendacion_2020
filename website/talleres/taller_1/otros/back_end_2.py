@@ -9,7 +9,7 @@ from taller_1.models import *
 import random
 import gzip
 import pickle
-from taller_1.models import  User_info, Artist, Homologacion_user, Homologacion_artist, Ratings
+from taller_1.models import  User_info, Artist, Homologacion_user, Homologacion_artist, Ratings, RatingTemporal
 
 import numpy as np
 import pandas as pd
@@ -19,10 +19,30 @@ from surprise.model_selection import train_test_split
 from surprise import KNNBasic
 from surprise import accuracy
 
+import logging
+
+
 
 
 ## ---------------------------------------
 # Metodos
+def esta_en_el_modelo(id_usuario):
+
+	f = gzip.open('taller_1/otros/3.Model_User_User.pklz', 'rb')
+	Model_UU = pickle.load(f)
+	#result = Model_UU.predict(8, 2843)
+	f.close()
+	#result
+	usuario = Homologacion_user.objects.get(user_id=id_usuario).new_user_id
+
+	try:
+		Model_UU.get_neighbors(usuario, 1)
+		return(True)
+
+	except:
+		return(False)
+
+
 
 def dar_recomendaciones_por_usuario(id_usuario, num_recomendaciones = 5):
 	'''
@@ -53,7 +73,7 @@ def dar_recomendaciones_por_usuario(id_usuario, num_recomendaciones = 5):
 		return res
 
 	# se carga el modelo
-	f = gzip.open('/home/yacirramirez/Documents/MaestriaSistemas/SistemasDeRecomendacion/sistemas_de_recomendacion_2020/website/talleres/taller_1/otros/3.Model_User_User.pklz', 'rb')
+	f = gzip.open('taller_1/otros/3.Model_User_User.pklz', 'rb')
 	Model_UU = pickle.load(f)
 	#result = Model_UU.predict(8, 2843)
 	f.close()
@@ -77,7 +97,7 @@ def dar_recomendaciones_por_usuario(id_usuario, num_recomendaciones = 5):
 
 	# vecinos
 	vecinos = []
-	for i in Model_UU.get_neighbors(usuario, 4):
+	for i in Model_UU.get_neighbors(usuario, 5):
 		user_id_value = Homologacion_user.objects.get(new_user_id=i).user_id
 		vecinos.append(User.objects.get(user_id = user_id_value))
 
@@ -137,7 +157,7 @@ def dar_recomendaciones_por_item(id_usuario, num_recomendaciones = 5):
 		return res
 
 	# se carga el modelo
-	f = gzip.open('/home/yacirramirez/Documents/MaestriaSistemas/SistemasDeRecomendacion/sistemas_de_recomendacion_2020/website/talleres/taller_1/otros/3.Model_User_User.pklz', 'rb')
+	f = gzip.open('taller_1/otros/3.Model_User_User.pklz', 'rb')
 	Model_UU = pickle.load(f)
 	#result = Model_UU.predict(8, 2843)
 	f.close()
@@ -251,11 +271,23 @@ def calificar_item(id_usuario, id_item, calificacion):
 	# Implementacion mock 
 	'''
 	art_name = Artist.objects.get(artist_id = id_item).artist_name
+
+
 	#art_id = Artist.objects.get(artist_name=id_item).artist_id
-	rating = Ratings(artist_name = artist_name,
+	rating = Ratings(artist_name = art_name,
 					 artist_id=id_item,
 					 user_id=id_usuario,
 					 rating_lineal=calificacion
 					 )
 	rating.save()
-	pass
+	
+	# Salva en la base de datos temporal
+
+	user_id_pos = Homologacion_user.objects.get(user_id=id_usuario).new_user_id
+	artist_id_pos = Homologacion_artist.objects.get(artist_name=art_name).new_artist_id
+	rating_lineal = calificacion
+
+	rating_t = RatingTemporal(user_id_pos = user_id_pos,
+					 artist_id_pos=artist_id_pos,
+					 rating_lineal=rating_lineal)
+	rating_t.save()

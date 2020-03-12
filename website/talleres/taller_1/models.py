@@ -165,3 +165,12 @@ class Homologacion_artist(models.Model):
 
 
 
+class RatingTemporal(models.Model):
+	# Artist idAge
+	artist_id_pos = models.IntegerField(null=20)
+	# Rating of the user
+	user_id_pos = models.IntegerField(null=20)
+	# Global rating
+	rating_lineal = models.IntegerField(null=True)
+
+

@@ -51,6 +51,7 @@
 </div>
 
 
+{% if esta %}
 <!-- Explicacoin de las recomendaciones Por ususario-->
   <div class="container mt-1">
           <div class="jumbotron">
@@ -225,6 +226,28 @@
   </div>
 </div>
 
+{% else  %}
+    
+      <div class="container mt-1">
+          <div class="jumbotron">
+            <h5 class="display-4">Recomendaciones por Calcular</h5>
+            <hr class="my-2">
+            <p>Estamos calculando tus recomendaciones. Mientras esperas, por qué no calificas mas artistas?</p>
+
+            <div class="row mt-1">
+              <div class="col-4"> </div>
+              <div class="col-4 text-center"> 
+                <a class="btn btn-primary btn-lg" href="/taller_1/cold_start/{{ user_id}}" role="button">Calificar Artistas</a>
+              </div>
+              <div class="col-4"> </div>
+            </div>
+
+        </div>
+
+
+  </div>
+
+{% endif %}
 
 
 
@@ -238,7 +261,10 @@
 
 
 
-<!-- Explicacoin de las recomendaciones Por Item-->
+
+
+
+<!-- Explicacoin de las recomendaciones Por Item
   <div class="container mt-1">
           <div class="jumbotron">
             <h5 class="display-4">Recomendaciones Por Items</h5>
@@ -255,11 +281,11 @@
 
         </div>
   </div>
-
+-->
+<!--
 <div class="container">
   <div class="row">
 
-    <!-- Recomendacion por ussario -->
     <div class="col-12">
       <div class="jumbotron">
                 
@@ -284,7 +310,7 @@
 
             <div class="row">
 
-              <!-- first column -->
+              
 
               <div class="col-3">
 
@@ -314,7 +340,7 @@
               </div>
 
 
-             <!-- second column -->
+     
 
               <div class="col-3">
                  <div class="row">
@@ -340,7 +366,7 @@
 
               </div>
 
-              <!-- third column -->
+          
 
               <div class="col-2">
 
@@ -352,7 +378,7 @@
                 </div>
               </div>
 
-              <!-- Forth column -->
+        
 
               <div class="col-4">
 
@@ -403,7 +429,7 @@
 
   </div>
 </div>
-
+-->
 
 </form>
 

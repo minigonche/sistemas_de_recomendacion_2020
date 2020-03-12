@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
-from taller_1.models import User
+from taller_1.models import User, Homologacion_user
 
 
 # Excepciones
@@ -98,6 +98,7 @@ def crear_usuario(request):
 		return HttpResponse('Usuario: {} ya existe'.format(id_usuario))
 	except ObjectDoesNotExist:
 
+
 		user = User(user_id= id_usuario, 
 				    password= pwd,
 				    date_join= fecha_registro,
@@ -106,6 +107,14 @@ def crear_usuario(request):
 				    country= pais)
 
 		user.save()
+
+		id_pos = len(User.objects.all())
+
+		homo = Homologacion_user(user_id = id_usuario,
+						  new_user_id = id_pos)
+
+		homo.save()
+
 
 	# Lleva a la pagina de bienvenida
 	return(cold_start(request, id_usuario))
@@ -194,27 +203,31 @@ def recomendaciones(request, id_usuario):
 	# Visualiza el usuario
 	context = {'user_id' : id_usuario}
 
-	# Por usuario
-	context['recomendaciones_usuario'] = back_end_2.dar_recomendaciones_por_usuario(id_usuario)
+	usuario_esta = back_end_2.esta_en_el_modelo(id_usuario)
+	context['esta'] = usuario_esta
 
-	for d in context['recomendaciones_usuario']:
-		d['primero'] = False
-		d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
+	if usuario_esta:
 
-	context['recomendaciones_usuario'][0]['primero'] = True
-	# TODO
+		# Por usuario
+		context['recomendaciones_usuario'] = back_end_2.dar_recomendaciones_por_usuario(id_usuario)
 
-	# Por Item
-	context['recomendaciones_item'] = back_end_2.dar_recomendaciones_por_item(id_usuario)
+		for d in context['recomendaciones_usuario']:
+			d['primero'] = False
+			d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
 
-	for d in context['recomendaciones_item']:
-		d['primero'] = False
-		for art in d['vecinos']:
-			art.link_foto = image_finder.get_image(art.artist_name)
-			
-		d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
+		context['recomendaciones_usuario'][0]['primero'] = True
 
-	context['recomendaciones_item'][0]['primero'] = True
+		# Por Item
+		#context['recomendaciones_item'] = back_end_2.dar_recomendaciones_por_item(id_usuario)
+
+		#for d in context['recomendaciones_item']:
+		#	d['primero'] = False
+		#	for art in d['vecinos']:
+		#		art.link_foto = image_finder.get_image(art.artist_name)
+		#		
+		#	d['artista'].link_foto = image_finder.get_image(d['artista'].artist_name)
+
+		#context['recomendaciones_item'][0]['primero'] = True
 
 	return render(request, 'taller_1/recomendaciones.html', context)
 
@@ -255,7 +268,7 @@ def calificar(request, id_usuario):
 	resp = ''
 	for key, value in request.POST.items():
 		if key.startswith('artist_id:'):
-			artist_id = key[len('artist_id:')]
+			artist_id = key[len('artist_id:'):]
 			rating = int(value)
 
 			if rating > 0:
