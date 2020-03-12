@@ -1,0 +1,35 @@
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '172.24.100.59:8080'. You may need to add '172.24.100.59' to ALLOWED_HOSTS.
+Bad Request: /taller_1/
+[12/Mar/2020 19:00:44] "GET /taller_1/ HTTP/1.1" 400 63338
+/home/estudiante/sistemas_de_recomendacion_2020/website/talleres/talleres/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+March 12, 2020 - 19:00:30
+Django version 2.2.5, using settings 'talleres.settings'
+Starting development server at http://172.24.100.59:8080/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[12/Mar/2020 19:01:32] "GET /taller_1/ HTTP/1.1" 200 29814
+[12/Mar/2020 19:01:32] "GET /static/taller_1/css/grayscale.css HTTP/1.1" 200 5897
+[12/Mar/2020 19:01:32] "GET /static/taller_1/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 56517
+Not Found: /taller_1/vendor/jquery/jquery.min.js
+Not Found: /taller_1/vendor/jquery-easing/jquery.easing.min.js
+[12/Mar/2020 19:01:32] "GET /taller_1/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 404 3702
+Not Found: /taller_1/vendor/bootstrap/js/bootstrap.bundle.min.js
+Not Found: /taller_1/js/grayscale.min.js
+[12/Mar/2020 19:01:32] "GET /taller_1/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3708
+[12/Mar/2020 19:01:32] "GET /static/taller_1/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+[12/Mar/2020 19:01:32] "GET /taller_1/js/grayscale.min.js HTTP/1.1" 404 3636
+[12/Mar/2020 19:01:32] "GET /taller_1/vendor/jquery/jquery.min.js HTTP/1.1" 404 3660
+Not Found: /taller_1/vendor/bootstrap/js/bootstrap.bundle.min.js
+[12/Mar/2020 19:01:32] "GET /taller_1/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 404 3708
+[12/Mar/2020 19:01:32] "GET /static/taller_1/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 75408
+Not Found: /taller_1/vendor/jquery-easing/jquery.easing.min.js
+[12/Mar/2020 19:01:32] "GET /taller_1/vendor/jquery-easing/jquery.easing.min.js HTTP/1.1" 404 3702
+Not Found: /taller_1/js/grayscale.min.js
+[12/Mar/2020 19:01:32] "GET /taller_1/js/grayscale.min.js HTTP/1.1" 404 3636
+[12/Mar/2020 19:01:32] "GET /static/taller_1/img/bg-signup_nueva.jpg HTTP/1.1" 200 737184
+[12/Mar/2020 19:01:33] "GET /static/taller_1/img/bg-masthead.jpg HTTP/1.1" 200 1568178
+[12/Mar/2020 19:01:33] "GET /static/taller_1/img/bg-crear_usuario.jpg HTTP/1.1" 200 2196668

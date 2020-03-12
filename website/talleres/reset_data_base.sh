@@ -7,7 +7,7 @@ python manage.py loaddata homologacion_artist.json
 echo "Done H Artists"
 python manage.py loaddata homologacion_user.json
 echo "Done H Users"
-python manage.py loaddata ratings_corto.json
+python manage.py loaddata ratings.json
 echo "Done Ratings"
 python manage.py loaddata reproductions.json
 echo "Done Repro"
