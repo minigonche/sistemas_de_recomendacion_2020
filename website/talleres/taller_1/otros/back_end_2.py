@@ -5,6 +5,7 @@ from datetime import datetime
 
 
 from taller_1.models import *
+from django.db.models import Count
 
 import random
 import gzip
@@ -233,16 +234,30 @@ def dar_artistas_aleatorios(id_usuario, num_artistas = 10):
 	'''
 
 	# artistas que el usuario no ha escuchado
-	artistas = []
-	for item in Artist.objects.all():
-		artistas.append([item.artist_name, item.artist_id, item.global_rating])
-	artistas = pd.DataFrame(artistas, columns=["artist_name", "artist_id", "global_rating"])
-	artistas = artistas[artistas["global_rating"]>=3]
-	artistas_no_escuchado = artistas.sample(num_artistas)
-	respuesta = []
-	for index, row in artistas_no_escuchado.iterrows():
-		art = Artist.objects.get(artist_id=row.artist_id)
-		respuesta.append(art)
+	artistas_escuchados = Ratings.objects.filter(user_id = id_usuario)\
+											.values_list('artist_id', flat=True)
+	artistas_aleatorios_id = Ratings.objects.exclude(artist_id__in = artistas_escuchados)\
+											.values('artist_id') \
+  											.annotate(artist_popularity=Count('user_id')) \
+  											.order_by('-artist_popularity')[:10] \
+											.values_list('artist_id', flat=True)
+	artistas_aleatorios = list(Artist.objects.filter(artist_id__in = artistas_aleatorios_id))
+
+
+
+
+	#artistas = []
+	#for item in Artist.objects.all():
+	#	artistas.append([item.artist_name, item.artist_id, item.global_rating])
+	#artistas = pd.DataFrame(artistas, columns=["artist_name", "artist_id", "global_rating"])
+	#artistas = artistas[artistas["global_rating"]>=3]
+	#artistas_no_escuchado = artistas.sample(num_artistas)
+	#respuesta = []
+	#for index, row in artistas_no_escuchado.iterrows():
+	#	art = Artist.objects.get(artist_id=row.artist_id)
+	#	respuesta.append(art)
+
+
 	#respuesta = []
 	#for i in range(top):
 
@@ -251,7 +266,7 @@ def dar_artistas_aleatorios(id_usuario, num_artistas = 10):
 
 	#	respuesta.append(Artist(artist_name, user_rating))
 
-	return(respuesta)
+	return(artistas_aleatorios)
 
 
 
