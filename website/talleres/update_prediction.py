@@ -19,62 +19,67 @@ import pickle
 import warnings
 import gzip
 warnings.filterwarnings("ignore")
+import time
+
+
+while True:
+	user_id = []
+	artname = []
+	rating_lineal = []
+	for rat in RatingTemporal.objects.all():
+
+		user_id.append(rat.user_id_pos)
+		artname.append(rat.artist_id_pos)
+		rating_lineal.append(rat.rating_lineal)
+
+
+	tail = pd.DataFrame({'user_id':user_id, 'artname':artname, 'rating_lineal':rating_lineal})
+	head = pd.read_pickle('taller_1/otros/ratings.pkl')
 
 
 
-user_id = []
-artname = []
-rating_lineal = []
-for rat in RatingTemporal.objects.all():
+	final = pd.concat((tail,head), ignore_index = True)
+	final.drop_duplicates(subset = ['user_id','artname'], keep = 'last', inplace = True)
 
-	user_id.append(rat.user_id_pos)
-	artname.append(rat.artist_id_pos)
-	rating_lineal.append(rat.rating_lineal)
+	print('Loaded Ratings')
+	print('Initial Ratings: {}'.format(head.shape[0]) )
+	print('Total Ratings: {}'.format(final.shape[0]) )
+	print('New Ratings: {}'.format(final.shape[0] - head.shape[0]) )
+	print()
 
+	if final.shape[0] - head.shape[0] == 0:
+		print('No new Ratings. Skipping')
 
-tail = pd.DataFrame({'user_id':user_id, 'artname':artname, 'rating_lineal':rating_lineal})
-head = pd.read_pickle('taller_1/otros/ratings.pkl')
+	else:
+		reader = Reader( rating_scale = ( 1, 5 ) )
 
+		dataset_ratings = Dataset.load_from_df( final[ [ 'user_id', 'artname', 'rating_lineal']], reader )
+		trainset = dataset_ratings.build_full_trainset()
 
+		# Configuración de parametros
+		sim_options = {'name': 'cosine','user_based': True , 'min_support': 0.00001}
+		model = KNNBasic(k=34, min_k=2, sim_options=sim_options)
 
-final = pd.concat((tail,head), ignore_index = True)
-final.drop_duplicates(subset = ['user_id','artname'], keep = 'last', inplace = True)
+		#Se le pasa la matriz de utilidad al algoritmo, es decir, el conjunto de entrenamiento
+		model.fit(trainset=trainset)
 
-print('Loaded Ratings')
-print('Initial Ratings: {}'.format(head.shape[0]) )
-print('Total Ratings: {}'.format(final.shape[0]) )
-print('New Ratings: {}'.format(final.shape[0] - head.shape[0]) )
-print()
+		print('Model computed')
 
-if final.shape[0] - head.shape[0] == 0:
-	print('No new Ratings. Skipping')
+		f = gzip.open('taller_1/otros/3.Model_User_User.pklz','wb')
+		pickle.dump(model,f)
+		f.close()
 
-else:
-	reader = Reader( rating_scale = ( 1, 5 ) )
+		print('Model Saved')
 
-	dataset_ratings = Dataset.load_from_df( final[ [ 'user_id', 'artname', 'rating_lineal']], reader )
-	trainset = dataset_ratings.build_full_trainset()
-
-	# Configuración de parametros
-	sim_options = {'name': 'cosine','user_based': True , 'min_support': 0.00001}
-	model = KNNBasic(k=34, min_k=2, sim_options=sim_options)
-
-	#Se le pasa la matriz de utilidad al algoritmo, es decir, el conjunto de entrenamiento
-	model.fit(trainset=trainset)
-
-	print('Model computed')
-
-	f = gzip.open('taller_1/otros/3.Model_User_User.pklz','wb')
-	pickle.dump(model,f)
-	f.close()
-
-	print('Model Saved')
-
-	final.to_pickle('taller_1/otros/ratings.pkl', protocol = 4)
-	print('Ratings Saved')
+		final.to_pickle('taller_1/otros/ratings.pkl', protocol = 4)
+		print('Ratings Saved')
 
 
-# Deletes the temporal ratings
-RatingTemporal.objects.all().delete()
+	# Deletes the temporal ratings
+	RatingTemporal.objects.all().delete()
 
-print('Temporal Ratings Removed')
+	print('Temporal Ratings Removed')
+
+	print()
+	print('Sleeping')
+	time.sleep(180)

@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
-from taller_1.models import User, Homologacion_user
+from taller_1.models import User, Homologacion_user, User_info
 
 
 # Excepciones
@@ -98,7 +98,7 @@ def crear_usuario(request):
 		return HttpResponse('Usuario: {} ya existe'.format(id_usuario))
 	except ObjectDoesNotExist:
 
-
+		id_pos = len(User.objects.all())
 		user = User(user_id= id_usuario, 
 				    password= pwd,
 				    date_join= fecha_registro,
@@ -108,12 +108,15 @@ def crear_usuario(request):
 
 		user.save()
 
-		id_pos = len(User.objects.all())
-
+		# Homologacion
 		homo = Homologacion_user(user_id = id_usuario,
 						  new_user_id = id_pos)
 
 		homo.save()
+
+		user_info = User_info(user_id = id_usuario, numero_artistas = 0, numero_reproducciones = 0)
+		user_info.save()
+
 
 
 	# Lleva a la pagina de bienvenida
