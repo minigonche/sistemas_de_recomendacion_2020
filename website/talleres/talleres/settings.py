@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ["*"]
 
 INSTALLED_APPS = [
     'taller_1.apps.Taller1Config',
+    'taller_2.apps.Taller2Config',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

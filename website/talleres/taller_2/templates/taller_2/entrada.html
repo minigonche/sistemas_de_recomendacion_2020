@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bienvenida</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  {% load static %}
+  <link href="{% static 'taller_2/css/styles.css' %}" rel="stylesheet" />
+
+
+
+</head>
+
+<body id="page-top">
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#" >¿A Dónde Ir?</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/taller_2/bienvenido">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/taller_2/recomendaciones/--3WaS23LcIXtxyFULJHTA/">Recomendaciones</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Seleccion del lugar -->
+<div class="container mt-3 py-1">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col-12">
+        <h3>Selecciona tu Lugar</h3>
+        <label class="text-black"  for="sexo">¿Dónde te Encuentras?</label>
+        <select class="form-control" name="sexo" id="sexo">
+          <option value = "NC">NC</option>
+          <option value = "AZ">AZ</option>
+          <option value = "QQ">QC</option>
+          <option value = "IL">IL</option>
+          <option value = "ON">ON</option>
+          <option value = "PA">PA</option>
+          <option value = "WI">WI</option>
+          <option value = "SC">SC</option>
+          <option value = "OH">OH</option>
+          <option value = "OTHER">Otro</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div class="row mt-1">
+      <div class="col-12">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalles_lugar" aria-expanded="false" aria-controls="collapseExample">
+          Ver Detalles del Lugar
+        </button>
+      </div>
+    </div>
+    <hr class="my-2">
+
+    <div class="collapse" id="detalles_lugar">
+      
+      <div class="row">
+        <div class="col-7">
+        <!-- Imagen -->
+          <img src="{% static 'taller_2/img/OH.jpg' %}" class="img-fluid" alt="State">
+        </div>
+        <div class="col-5">
+            <h5>Ohio EEUU</h5>
+            <hr class="my-3">
+            <p><strong>Pais: </strong> Estados Unidos de América </p>
+            <p><strong>Población: </strong> 45'300,000 Personas</p>
+            <p><strong>Capital: </strong> Columbus</p>
+        </div>
+      </div>
+
+      <hr class="my-3">
+
+
+      <div class="row">
+        <div class="col-6">
+          <p><strong>Top Actividades:</strong> </p>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Cras justo odio
+              <span class="badge badge-primary badge-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Dapibus ac facilisis in
+              <span class="badge badge-primary badge-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badge-primary badge-pill">1</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badge-primary badge-pill">1</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Morbi leo risus
+              <span class="badge badge-primary badge-pill">1</span>
+            </li>
+          </ul>
+        </div>
+   
+        <div class="col-6">
+          <p><strong>Top Lugares: </strong>  </p>
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Cras justo odio
+                <span class="badge badge-primary badge-pill">14</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Dapibus ac facilisis in
+                <span class="badge badge-primary badge-pill">2</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Morbi leo risus
+                <span class="badge badge-primary badge-pill">1</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Morbi leo risus
+                <span class="badge badge-primary badge-pill">1</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                Morbi leo risus
+                <span class="badge badge-primary badge-pill">1</span>
+              </li>
+            </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>  
+
+
+
+
+<!-- Resumen general del ususario -->
+<div class="container mt-3">
+  <div class="row">
+    <!-- Info del usuario -->
+    <div class="col-4">
+      <div class="jumbotron">
+        <h4>Tu Perfil</h4>
+        <hr class="my-3">
+        <p><strong>Id Usuario: </strong> {{ user_id}}</p>
+        <p><strong>Usuario Desde: </strong> {{ fecha }}</p>
+        <p><strong>Edad: </strong> {{edad}} </p>
+        <p><strong>Sexo: </strong> {{sexo}}</p>
+        <p><strong>Pais: </strong> {{pais}}</p>
+      </div>
+
+
+
+
+    </div>
+
+    <!-- Bienvenida -->
+    <div class="col-8">
+        <div class="jumbotron">
+          <h2 class="display-3">¡Bienvenido!</h2>
+          <p class="lead">Descubre que hacer en INSERTAR_LUGAR.</p>
+          <hr class="my-2">
+          <p>Tenemos recomendaciones para tí</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/taller_2/recomendaciones/--3WaS23LcIXtxyFULJHTA/" role="button">Mirar mis Recomendaciones</a>
+          </p>
+      </div>
+
+    </div>
+
+   
+
+  </div>
+</div>
+
+<div class="container mt-1">
+  <div class="row">
+ <!-- Ultimas Resenhas-->
+    <div class="col-12">
+      <div class="card border-primary mb-3" style="max-width: 100%;">
+        <div class="card-header"></div>
+        <div class="card-body">
+          <h4 class="card-title">Ultimas Reseñas</h4>
+          <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Fecha</th>
+              <th scope="col">Lugar</th>
+              <th scope="col">Calificación</th>
+              <th scope="col">Contenido</th>
+            </tr>
+          </thead>
+          <tbody>
+          	{% for res in resenhas %}
+				 <tr>
+	              <th scope="row">{{rep.date}}</th>
+	              <td>{{rep.lugar}}</td>
+	              <td>{{rep.stars}}</td>
+                <td>{{rep.cont}}</td>
+	            </tr>
+			{% endfor %}
+          </tbody>
+        </table>  
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Bootstrap JS and JQUERY -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
