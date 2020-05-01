@@ -2,7 +2,7 @@
 
 
 import numpy as np
-import modelo_contenido as modelo_contenido 
+import taller_2.otros.modelo_contenido as modelo_contenido 
 
 
 def dar_recomendaciones(lugar, usuario, top = 50):
@@ -17,10 +17,11 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 		- Arreglo de lugares?
 	'''
 
-
+	# TODO
+	# MOCK
 	lugares = []
 	for i in range(top):
-		luagres.append({'lugar':'Lugar {}'.fomrat(i), 'stars': 1 + np.random.randint(5)})
+		lugares.append({'lugar':'Lugar {}'.format(i), 'stars': 1 + np.random.randint(5)})
 
 	return(lugares)
 

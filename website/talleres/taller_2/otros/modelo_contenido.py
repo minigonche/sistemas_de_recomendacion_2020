@@ -11,7 +11,7 @@ import numpy as np
 
 todos_lugares = set(['OTHER', 'NC', 'AZ', 'QC', 'NV', 'IL', 'ON', 'AB', 'PA', 'WI', 'SC', 'OH'])
 
-ubication_datos = ''
+ubication_datos = 'taller_2/otros/'
 
 
 
