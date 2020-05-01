@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
+
 website/talleres/db.sqlite3
+*.sqlite3
 website/talleres/taller_1/fixtures/ratings.json
 talleres/taller_1/data/
 talleres/taller_2/data_raw/
