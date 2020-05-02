@@ -12,8 +12,8 @@ class Review(models.Model):
 	user_id = models.CharField(max_length=40)
 	# business_id
 	business_id = models.CharField(max_length=40)
-	# Date the of review
-	last_review = models.DateField(null=True)
+	# Date of review
+	last_review = models.DateTimeField(null=True)
 	# anno de l review
 	year_review = models.PositiveIntegerField(null=True)
 	# rating
@@ -46,7 +46,7 @@ class User(models.Model):
 	review_count = models.IntegerField(null=True)
 	useful = models.IntegerField(null=True)
 	user_id = models.CharField(max_length=40)
-	yelping_since = models.DateField(null=True)
+	yelping_since = models.DateTimeField(null=True)
 
 class Business(models.Model):
 	'''
@@ -54,7 +54,7 @@ class Business(models.Model):
 	'''
 	address = models.CharField(max_length=40)
 	business_id = models.CharField(max_length=40)
-	categories = models.CharField(max_length=40)
+	categories = models.CharField(max_length=40, null=True)
 	city = models.CharField(max_length=40)
 	is_open = models.IntegerField(null=True)
 	latitude = models.FloatField(null=True)
