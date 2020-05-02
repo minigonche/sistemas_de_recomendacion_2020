@@ -1,7 +1,7 @@
 # Back_end
 # Aqui estan las funciones que va a necesitar el front (por ahora)
 
-from taller_2.models import Review, User Business
+from taller_2.models import Review, User, Business
 
 
 
@@ -21,10 +21,12 @@ def usuario_existe(id_usuario):
 	'''
 
 	# TODO: Yacir
+	res = User.objects.filter(user_id = id_usuario).exists()
+
 
 	# Mock
 
-	return(True)
+	return(res)
 
 
 
@@ -49,11 +51,11 @@ def dar_usuario(id_usuario):
 
 
 	# TODO: Yacir
-
+	usuario_pedido = User.objects.all().get(user_id=id_usuario)
 	# Mock
 
-	user = User(name = 'James Rodriguez', yelping_since = '12/12/2020')
-	return(user)
+	#user = User(name = 'James Rodriguez', yelping_since = '12/12/2020')
+	return(usuario_pedido)
 
 
 
@@ -77,11 +79,13 @@ def dar_negocio(id_negocio):
 
 
 	# TODO: Yacir
+	negocio_pedido = Business.objects.all().get(business_id=id_negocio)
 
 	# Mock
 
-	neg = Business(name = 'Drogas la Rebaja', stars = 5, state = 'NV')
-	return(neg)
+	#neg = Business(name = 'Drogas la Rebaja', stars = 5, state = 'NV')
+	#print(type(neg))
+	return(negocio_pedido)
 
 
 
@@ -110,12 +114,18 @@ def dar_ultimas_resenhas_usuario(id_usuario, cantidad = 10):
 
 
 	# TODO: Yacir
+	usuario_reviews = Review.objects.filter(user_id=id_usuario).order_by('-last_review')
+	res = []
+	if len(usuario_reviews)<cantidad:
+		res = list(usuario_reviews)
+	else:
+		res = list(usuario_reviews[:cantidad])
 
 	# Mock
-	resp = []
-	for i in range(cantidad):
-		res = Review(user_id = 'KSADFHAKLSDHFKASD', business_id = 'askjfhdklas', last_review = '12/12/2020', starts = '5')
-		resp.append(res)
+	#resp = []
+	#for i in range(cantidad):
+	#	res = Review(user_id = 'KSADFHAKLSDHFKASD', business_id = 'askjfhdklas', last_review = '12/12/2020', starts = '5')
+	#	resp.append(res)
 
 
 	return(res)
@@ -155,12 +165,28 @@ def dar_mejores_negocios_por_lugar(lugar, cantidad = 10):
 	other_states = ['CA', 'TX', 'NY', 'CO', 'XWY', 'GA', 'BC', 'YT', 'HPL', 'AL', 'UT', 'VT', 'WA', 'NE', 'DOW', 'MI', 'FL', 'AR', 'HI', 'MB', 'OR', 'AK', 'VA', 'CT', 'MO', 'DUR']
 
 	# TODO: Yacir
+	negocios_populares = None
+	if lugar == 'OTHER':
+		negocios_populares = Business.objects.filter(state__in=other_states).order_by('-review_count')
+	else:
+		negocios_populares = Business.objects.filter(state=lugar).order_by('-review_count')
 
+	cantidad_extra = 2*cantidad
+	res = []
+	if len(negocios_populares) < cantidad_extra:
+		if len(negocios_populares) < cantidad:
+			res = list(negocios_populares.order_by('-stars'))
+		else:
+			res = list(negocios_populares.order_by('-stars')[:cantidad])
+	else:
+		cantidad_extra_inf =  cantidad_extra-1
+		limite_popular = negocios_populares[cantidad_extra_inf:cantidad_extra][0].review_count
+		res = list(negocios_populares.filter(review_count__gte=limite_popular).order_by('-stars')[:cantidad])
 	# Mock
-	resp = []
-	for i in range(cantidad):
-		neg = Business(name = 'Drogas la Rebaja', stars = 5, state = 'NV')
-		resp.append(neg)
+	#resp = []
+	#for i in range(cantidad):
+	#	neg = Business(name = 'Drogas la Rebaja', stars = 5, state = 'NV')
+	#	resp.append(neg)
 
 
 	return(res)
@@ -168,7 +194,7 @@ def dar_mejores_negocios_por_lugar(lugar, cantidad = 10):
 
 
 
-def dar_negocios_favoritos_de_usuario(lugar, cantidad = 10):
+def dar_negocios_favoritos_de_usuario(id_usuario, cantidad = 10):
 	'''
 
 	Metodo que devuelve los negocios favoritos de un usuario
@@ -193,12 +219,19 @@ def dar_negocios_favoritos_de_usuario(lugar, cantidad = 10):
 
 
 	# TODO: Yacir
+	usuario_negocios_favoritos = Review.objects.filter(user_id=id_usuario).order_by('-stars').values_list('business_id', flat=True)
+	res = []
+	if len(usuario_negocios_favoritos) < cantidad:
+		res = list(Business.objects.filter(business_id__in=usuario_negocios_favoritos))
+	else:
+		usuario_negocios_favoritos = usuario_negocios_favoritos[:cantidad]
+		res = list(Business.objects.filter(business_id__in=usuario_negocios_favoritos))
 
 	# Mock
-	resp = []
-	for i in range(cantidad):
-		neg = Business(name = 'Olimpica', stars = 5, state = 'NV')
-		resp.append(neg)
+	#resp = []
+	#for i in range(cantidad):
+	#	neg = Business(name = 'Olimpica', stars = 5, state = 'NV')
+	#	resp.append(neg)
 
 
 	return(res)
