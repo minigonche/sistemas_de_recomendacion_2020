@@ -29,6 +29,21 @@ def dar_grupo_usuario(s , num_modules = 20):
 	'''
 	return(abs(ord(s[0]) + ord(s[1]) + ord(s[-1])) % (num_modules))
 
+
+def dar_id_usuario_por_numero(numero, num_modules = 20):
+	'''
+	Metodo que devuelve el id del usuario por numero
+	'''
+	
+	g = numero % num_modules
+
+	df_ids = pd.read_csv(ubication_datos + 'data/id_groups/ids_{}.zip'.format(g))
+
+	numero = min(numero,df_ids.shape[0])
+	
+	return(df_ids.user_id.values[numero])
+
+
 def dar_negocios_calificados(usuario):
 	'''
 	Da los negocios calificados por un usuario
@@ -37,6 +52,7 @@ def dar_negocios_calificados(usuario):
 	df_rev = pd.read_pickle(ubication_datos + 'data/summary_user_ratings/ratings_{}.zip'.format(g))
 
 	return(df_rev[df_rev.user_id == usuario].copy())
+
 
 def dar_perfil_usuario(usuario):
 
@@ -48,8 +64,11 @@ def dar_perfil_usuario(usuario):
 	if usuario not in df.index:
 		return({})
 
-	pro = df.profile[usuario].replace("'",'"')
-	
+	pro = df.profile[usuario].replace("{'",'{"')
+	pro = pro.replace("'}",'"}')
+	pro = pro.replace("':",'":')
+	pro = pro.replace(", '",', "')
+
 	return(json.loads(pro))
 
 
