@@ -1,0 +1,13 @@
+state,country,state_name,population,capital,img
+AB,Canada,Alberta,4371000,Edmonton,AB.jpg
+ON,Canada,Ontario,14570000,Toronto,ON.jpg
+NC,USA,North Carolina,10273000,Raleigh,NC.jpg
+AZ,USA,Arizona,7279000,Phoenix,AZ.jpg
+NV,USA,Nevada,3080000,Carson City,NV.jpg
+OH,USA,Ohio,11690000,Columbus,OH.jpg
+PA,USA,Pennsylvania,1280000,Harrisburg,PA.jpg
+IL,USA,Illinois,12802000,Springfield,IL.jpg
+WI,USA,Wisconsin,5820000,Madison,WI.jpg
+QC,Canada,Quebec,8164000,Quebec,QC.jpg
+SC,USA,South Carolina,5149000,Calumbia,SC.jpg
+OTHER,Genosha,Genosha,893000,Hammer Bay,OTHER.jpg

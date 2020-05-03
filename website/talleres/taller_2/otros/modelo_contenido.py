@@ -37,7 +37,7 @@ def dar_id_usuario_por_numero(numero, num_modules = 20):
 	
 	g = numero % num_modules
 
-	df_ids = pd.read_csv(ubication_datos + 'data/id_groups/ids_{}.zip'.format(g))
+	df_ids = pd.read_csv(ubication_datos + 'data/id_groups/ids_{}.csv'.format(g))
 
 	numero = min(numero,df_ids.shape[0])
 	
@@ -116,6 +116,18 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 		- string: explicacion
 
 	'''
+	betas = {'AB': 2.599999999999973,
+		 'AZ': 2.599999999999973,
+		 'IL': 2.299999999999974,
+		 'NC': 2.4999999999999734,
+		 'NV': 2.599999999999973,
+		 'OH': 2.6999999999999726,
+		 'ON': 2.599999999999973,
+		 'OTHER': 3.0999999999999712,
+		 'PA': 2.4999999999999734,
+		 'QC': 2.9999999999999716,
+		 'SC': 2.299999999999974,
+		 'WI': 2.599999999999973}
 
 	# Extracts the profile
 	per = dar_perfil_usuario(usuario)
@@ -178,7 +190,11 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 	# Final list
 	final_df = final_df.sort_values('val', ascending = False)*5
 
+
 	# Excludes
 	final_df = final_df.iloc[0:(min(final_df.shape[0], top))]
+
+	# adjusts BETA
+	final_df.val = final_df.val.apply(lambda v: min(v + betas[lugar], 5))
 
 	return(final_df.index.values, final_df.val.values, 'OK','Todo en Orden')

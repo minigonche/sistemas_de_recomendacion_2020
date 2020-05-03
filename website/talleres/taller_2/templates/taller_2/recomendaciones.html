@@ -163,17 +163,20 @@
           <table class="table table-hover">
           <thead>
             <tr>
-              <th scope="col">Lugar</th>
-              <th scope="col">Calificación</th>
-              <th scope="col">Tipo</th>
+              <th scope="col">Lugar</th>              
+              <th scope="col">Categoria</th>
+              <th scope="col">Calificación Promedio</th>
+              <th scope="col">Nuestra Predicción</th>
             </tr>
           </thead>
           <tbody>
-          	{% for lug in lugares %}
+          	{% for neg in negocios %}
 				      <tr>
-	              <td>{{lug.lugar}}</td>
-	              <td>{{lug.stars}}</td>
-                <td>Restaurante</td>
+	              <td>{{neg.name}}</td>	              
+                <td>{{neg.categoria}}</td>
+                <td>{{neg.stars}}</td>
+                <td>{{neg.predicted_stars}}</td>
+                
 	            </tr>
 			      {% endfor %}
           </tbody>

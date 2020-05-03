@@ -27,7 +27,13 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 	for i in range(len(ids)):
 		business_id = ids[i]
 		neg = be.dar_negocio(business_id)
-		neg.predicted_stars = calif[i]
+		neg.predicted_stars = np.round(calif[i],2)
 
+		if neg.categories is None:
+			neg.categoria = 'Ninguna'
+		else: 
+			neg.categoria = neg.categories.split(',')[0]
+
+		negocios.append(neg)
 
 	return(negocios)

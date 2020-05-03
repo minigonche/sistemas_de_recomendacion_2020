@@ -122,3 +122,8 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"), # That's it!!
     '/var/www/static/',
 )
+
+
+FIXTURE_DIRS = (
+   'taller_2/fixtures/',
+)

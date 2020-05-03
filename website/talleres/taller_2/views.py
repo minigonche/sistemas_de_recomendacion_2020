@@ -30,6 +30,9 @@ def entrada(request):
 
 	id_usuario = request.POST.get('id_usuario')
 
+	print()
+	print(id_usuario)
+
 	es_numerico = False
 
 	# Mira si es numerico
@@ -41,6 +44,7 @@ def entrada(request):
 
 	if es_numerico:
 		id_usuario = modelo_contenido.dar_id_usuario_por_numero(int(id_usuario))
+
 
 
 	usuario = be.dar_usuario(id_usuario)
@@ -73,6 +77,8 @@ def recomendaciones(request, id_usuario):
 	context = {}
 
 
-	context['lugares'] = modelo.dar_recomendaciones(lugar, id_usuario, top = 10)
+	context['negocios'] = modelo.dar_recomendaciones(lugar, id_usuario, top = 10)
+
+	
 
 	return render(request, 'taller_2/recomendaciones.html', context)
