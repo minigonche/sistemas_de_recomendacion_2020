@@ -4,6 +4,8 @@
 import numpy as np
 import taller_2.otros.modelo_contenido as modelo_contenido 
 
+import taller_2.otros.back_end as be
+
 
 def dar_recomendaciones(lugar, usuario, top = 50):
 	'''
@@ -17,11 +19,15 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 		- Arreglo de lugares?
 	'''
 
-	# TODO
-	# MOCK
-	lugares = []
-	for i in range(top):
-		lugares.append({'lugar':'Lugar {}'.format(i), 'stars': 1 + np.random.randint(5)})
+	# Recomendaciones por el modelo de contenido
+	ids, calif, _, _ = modelo_contenido.dar_recomendaciones(lugar, usuario, top = 50)
 
-	return(lugares)
 
+	negocios = []
+	for i in range(len(ids)):
+		business_id = ids[i]
+		neg = be.dar_negocio(business_id)
+		neg.predicted_stars = calif[i]
+
+
+	return(negocios)
