@@ -2,6 +2,7 @@
 
 website/talleres/db.sqlite3
 *.sqlite3
+website/talleres/taller_2/otros/data/SVD/
 website/talleres/taller_1/fixtures/ratings.json
 website/talleres/taller_2/fixtures/
 talleres/taller_1/data/
