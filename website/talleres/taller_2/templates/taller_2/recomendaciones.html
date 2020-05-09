@@ -42,86 +42,74 @@
 </div>
 
 <!-- Seleccion del lugar -->
-<div class="container mt-3 py-1">
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-12">
-        <h3>Lugares Disponibles</h3>
-        <label class="text-black"  for="select_lugar">¿Dónde te encuentras?</label>
-        <select class="form-control" name="select_lugar" id="select_lugar" onchange="refrescarLugar();">
-          <option value = "NC">NC</option>
-          <option value = "AZ">AZ</option>
-          <option value = "QC">QC</option>
-          <option value = "IL">IL</option>
-          <option value = "ON">ON</option>
-          <option value = "PA">PA</option>
-          <option value = "WI">WI</option>
-          <option value = "SC">SC</option>
-          <option value = "OH">OH</option>
-          <option value = "OTHER">Otro</option>
-        </select>
-      </div>
-    </div>
+<form action="{% url 'taller_2:recomendaciones' id_usuario %}" method="POST" enctype="multipart/form-data" id = 'form_recomendaciones'> 
+        {% csrf_token %}
 
 
-    <div class="row mt-1">
-      <div class="col-12">
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalles_lugar" aria-expanded="false" aria-controls="collapseExample">
-          Detalles del Lugar
-        </button>
-      </div>
-    </div>
-    <hr class="my-2">
 
-    <div class="collapse" id="detalles_lugar">
-      
-      <div class="row">
-        <div class="col-7">
-        <!-- Imagen -->
-          <img id = "img_location" src="{% static 'taller_2/img/OH.jpg' %}" class="img-fluid" alt="State">
-        </div>
-        <div class="col-5">
-            <h5 id = "lugar_titulo">Ohio EEUU</h5>
-            <hr class="my-3">
-            <p id = "lugar_pais"><strong>Pais: </strong> Estados Unidos de América </p>
-            <p id = "lugar_poblacion"><strong>Población: </strong> 45'300,000 Personas</p>
-            <p id = "lugar_capital"><strong>Capital: </strong> Columbus</p>
+  <div class="container mt-3 py-1">
+    <div class="jumbotron">
+
+      <div class="row my-1">
+        <div class="col-12 text-center">
+          <button class="btn btn-primary" type="submit">
+            Refrescar Recomendaciones
+          </button>
         </div>
       </div>
-
-      <hr class="my-3">
-
 
       <div class="row">
-        <div class="col-6">
-          <p><strong>Top Actividades:</strong> </p>
-          <ul id="lista_actividades" class="list-group">
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              Cras justo odio
-              <span class="badge badge-primary badge-pill">14</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              Dapibus ac facilisis in
-              <span class="badge badge-primary badge-pill">2</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              Morbi leo risus
-              <span class="badge badge-primary badge-pill">1</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              Morbi leo risus
-              <span class="badge badge-primary badge-pill">1</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-              Morbi leo risus
-              <span class="badge badge-primary badge-pill">1</span>
-            </li>
-          </ul>
+        <div class="col-12">
+          <label class="text-black"  for="select_lugar">¿Dónde te encuentras?</label>
+<div class="form-group">
+          <select class="form-control" name="select_lugar" id="select_lugar" onchange="refrescarLugar();">
+            <option value = "NC">NC</option>
+            <option value = "AZ">AZ</option>
+            <option value = "QC">QC</option>
+            <option value = "IL">IL</option>
+            <option value = "ON">ON</option>
+            <option value = "PA">PA</option>
+            <option value = "WI">WI</option>
+            <option value = "SC">SC</option>
+            <option value = "OH">OH</option>
+            <option value = "OTHER">Otro</option>
+          </select>
         </div>
-   
-        <div class="col-6">
-          <p><strong>Top Negocios: </strong>  </p>
-            <ul id="lista_negocios" class="list-group">
+      </div>
+</div>
+
+      <div class="row mt-1">
+        <div class="col-12">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detalles_lugar" aria-expanded="false" aria-controls="collapseExample">
+            Detalles del Lugar
+          </button>
+        </div>
+      </div>
+      <hr class="my-2">
+
+      <div class="collapse" id="detalles_lugar">
+        
+        <div class="row">
+          <div class="col-7">
+          <!-- Imagen -->
+            <img id = "img_location" src="{% static 'taller_2/img/OH.jpg' %}" class="img-fluid" alt="State">
+          </div>
+          <div class="col-5">
+              <h5 id = "lugar_titulo">Ohio EEUU</h5>
+              <hr class="my-3">
+              <p id = "lugar_pais"><strong>Pais: </strong> Estados Unidos de América </p>
+              <p id = "lugar_poblacion"><strong>Población: </strong> 45'300,000 Personas</p>
+              <p id = "lugar_capital"><strong>Capital: </strong> Columbus</p>
+          </div>
+        </div>
+
+        <hr class="my-3">
+
+
+        <div class="row">
+          <div class="col-6">
+            <p><strong>Top Actividades:</strong> </p>
+            <ul id="lista_actividades" class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 Cras justo odio
                 <span class="badge badge-primary badge-pill">14</span>
@@ -143,13 +131,41 @@
                 <span class="badge badge-primary badge-pill">1</span>
               </li>
             </ul>
-        </div>
+          </div>
+     
+          <div class="col-6">
+            <p><strong>Top Negocios: </strong>  </p>
+              <ul id="lista_negocios" class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Cras justo odio
+                  <span class="badge badge-primary badge-pill">14</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Dapibus ac facilisis in
+                  <span class="badge badge-primary badge-pill">2</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Morbi leo risus
+                  <span class="badge badge-primary badge-pill">1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Morbi leo risus
+                  <span class="badge badge-primary badge-pill">1</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  Morbi leo risus
+                  <span class="badge badge-primary badge-pill">1</span>
+                </li>
+              </ul>
+          </div>
 
+        </div>
       </div>
     </div>
-  </div>
-</div>  
+  </div>  
 
+
+</form>
 
 
 <div class="container mt-1">
@@ -192,7 +208,6 @@
 
 
 
-
 <!-- Bootstrap JS and JQUERY -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -205,7 +220,8 @@
 
     var locations_info_loc = "{% static 'taller_2/data/locations.json' %}";
     var img_location = "{% static 'taller_2/img/STATE.jpg' %}";
-    refrescarLugar("NC");
+     asignar("{{lugar}}");
+    refrescarLugar();
     
 
 </script>

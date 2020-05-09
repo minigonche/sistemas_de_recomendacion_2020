@@ -71,13 +71,27 @@ def recomendaciones(request, id_usuario):
 
 	'''
 
-	# Extraer Lugar
-	lugar = 'NV'
+	alpha = request.POST.get('alpha')
+	lugar = request.POST.get('select_lugar')
+
+	print(lugar)
+	
+
+	if alpha is None:
+		alpha = 0.58
+
+	if lugar is None:
+		lugar = 'PA'
+
+	
+	
 
 	context = {}
+	context['alpha'] = alpha
+	context['lugar'] = lugar
+	context['id_usuario'] = id_usuario
 
-
-	context['negocios'] = modelo.dar_recomendaciones(lugar, id_usuario, top = 10)
+	context['negocios'] = modelo.dar_recomendaciones(lugar, id_usuario, alpha, top = 10)
 
 	
 

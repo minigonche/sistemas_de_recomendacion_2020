@@ -1,5 +1,11 @@
 //lugares js
 
+
+function asignar(lugar)
+{
+  document.getElementById('select_lugar').value=lugar;
+}
+
 function refrescarLugar() {
       
       // carga el JSON
@@ -7,6 +13,8 @@ function refrescarLugar() {
           
           var selectBox = document.getElementById("select_lugar");
           var cs = selectBox.options[selectBox.selectedIndex].value;
+
+
 
           // IMG
           document.getElementById("img_location").src = img_location.replace("STATE", cs);

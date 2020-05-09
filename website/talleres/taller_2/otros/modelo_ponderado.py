@@ -10,7 +10,7 @@ import taller_2.otros.back_end as be
 
 
 
-def dar_recomendaciones(lugar, usuario, top = 50):
+def dar_recomendaciones(lugar, usuario, alpha = 0.58, top = 50):
 	'''
 	Metodo que devuelve el numero de lugares solicitado de ids de lugares, ordenados de mejor a peor.
 
@@ -21,8 +21,10 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 	Devuelve lo siguiente
 		- Arreglo de lugares?
 	'''
+
+	alpha = float(alpha)
+
 	usuario_completo = be.dar_usuario(usuario)
-	alfa = 0.5
 
 	# Recomendaciones por el modelo de contenido
 	ids, calif, _, _ = modelo_contenido.dar_recomendaciones(lugar, usuario, top = 50)
@@ -30,7 +32,7 @@ def dar_recomendaciones(lugar, usuario, top = 50):
 	# Valores Modelo Factorizado
 	calif_svd = modelo_factorizado.dar_calificacion([usuario]*len(ids), ids)
 
-	df_final = pd.daatFrame({'business_id':ids, 'calif_con': calif, 'calif_fac':calif_svd})
+	df_final = pd.DataFrame({'business_id':ids, 'calif_con': calif, 'calif_fac':calif_svd})
 
 	
 	df_final['calif'] = alpha*df_final.calif_con + (1-alpha)*df_final.calif_fac
